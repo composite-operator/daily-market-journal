@@ -199,6 +199,55 @@ tr:last-child td {
   border-left-color: #7f56d9;
   background: #fbfaff;
 }
+.delta-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 12px;
+}
+.delta-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 12px;
+  background: #fcfcfa;
+}
+.delta-panel h3 {
+  margin: 0 0 8px;
+}
+.delta-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.delta-chip {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  padding: 4px 10px;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+.delta-chip:hover {
+  text-decoration: none;
+  filter: brightness(0.98);
+}
+.delta-added {
+  border-color: rgba(15, 118, 110, 0.22);
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+.delta-removed {
+  border-color: rgba(180, 35, 24, 0.22);
+  color: #b42318;
+  background: #fff1f0;
+}
+.delta-empty {
+  margin: 0;
+  color: var(--muted);
+  font-size: 13px;
+}
 .badge {
   display: inline-block;
   margin: 0 6px 6px 0;
