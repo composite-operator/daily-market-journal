@@ -123,20 +123,22 @@ function Get-DatedFiles($Folder, $Kind, $DefaultTitle, $ManifestPath = $null, $M
 
 function Site-Nav($Prefix, $Current) {
   $items = @(
-    @{ Key = 'home'; Label = 'Hub'; Href = "${Prefix}index.html" },
+    @{ Key = 'operator'; Label = 'Composite Operator'; Href = 'https://ximxesabortion.github.io/' },
     @{ Key = 'archive'; Label = 'History'; Href = "${Prefix}archive/" },
     @{ Key = 'posts'; Label = 'Daily Journal'; Href = "${Prefix}posts/" },
     @{ Key = 'macro'; Label = 'Macro Lens'; Href = "${Prefix}macro/" },
     @{ Key = 'library'; Label = 'Pamphlets'; Href = "${Prefix}library/" },
-    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = "${Prefix}snapshots/" }
+    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = "${Prefix}snapshots/" },
+    @{ Key = 'substack'; Label = 'Substack'; Href = 'https://substack.com/@compositeoperator' }
   )
   $links = $items | ForEach-Object {
     $currentAttr = if ($_.Key -eq $Current) { ' aria-current="page"' } else { '' }
-    "<a href=""$($_.Href)""$currentAttr>$($_.Label)</a>"
+    $externalAttr = if ($_.Key -eq 'substack') { ' target="_blank" rel="noopener"' } else { '' }
+    "<a href=""$($_.Href)""$currentAttr$externalAttr>$($_.Label)</a>"
   }
   return @"
   <nav class="site-nav" aria-label="Site sections">
-    <strong>Market Desk Archive</strong>
+    <strong>Market Desk</strong>
     <div>
       $($links -join "`r`n      ")
     </div>
@@ -429,7 +431,6 @@ function Repair-LibraryLinks() {
     $path = Join-Path $SiteRoot $relative
     if (-not (Test-Path -LiteralPath $path)) { continue }
     $html = [System.IO.File]::ReadAllText($path)
-    $html = $html -replace 'href="https://ximxesabortion.github.io/"', 'href="../index.html"'
     $html = $html -replace 'href="educational_materials.html"', 'href="index.html"'
     [System.IO.File]::WriteAllText($path, $html.TrimEnd() + "`r`n", $Utf8NoBom)
   }
@@ -467,18 +468,18 @@ if ($latestMacro) { $latestLinks += "<a class=""box-link"" href=""$($latestMacro
 if ($latestSnapshot) { $latestLinks += "<a class=""box-link"" href=""$($latestSnapshot.Href)"">Snapshot</a>" }
 
 $rootPage = @"
-$(Page-Head 'Market Desk Archive' '')
+$(Page-Head 'Daily Market Journal | Market Desk' '')
 <body>
-$(Site-Nav '' 'home')
+$(Site-Nav '' '')
   <main>
     <div class="hub-hero">
       <div class="hero-panel">
-        <p class="eyebrow">Market Desk</p>
-        <h1 class="hub-title">Market Desk Archive</h1>
-        <p class="hub-dek">A structured home for the Daily Journal, Macro Lens, tracking snapshots, and published pamphlets.</p>
+        <p class="eyebrow">Composite Operator / Market Desk</p>
+        <h1 class="hub-title">Daily Market Journal</h1>
+        <p class="hub-dek">The market-desk archive inside Composite Operator: private daily journals, public Macro Lens synthesis, board snapshots, and published research.</p>
       </div>
       <aside class="latest-panel" aria-label="Latest archive packet">
-        <p class="eyebrow">Latest Packet</p>
+        <p class="eyebrow">Latest Market Packet</p>
         <span class="date">$latestDate</span>
         <div class="link-strip">
           $($latestLinks -join "`r`n          ")
@@ -512,10 +513,15 @@ $(Site-Nav '' 'home')
         <span class="clicker-value">Month Boxes</span>
         <span class="clicker-meta">$(Short-Date $oldestDate) through $(Short-Date $latestDate)</span>
       </a>
+      <a class="clicker-card macro" href="https://substack.com/@compositeoperator" target="_blank" rel="noopener">
+        <span class="clicker-label">Research Dispatch</span>
+        <span class="clicker-value">Composite Operator on Substack</span>
+        <span class="clicker-meta">Essays and publication updates</span>
+      </a>
     </div>
 
     <section>
-      <h2>History By Month</h2>
+      <h2>Market Desk History By Month</h2>
       <p class="resource-note">Open a month to reveal the entries inside it. Each date shows whichever lanes exist for that session.</p>
     </section>
     <div class="archive-shell">
