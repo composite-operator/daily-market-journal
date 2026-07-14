@@ -767,6 +767,11 @@ footer {
   object-fit: cover;
   object-position: top center;
 }
+.library-cover.title-preview {
+  background: #fbfaf7;
+  object-fit: contain;
+  padding: 8px;
+}
 .library-card h2 {
   margin: 0;
   font-size: 24px;
