@@ -288,6 +288,48 @@ $(Site-Nav $prefix $Current)
   Write-Text $RelativePath $body
 }
 
+function Build-VaultHistoryPage($RelativePath, $VaultEntries, $Dates, $Collections) {
+  $prefix = '../'
+  $latestVault = @($VaultEntries | Sort-Object Date)[-1]
+  $body = @"
+$(Page-Head 'Vault + Complete History' $prefix)
+<body>
+$(Site-Nav $prefix 'vault')
+  <div class="topline">
+    <header>
+      <p class="eyebrow">Vault Mirror</p>
+      <h1>Vault + Complete History</h1>
+      <p class="dek">The familiar vault address now carries the full month-box archive: Daily Journal, Macro Lens, snapshots, vault copies, and legacy private entries.</p>
+    </header>
+  </div>
+  <main>
+    <section>
+      <h2>Coverage</h2>
+      <div class="metric-strip">
+        <div class="metric"><span class="metric-value">$($Dates.Count)</span><span class="metric-label">Dated Sessions</span></div>
+        <div class="metric metric-open"><span class="metric-value">$($Collections.Posts.Count)</span><span class="metric-label">Daily Journal</span></div>
+        <div class="metric metric-review"><span class="metric-value">$($Collections.Macro.Count)</span><span class="metric-label">Macro Lens</span></div>
+        <div class="metric metric-buybox"><span class="metric-value">$($VaultEntries.Count)</span><span class="metric-label">Vault Copies</span></div>
+      </div>
+    </section>
+    <section>
+      <h2>Latest Vault Copy</h2>
+      <div class="link-strip">
+        <a class="box-link" href="$($latestVault.File)">$($latestVault.Date)</a>
+        <a class="box-link" href="../archive/">Standalone History Page</a>
+      </div>
+    </section>
+    <div class="archive-shell">
+      $(Build-MonthGroups $Dates $prefix $Collections 4)
+    </div>
+  </main>
+  <footer>Static archive. Not financial advice.</footer>
+</body>
+</html>
+"@
+  Write-Text $RelativePath $body
+}
+
 function Build-LibraryPage($RelativePath) {
   $prefix = '../'
   $body = @"
@@ -524,7 +566,7 @@ Write-Text 'archive/index.html' $archive
 Build-CollectionPage 'posts/index.html' 'Daily Journal' 'Private desk journal entries, grouped by month.' 'posts' $posts '' 'Daily Lane'
 Build-CollectionPage 'macro/index.html' 'Macro Lens' 'Public-safe macro-flow synthesis entries, grouped by month from the full historical backlog.' 'macro' $macro 'posts/' 'Macro Lane'
 Build-CollectionPage 'snapshots/index.html' 'Tracking Snapshots' 'Cleaned static board snapshots generated from the tracking sheet, grouped by month.' 'snapshots' $snapshots '' 'Snapshot Lane'
-Build-CollectionPage 'vault/index.html' 'Encrypted Vault' 'Encrypted daily market journal copies, grouped by month and ordered newest first.' 'vault' $vault '' 'Vault Mirror'
+Build-VaultHistoryPage 'vault/index.html' $vault $allDates $collections
 if ($private.Count -gt 0) {
   Build-CollectionPage 'private/index.html' 'Legacy Private Archive' 'Older encrypted private entries retained for continuity.' 'archive' $private '' 'Legacy Lane'
 }
