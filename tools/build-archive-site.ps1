@@ -128,8 +128,7 @@ function Site-Nav($Prefix, $Current) {
     @{ Key = 'posts'; Label = 'Daily Journal'; Href = "${Prefix}posts/" },
     @{ Key = 'macro'; Label = 'Macro Lens'; Href = "${Prefix}macro/" },
     @{ Key = 'library'; Label = 'Pamphlets'; Href = "${Prefix}library/" },
-    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = "${Prefix}snapshots/" },
-    @{ Key = 'vault'; Label = 'Vault'; Href = "${Prefix}vault/" }
+    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = "${Prefix}snapshots/" }
   )
   $links = $items | ForEach-Object {
     $currentAttr = if ($_.Key -eq $Current) { ' aria-current="page"' } else { '' }
@@ -174,7 +173,7 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
     $monthDates = @($month.Group | Sort-Object -Descending)
     $materialCount = 0
     foreach ($date in $monthDates) {
-      foreach ($lane in @('Posts', 'Macro', 'Snapshots', 'Vault', 'Private')) {
+      foreach ($lane in @('Posts', 'Macro', 'Snapshots', 'Private')) {
         if ($Collections.$lane[$date]) { $materialCount++ }
       }
     }
@@ -182,7 +181,6 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
       $post = $Collections.Posts[$date]
       $macro = $Collections.Macro[$date]
       $snapshot = $Collections.Snapshots[$date]
-      $vault = $Collections.Vault[$date]
       $private = $Collections.Private[$date]
       $title = if ($post) { $post.Title } elseif ($macro) { $macro.Title } else { 'Archive Packet' }
       @"
@@ -196,7 +194,6 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
             $(Link-OrMissing $post $Prefix 'Daily Journal' 'public')
             $(Link-OrMissing $macro $Prefix 'Macro Lens' 'macro')
             $(Link-OrMissing $snapshot $Prefix 'Snapshot' 'snapshot')
-            $(Link-OrMissing $vault $Prefix 'Vault' 'vault')
             $(if ($private) { Link-OrMissing $private $Prefix 'Legacy Private' 'private' })
           </div>
         </div>
@@ -288,40 +285,36 @@ $(Site-Nav $prefix $Current)
   Write-Text $RelativePath $body
 }
 
-function Build-VaultHistoryPage($RelativePath, $VaultEntries, $Dates, $Collections) {
+function Build-VaultRedirectPage($RelativePath) {
   $prefix = '../'
-  $latestVault = @($VaultEntries | Sort-Object Date)[-1]
   $body = @"
-$(Page-Head 'Vault + Complete History' $prefix)
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="0; url=../archive/">
+  <link rel="canonical" href="../archive/">
+  <title>Complete Month History</title>
+  <link rel="stylesheet" href="../assets/style.css?v=13">
+</head>
 <body>
-$(Site-Nav $prefix 'vault')
+$(Site-Nav $prefix 'archive')
   <div class="topline">
     <header>
-      <p class="eyebrow">Vault Mirror</p>
-      <h1>Vault + Complete History</h1>
-      <p class="dek">The familiar vault address now carries the full month-box archive: Daily Journal, Macro Lens, snapshots, vault copies, and legacy private entries.</p>
+      <p class="eyebrow">Legacy Address</p>
+      <h1>Complete Month History</h1>
+      <p class="dek">This old address now points to the complete month history.</p>
     </header>
   </div>
   <main>
     <section>
-      <h2>Coverage</h2>
-      <div class="metric-strip">
-        <div class="metric"><span class="metric-value">$($Dates.Count)</span><span class="metric-label">Dated Sessions</span></div>
-        <div class="metric metric-open"><span class="metric-value">$($Collections.Posts.Count)</span><span class="metric-label">Daily Journal</span></div>
-        <div class="metric metric-review"><span class="metric-value">$($Collections.Macro.Count)</span><span class="metric-label">Macro Lens</span></div>
-        <div class="metric metric-buybox"><span class="metric-value">$($VaultEntries.Count)</span><span class="metric-label">Vault Copies</span></div>
-      </div>
-    </section>
-    <section>
-      <h2>Latest Vault Copy</h2>
+      <h2>Moved</h2>
+      <p class="resource-note">The daily-entry mirror was redundant with Daily Journal, so the archive now uses History as the single month-box view.</p>
       <div class="link-strip">
-        <a class="box-link" href="$($latestVault.File)">$($latestVault.Date)</a>
         <a class="box-link" href="../archive/">Standalone History Page</a>
       </div>
     </section>
-    <div class="archive-shell">
-      $(Build-MonthGroups $Dates $prefix $Collections 4)
-    </div>
   </main>
   <footer>Static archive. Not financial advice.</footer>
 </body>
@@ -451,19 +444,17 @@ foreach ($entry in $vault) { $collections.Vault[$entry.Date] = $entry }
 foreach ($entry in $snapshots) { $collections.Snapshots[$entry.Date] = $entry }
 foreach ($entry in $private) { $collections.Private[$entry.Date] = $entry }
 
-$allDates = @($posts.Date + $macro.Date + $vault.Date + $snapshots.Date + $private.Date | Sort-Object -Unique)
+$allDates = @($posts.Date + $macro.Date + $snapshots.Date + $private.Date | Sort-Object -Unique)
 $latestDate = @($allDates | Sort-Object)[-1]
 $oldestDate = @($allDates | Sort-Object)[0]
 $latestPost = $collections.Posts[$latestDate]
 $latestMacro = $collections.Macro[$latestDate]
-$latestVault = $collections.Vault[$latestDate]
 $latestSnapshot = $collections.Snapshots[$latestDate]
 
 $latestLinks = @()
 if ($latestPost) { $latestLinks += "<a class=""box-link"" href=""$($latestPost.Href)"">Daily Journal</a>" }
 if ($latestMacro) { $latestLinks += "<a class=""box-link"" href=""$($latestMacro.Href)"">Macro Lens</a>" }
 if ($latestSnapshot) { $latestLinks += "<a class=""box-link"" href=""$($latestSnapshot.Href)"">Snapshot</a>" }
-if ($latestVault) { $latestLinks += "<a class=""box-link"" href=""$($latestVault.Href)"">Vault</a>" }
 
 $rootPage = @"
 $(Page-Head 'Market Desk Archive' '')
@@ -474,7 +465,7 @@ $(Site-Nav '' 'home')
       <div class="hero-panel">
         <p class="eyebrow">Market Desk</p>
         <h1 class="hub-title">Market Desk Archive</h1>
-        <p class="hub-dek">A structured home for the Daily Journal, Macro Lens, tracking snapshots, encrypted vault copies, and published pamphlets.</p>
+        <p class="hub-dek">A structured home for the Daily Journal, Macro Lens, tracking snapshots, and published pamphlets.</p>
       </div>
       <aside class="latest-panel" aria-label="Latest archive packet">
         <p class="eyebrow">Latest Packet</p>
@@ -506,11 +497,6 @@ $(Site-Nav '' 'home')
         <span class="clicker-value">Snapshots</span>
         <span class="clicker-meta">$($snapshots.Count) tracking pages</span>
       </a>
-      <a class="clicker-card vault" href="vault/">
-        <span class="clicker-label">Encrypted Mirror</span>
-        <span class="clicker-value">Vault</span>
-        <span class="clicker-meta">$($vault.Count) encrypted copies</span>
-      </a>
       <a class="clicker-card archive" href="archive/">
         <span class="clicker-label">Nested History</span>
         <span class="clicker-value">Month Boxes</span>
@@ -540,7 +526,7 @@ $(Site-Nav '../' 'archive')
     <header>
       <p class="eyebrow">Nested History</p>
       <h1>Complete Month History</h1>
-      <p class="dek">Month boxes for every dated item currently in the site: Daily Journal, Macro Lens, snapshots, vault copies, and legacy private entries.</p>
+      <p class="dek">Month boxes for every dated item currently in the site: Daily Journal, Macro Lens, snapshots, and legacy private entries.</p>
     </header>
   </div>
   <main>
@@ -566,7 +552,7 @@ Write-Text 'archive/index.html' $archive
 Build-CollectionPage 'posts/index.html' 'Daily Journal' 'Private desk journal entries, grouped by month.' 'posts' $posts '' 'Daily Lane'
 Build-CollectionPage 'macro/index.html' 'Macro Lens' 'Public-safe macro-flow synthesis entries, grouped by month from the full historical backlog.' 'macro' $macro 'posts/' 'Macro Lane'
 Build-CollectionPage 'snapshots/index.html' 'Tracking Snapshots' 'Cleaned static board snapshots generated from the tracking sheet, grouped by month.' 'snapshots' $snapshots '' 'Snapshot Lane'
-Build-VaultHistoryPage 'vault/index.html' $vault $allDates $collections
+Build-VaultRedirectPage 'vault/index.html'
 if ($private.Count -gt 0) {
   Build-CollectionPage 'private/index.html' 'Legacy Private Archive' 'Older encrypted private entries retained for continuity.' 'archive' $private '' 'Legacy Lane'
 }
@@ -604,7 +590,6 @@ for ($i = 0; $i -lt $sortedPosts.Count; $i++) {
   else { $links += '<span class="nav-disabled">Next</span>' }
   if ($collections.Macro[$entry.Date]) { $links += "<a href=""../macro/posts/$($collections.Macro[$entry.Date].File)"">Macro Lens</a>" }
   if ($collections.Snapshots[$entry.Date]) { $links += "<a href=""../snapshots/$($collections.Snapshots[$entry.Date].File)"">Snapshot</a>" }
-  if ($collections.Vault[$entry.Date]) { $links += "<a href=""../vault/$($collections.Vault[$entry.Date].File)"">Vault</a>" }
   Replace-Nav (Join-Path $SiteRoot $entry.Href) ('<nav class="top-nav">' + ($links -join '') + '</nav>')
   Update-SnapshotCallout (Join-Path $SiteRoot $entry.Href) $collections.Snapshots[$entry.Date]
 }
@@ -623,7 +608,6 @@ for ($i = 0; $i -lt $sortedMacro.Count; $i++) {
   else { $links += '<span class="nav-disabled">Next</span>' }
   if ($collections.Posts[$entry.Date]) { $links += "<a href=""../../posts/$($collections.Posts[$entry.Date].File)"">Daily Journal</a>" }
   if ($collections.Snapshots[$entry.Date]) { $links += "<a href=""../../snapshots/$($collections.Snapshots[$entry.Date].File)"">Snapshot</a>" }
-  if ($collections.Vault[$entry.Date]) { $links += "<a href=""../../vault/$($collections.Vault[$entry.Date].File)"">Vault</a>" }
   Replace-Nav (Join-Path $SiteRoot $entry.Href) ('<nav class="top-nav">' + ($links -join '') + '</nav>')
 }
 
@@ -663,7 +647,6 @@ for ($i = 0; $i -lt $sortedSnapshots.Count; $i++) {
   else { $links += '<span class="nav-disabled">Next</span>' }
   if ($collections.Posts[$entry.Date]) { $links += "<a href=""../posts/$($collections.Posts[$entry.Date].File)"">Daily Journal</a>" }
   if ($collections.Macro[$entry.Date]) { $links += "<a href=""../macro/posts/$($collections.Macro[$entry.Date].File)"">Macro Lens</a>" }
-  if ($collections.Vault[$entry.Date]) { $links += "<a href=""../vault/$($collections.Vault[$entry.Date].File)"">Vault</a>" }
   Replace-Nav (Join-Path $SiteRoot $entry.Href) ('<nav class="top-nav">' + ($links -join '') + '</nav>')
 }
 
