@@ -152,7 +152,7 @@ function Page-Head($Title, $Prefix) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$(Html $Title)</title>
-  <link rel="stylesheet" href="${Prefix}assets/style.css?v=13">
+  <link rel="stylesheet" href="${Prefix}assets/style.css?v=15">
   <script src="${Prefix}assets/table-sort.js?v=1" defer></script>
 </head>
 "@
@@ -296,7 +296,7 @@ function Build-VaultRedirectPage($RelativePath) {
   <meta http-equiv="refresh" content="0; url=../archive/">
   <link rel="canonical" href="../archive/">
   <title>Complete Month History</title>
-  <link rel="stylesheet" href="../assets/style.css?v=13">
+  <link rel="stylesheet" href="../assets/style.css?v=15">
 </head>
 <body>
 $(Site-Nav $prefix 'archive')
@@ -349,13 +349,23 @@ $(Site-Nav $prefix 'library')
         </div>
       </article>
       <article class="library-card private-credit">
-        <img class="library-cover title-preview" src="assets/figures/private_credit_risk_curve/title_page.svg" alt="The Floating-Rate Fault Line title page">
+        <div class="library-cover private-credit-title-thumb" role="img" aria-label="The Floating-Rate Fault Line title page">
+          <img src="assets/figures/private_credit_risk_curve/floating_rate_fault_line_art_v2.png" alt="">
+          <div class="private-credit-title-copy" aria-hidden="true">
+            <p class="mini-cover-imprint">Composite Operator Research Desk</p>
+            <p class="mini-cover-the">The</p>
+            <p class="mini-cover-title">Floating-Rate<br>Fault Line</p>
+            <p class="mini-cover-subtitle">SOFR, Private Credit, BDCs, and the Risk Curve</p>
+          </div>
+        </div>
         <p class="clicker-label">Credit Risk</p>
         <h2>The Floating-Rate Fault Line</h2>
-        <p>Private credit risk educational material focused on SOFR, floating-rate debt, BDCs, credit spreads, and the risk curve from funding pressure to public-market repricing.</p>
+        <p>Private credit risk educational material focused on SOFR, floating-rate debt, BDCs, credit spreads, and the risk curve from funding pressure to public-market repricing. Current version includes the July 2026 progress check; the original v1 is preserved.</p>
         <div class="link-strip">
           <a class="box-link" href="private_credit_risk_curve_pamphlet.html">Read HTML</a>
           <a class="box-link" href="private_credit_risk_curve_pamphlet.pdf">Open PDF</a>
+          <a class="box-link" href="private_credit_risk_curve_pamphlet_v1.html">Original v1</a>
+          <a class="box-link" href="private_credit_risk_curve_pamphlet_v1.pdf">v1 PDF</a>
         </div>
       </article>
     </div>
@@ -415,7 +425,7 @@ function Repair-LegacyLinks($Path, $Folder) {
 }
 
 function Repair-LibraryLinks() {
-  foreach ($relative in @('library/capitalflows_textbook.html', 'library/private_credit_risk_curve_pamphlet.html', 'library/educational_materials.html')) {
+  foreach ($relative in @('library/capitalflows_textbook.html', 'library/private_credit_risk_curve_pamphlet.html', 'library/private_credit_risk_curve_pamphlet_v1.html', 'library/educational_materials.html')) {
     $path = Join-Path $SiteRoot $relative
     if (-not (Test-Path -LiteralPath $path)) { continue }
     $html = [System.IO.File]::ReadAllText($path)
