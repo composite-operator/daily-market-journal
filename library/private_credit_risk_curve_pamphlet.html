@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Floating-Rate Fault Line</title>
+  <link rel="stylesheet" href="assets/private-credit-pamphlet.css">
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="toc" aria-label="Table of contents">
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="../index.html">Home</a>
+        <a href="index.html">Educational Materials</a>
+      </nav>
+      <div class="toc-title">Contents</div>
+      <a class="toc-level-1" href="#abstract">Abstract</a>
+      <a class="toc-level-1" href="#contents">Pamphlet Contents</a>
+      <a class="toc-level-1" href="#thesis">1. The Setup</a>
+      <a class="toc-level-1" href="#mechanism">2. The Mechanism</a>
+      <a class="toc-level-1" href="#risk-curve">3. Projected Risk Curve</a>
+      <a class="toc-level-1" href="#charts">4. Chart Pack</a>
+      <a class="toc-level-1" href="#names">5. Names and Proxies</a>
+      <a class="toc-level-1" href="#confirmation">6. Confirmation and Invalidation</a>
+      <a class="toc-level-1" href="#closing">Closing</a>
+    </aside>
+
+    <main class="book">
+      <section class="cover-page art-cover" aria-label="Title page">
+        <img class="cover-art" src="assets/figures/private_credit_risk_curve/floating_rate_fault_line_art_v2.png" alt="The Floating-Rate Fault Line abstract title artwork">
+        <div class="cover-copy">
+          <p class="cover-imprint">Composite Operator Research Desk</p>
+          <p class="cover-the">The</p>
+          <p class="cover-title">Floating-Rate<br>Fault Line</p>
+          <div class="cover-lower">
+            <p class="cover-classification">Private Credit Risk Educational Material</p>
+            <div class="cover-divider"><span></span><b>&#10022;</b><span></span></div>
+            <p class="cover-subtitle"><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, Private Credit, BDCs, and the Risk Curve</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="publication-note" aria-label="Source note">
+        <strong>Source Note.</strong> This pamphlet is an independent educational synthesis from a user-supplied transcript of a <a href="https://www.youtube.com/watch?v=YEhsWyY_WKQ">Casual Finance</a> video covering <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">Treasury yields</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, private credit, PIK interest, BDCs, and credit stress, combined with public FRED and Yahoo Finance chart data. It is a monitoring framework, not financial advice, a recommendation, or a claim of future performance.
+      </section>
+
+      <h1 id="abstract">The Floating-Rate Fault Line</h1>
+      <p class="dek">A medium/long-term risk setup for <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, private credit, BDCs, and the public-market proxies that may signal when private marks finally catch up to public stress.</p>
+
+      <h2 id="contents" class="chapter-title">Pamphlet Contents</h2>
+      <ol class="mini-toc">
+        <li>The setup: why the private-credit stress story is a medium/long-term thesis, not a one-day headline.</li>
+        <li>The mechanism: <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, floating-rate debt, PIK interest, private marks, and BDC payout optics.</li>
+        <li>The risk curve: a staged map from funding pressure to public repricing.</li>
+        <li>The charts: overlaid <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a>, curve pressure, spreads, BDC proxies, and individual names.</li>
+        <li>The trigger sheet: confirmation, invalidation, and what would move the thesis from latent to active.</li>
+      </ol>
+
+      <h2 id="thesis" class="chapter-title chapter-start">1. The Setup</h2>
+      <p>The transcript's core idea is simple: the price of money has been repriced, but the most fragile balance sheets do not all reprice visibly at the same time. <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> hits floating-rate borrowers immediately. Private-credit marks, BDC NAVs, dividend coverage, and public proxy prices may lag.</p>
+      <p>The medium/long-term setup is therefore not "<a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> are high, so something must break." The setup is a timing curve: funding pressure first, borrower cash-flow stress second, accounting accommodation third, public-market recognition fourth.</p>
+      <p>The private-credit market matters because many loans sit outside daily public price discovery. When those loans are floating-rate, the debt service burden can rise quickly, while the visible damage may appear slowly through PIK interest, non-accruals, amendments, NAV marks, redemptions, or dividend pressure.</p>
+
+      <h2 id="mechanism" class="chapter-title chapter-start">2. The Mechanism</h2>
+      <p><strong><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> is the pressure valve.</strong> A floating-rate loan uses a benchmark, commonly <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, plus a spread. If <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> rises or stays elevated, the borrower's interest cost stays elevated. The lender may still report income, but the borrower's cash-flow cushion shrinks.</p>
+      <p><strong>PIK is the smoke chamber.</strong> Payment-in-kind interest can allow a borrower to avoid cash interest by adding unpaid interest to principal. That may prevent an immediate default trigger, but it also turns cash income into a claim on future repayment.</p>
+      <p><strong>BDC optics are the public window.</strong> Business development companies and BDC ETFs are not the whole private-credit universe, but they are tradable proxy surfaces. They let the market express concern before every private loan is marked down.</p>
+      <p><strong>The maturity wall is the clock.</strong> The transcript frames 2026-2029 as the refinancing window to watch. The key question is whether lower <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> arrive early enough, and whether lower <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> are relief or recession confirmation.</p>
+
+      <h2 id="risk-curve" class="chapter-title chapter-start">3. Projected Risk Curve</h2>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/projected_risk_curve.svg" alt="Projected risk curve from SOFR pressure to public repricing">
+        <figcaption>Projected risk curve. The curve is not a forecast path; it is a monitoring sequence for where stress should surface if the thesis is working.</figcaption>
+      </figure>
+      <p>The technically sound version of this thesis is staged. Do not demand that every signal fire at once. If private credit is the concealed stress channel, the first signals should be <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> and borrower mechanics. The later signals should be spread widening, BDC underperformance, NAV pressure, and more explicit defaults.</p>
+
+      <h2 id="charts" class="chapter-title chapter-start">4. Chart Pack</h2>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/sofr_policy_curve.svg" alt="SOFR overlaid with effective fed funds and 2-year Treasury yield">
+        <figcaption><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:DFF" target="_blank" rel="noopener noreferrer">Fed funds</a>, and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y Treasury</a> <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">yield</a>. This chart tracks whether the floating-rate burden is actually easing.</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/treasury_curve_pressure.svg" alt="2Y 10Y and 30Y Treasury yields overlaid">
+        <figcaption><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=NASDAQ:TLT" target="_blank" rel="noopener noreferrer">Treasury</a> curve pressure. The <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y</a> captures policy expectations; the <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">10Y</a> anchors broad risk; the <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US30Y" target="_blank" rel="noopener noreferrer">30Y</a> tests long-run fiscal and inflation trust.</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/credit_spreads_sofr.svg" alt="High yield and investment grade spreads overlaid with SOFR">
+        <figcaption><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">Credit spread</a> confirmation versus funding pressure. A dangerous configuration is high funding pressure with spreads that remain too calm.</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/bdc_proxy_risk_curve.svg" alt="BDC ETF and public risk proxies normalized">
+        <figcaption>Public proxies. <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HYG" target="_blank" rel="noopener noreferrer">HYG</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BKLN" target="_blank" rel="noopener noreferrer">BKLN</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=KRE" target="_blank" rel="noopener noreferrer">KRE</a>, and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=SPY" target="_blank" rel="noopener noreferrer">SPY</a> are noisy, but they update faster than private marks.</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/bdc_names_relative_strength.svg" alt="BDC names normalized relative performance">
+        <figcaption>BDC names. The purpose is not to worship one ticker; the purpose is to watch dispersion, relative weakness, and who fails to recover.</figcaption>
+      </figure>
+
+      <h2 id="names" class="chapter-title chapter-start">5. Names and Proxies</h2>
+      <table>
+        <thead>
+          <tr><th>Signal</th><th>Names / Series</th><th>Why It Matters</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Funding pressure</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:DFF" target="_blank" rel="noopener noreferrer">DFF</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y Treasury</a></td><td>Shows whether floating-rate borrowers are actually getting relief.</td></tr>
+          <tr><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">Long-end pressure</a></td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">10Y</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US30Y" target="_blank" rel="noopener noreferrer">30Y Treasury</a></td><td>Long <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> govern discounting, duration pain, and refinancing psychology.</td></tr>
+          <tr><td>Credit confirmation</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">HY OAS</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLC0A0CM" target="_blank" rel="noopener noreferrer">IG OAS</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HYG" target="_blank" rel="noopener noreferrer">HYG</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BKLN" target="_blank" rel="noopener noreferrer">BKLN</a></td><td>Confirms whether stress is moving from funding math into public credit pricing.</td></tr>
+          <tr><td>Private-credit proxy</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a></td><td>BDC ETF surface for the broader lending stress story.</td></tr>
+          <tr><td>BDC dispersion</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=ARCC" target="_blank" rel="noopener noreferrer">ARCC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BXSL" target="_blank" rel="noopener noreferrer">BXSL</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=OBDC" target="_blank" rel="noopener noreferrer">OBDC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FSK" target="_blank" rel="noopener noreferrer">FSK</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=MAIN" target="_blank" rel="noopener noreferrer">MAIN</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HTGC" target="_blank" rel="noopener noreferrer">HTGC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=GBDC" target="_blank" rel="noopener noreferrer">GBDC</a></td><td>Watch relative strength, dividend/NAV pressure, non-accruals, and PIK exposure by name.</td></tr>
+          <tr><td>Spillover</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=KRE" target="_blank" rel="noopener noreferrer">KRE</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=SPY" target="_blank" rel="noopener noreferrer">SPY</a></td><td>Regional banks and broad risk appetite show whether private stress stays contained.</td></tr>
+        </tbody>
+      </table>
+
+      <h2 id="confirmation" class="chapter-title chapter-start">6. Confirmation and Invalidation</h2>
+      <h3>Scenario Forecasting Aids</h3>
+      <p>For a prospectus-style risk section or investment memo, the point is not to pretend that the future is a single line. The point is to translate the conditional thesis into visible paths: what confirmation would look like, what a muddled middle would look like, and what would invalidate the stress case.</p>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/scenario_confirmation_score.svg" alt="Scenario forecast paths for private credit confirmation versus relief">
+        <figcaption>Scenario confirmation score. This simulated monitor compresses <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> persistence, credit-spread widening, BDC dispersion, and reported stress into one conditional score. A rising line means the stress thesis is gaining confirmation; a falling line means the relief path is doing the work.</figcaption>
+      </figure>
+      <figure class="chart-figure">
+        <img src="assets/figures/private_credit_risk_curve/scenario_proxy_response.svg" alt="Simulated public proxy response paths for BDCs and credit risk">
+        <figcaption>Public proxy response simulation. The downside path shows BDC proxy weakness leading broader credit recognition; the relief path shows the opposite condition: funding relief without disorderly spread widening.</figcaption>
+      </figure>
+      <table>
+        <thead>
+          <tr><th>Scenario</th><th>What It Should Look Like</th><th>Prospectus-Style Use</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Confirmation stress</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> remains sticky, spreads widen, BDCs lose relative strength, and PIK/non-accrual metrics rise.</td><td>Downside case and risk-factor support.</td></tr>
+          <tr><td>Muddled middle</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">Rates</a> ease slowly, spreads drift wider but not violently, and BDC dispersion becomes more important than index direction.</td><td>Base case with monitoring triggers.</td></tr>
+          <tr><td>Invalidation relief</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> falls durably, refinancing windows reopen, and BDC proxies recover without a delayed credit-spread break.</td><td>Relief case and thesis invalidation language.</td></tr>
+        </tbody>
+      </table>
+      <h3>Confirmation Path</h3>
+      <ul>
+        <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:DFF" target="_blank" rel="noopener noreferrer">Fed funds</a> remain high enough that floating-rate borrowers do not receive meaningful cash-flow relief.</li>
+        <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y</a> <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">yields</a> stop falling while <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">10Y</a>/<a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US30Y" target="_blank" rel="noopener noreferrer">30Y</a> <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">yields</a> stay elevated, implying relief is not arriving cleanly across the curve.</li>
+        <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">HY OAS</a> and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLC0A0CM" target="_blank" rel="noopener noreferrer">IG OAS</a> begin to widen while <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a> and weaker BDC names underperform <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=SPY" target="_blank" rel="noopener noreferrer">SPY</a> and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HYG" target="_blank" rel="noopener noreferrer">HYG</a>.</li>
+        <li>BDC reports show rising PIK dependence, non-accruals, dividend coverage strain, NAV marks, or amendment activity.</li>
+        <li>The 2026-2029 refinancing window produces more restructurings rather than clean maturity extensions.</li>
+      </ul>
+      <h3>Invalidation or Relief Path</h3>
+      <ul>
+        <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> falls materially and durably without a disorderly credit-spread widening.</li>
+        <li>BDC proxies reclaim relative strength while reported PIK and non-accrual stress declines.</li>
+        <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">Credit spreads</a> remain contained because borrower cash flow improves, not because losses are hidden by accounting structure.</li>
+        <li>Refinancing markets reopen for middle-market borrowers without forcing widespread lender concessions.</li>
+      </ul>
+
+      <h2 id="closing" class="chapter-title chapter-start chapter-compact">Closing: The Curve Is the Setup</h2>
+      <p>The setup is not a single ticker. It is a sequence. If the thesis is real, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> and the curve should describe the pressure, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">credit spreads</a> should begin to confirm it, BDC proxies should reveal market recognition, and reported private-credit metrics should eventually lose the ability to hide the stress.</p>
+      <p>That is the pamphlet's discipline: track the pressure, wait for confirmation, and respect invalidation. The hidden thing only becomes tradeable when the visible surfaces start to agree.</p>
+
+      <footer class="book-footer">
+        Generated from public FRED and Yahoo Finance chart endpoints on 2026-06-14. Educational research only; not financial advice.
+      </footer>
+    </main>
+  </div>
+</body>
+</html>

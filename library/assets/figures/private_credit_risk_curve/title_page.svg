@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1900" role="img" aria-labelledby="title desc">
+  <title id="title">The Floating-Rate Fault Line title-page artwork</title>
+  <desc id="desc">Abstract title-page artwork with liquidity flows, credit stress bands, and a central rate fault.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="0.46" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#fffdfa"/>
+    </linearGradient>
+    <linearGradient id="liquidity" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0"/>
+      <stop offset="0.3" stop-color="#0f766e" stop-opacity="0.48"/>
+      <stop offset="0.68" stop-color="#2f8f86" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="credit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#af4c23" stop-opacity="0"/>
+      <stop offset="0.43" stop-color="#af4c23" stop-opacity="0.50"/>
+      <stop offset="0.78" stop-color="#d7a06c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#af4c23" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fault" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172033" stop-opacity="0.06"/>
+      <stop offset="0.34" stop-color="#172033" stop-opacity="0.68"/>
+      <stop offset="0.72" stop-color="#172033" stop-opacity="0.54"/>
+      <stop offset="1" stop-color="#172033" stop-opacity="0.10"/>
+    </linearGradient>
+    <filter id="soften" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="table" tableValues="0 0.045"/></feComponentTransfer>
+    </filter>
+  </defs>
+  <rect width="1400" height="1900" fill="url(#ground)"/>
+  <rect width="1400" height="1900" filter="url(#paperNoise)" opacity="0.72"/>
+  <g opacity="0.94">
+    <path d="M-95 525C126 402 292 456 481 386C653 323 761 198 948 223C1133 248 1261 388 1490 298L1490 608C1246 704 1097 556 914 550C725 544 618 689 447 715C251 745 91 649 -95 789Z" fill="url(#liquidity)" filter="url(#soften)"/>
+    <path d="M-72 1345C158 1119 362 1188 566 1042C742 916 817 704 1034 633C1209 576 1331 662 1490 553L1490 807C1309 891 1183 827 1035 885C841 961 779 1168 591 1287C384 1418 174 1361 -72 1568Z" fill="url(#credit)" filter="url(#soften)"/>
+    <path d="M-70 1013C176 929 355 982 548 936C748 889 866 726 1081 751C1248 770 1344 882 1488 808L1488 1084C1319 1138 1224 1045 1074 1040C863 1033 736 1185 543 1214C331 1246 160 1152 -70 1264Z" fill="#334155" opacity="0.17" filter="url(#soften)"/>
+  </g>
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-20 512C188 405 349 470 531 399C688 338 773 203 951 221C1130 240 1254 386 1454 308" stroke="#0f766e" stroke-width="8" opacity="0.32"/>
+    <path d="M-18 1380C195 1190 373 1249 570 1114C744 994 796 789 1004 719C1194 655 1311 731 1457 630" stroke="#af4c23" stroke-width="8" opacity="0.36"/>
+    <path d="M-30 980C206 907 361 1015 565 960C770 905 842 770 1067 804C1237 829 1326 915 1456 862" stroke="#334155" stroke-width="6" opacity="0.25"/>
+  </g>
+  <g>
+    <path d="M692 178C650 442 669 654 714 858C765 1082 782 1275 703 1718" fill="none" stroke="url(#fault)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M716 187C758 450 738 650 691 847C636 1081 616 1294 704 1718" fill="none" stroke="#172033" stroke-width="2.6" opacity="0.45"/>
+    <path d="M670 177C618 440 622 653 675 851C739 1090 775 1290 703 1718" fill="none" stroke="#172033" stroke-width="2" opacity="0.20"/>
+  </g>
+  <g font-family="Inter, Arial, sans-serif" fill="#172033">
+    <text x="162" y="224" font-size="42" font-weight="700" letter-spacing="0">Private Credit Risk Pamphlet</text>
+    <text x="162" y="326" font-size="92" font-weight="800" letter-spacing="0">The Floating-Rate</text>
+    <text x="162" y="426" font-size="92" font-weight="800" letter-spacing="0">Fault Line</text>
+    <line x1="162" y1="493" x2="596" y2="493" stroke="#af4c23" stroke-width="6"/>
+    <text x="162" y="557" font-size="34" font-weight="500" fill="#475569">SOFR, Private Credit, BDCs, and the Risk Curve</text>
+    <text x="162" y="1662" font-size="30" font-weight="700" fill="#af4c23">Monitoring framework - not financial advice</text>
+    <text x="162" y="1710" font-size="26" font-weight="500" fill="#5c6678">Generated June 2026</text>
+  </g>
+</svg>
