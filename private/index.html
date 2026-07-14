@@ -3,26 +3,53 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Private Journal Index</title>
-  <style>
-    body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; color: #142033; background: #f7fafc; }
-    main { max-width: 900px; margin: 0 auto; padding: 40px 24px; }
-    h1 { font-size: 42px; line-height: 1.05; margin: 0 0 12px; }
-    p { color: #637083; font-size: 17px; line-height: 1.5; }
-    ul { list-style: none; padding: 0; margin: 24px 0; display: grid; gap: 10px; }
-    a { display: inline-block; color: #087a75; font-weight: 800; text-decoration: none; padding: 10px 12px; background: #e4f5f2; border-radius: 999px; }
-    a:hover { text-decoration: underline; }
-  </style>
+  <title>Legacy Private Archive</title>
+  <link rel="stylesheet" href="../assets/style.css?v=12">
+  <script src="../assets/table-sort.js?v=1" defer></script>
 </head>
 <body>
+  <nav class="site-nav" aria-label="Site sections">
+    <strong>Daily Market Journal</strong>
+    <div>
+      <a href="../index.html">Hub</a>
+      <a href="../archive/" aria-current="page">All History</a>
+      <a href="../vault/">Vault</a>
+      <a href="../posts/">Journal</a>
+      <a href="../snapshots/">Snapshots</a>
+    </div>
+  </nav>
+  <div class="topline">
+    <header>
+      <p class="eyebrow">Archive Collection</p>
+      <h1>Legacy Private Archive</h1>
+      <p class="dek">Older encrypted private entries retained for continuity.</p>
+    </header>
+  </div>
   <main>
-    <p><a href="https://ximxesabortion.github.io/">Main Home</a></p>
-    <h1>Private Journal Index</h1>
-    <p>Entries listed here are encrypted. The page shell is public; the journal text is not readable until unlocked locally with the passphrase.</p>
-    <ul>
-      <li><a href="2026-06-20.html">2026-06-20</a></li>
-<li><a href="2026-06-17.html">2026-06-17</a></li>
-    </ul>
+    <section>
+      <h2>Current Scope</h2>
+      <div class="metric-strip">
+        <div class="metric"><span class="metric-value">2</span><span class="metric-label">Entries</span></div>
+        <div class="metric metric-open"><span class="metric-value">2026-06-20</span><span class="metric-label">Latest</span></div>
+        <div class="metric metric-review"><span class="metric-value">June 2026</span><span class="metric-label">Newest Month</span></div>
+      </div>
+    </section>
+    <div class="archive-shell">
+            <section class="archive-month">
+        <h3>June 2026</h3>
+        <ul class="collection-list">
+                  <li class="collection-item">
+          <a href="2026-06-20.html">2026-06-20</a>
+          <span class="resource-note">Legacy Private Entry</span>
+        </li>
+        <li class="collection-item">
+          <a href="2026-06-17.html">2026-06-17</a>
+          <span class="resource-note">Legacy Private Entry</span>
+        </li>
+        </ul>
+      </section>
+    </div>
   </main>
+  <footer>Static archive. Not financial advice.</footer>
 </body>
 </html>
