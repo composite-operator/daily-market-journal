@@ -187,6 +187,10 @@ tr:last-child td {
   border-left-color: #2970ff;
   background: #f5f9ff;
 }
+.metric-closed {
+  border-left-color: #087f5b;
+  background: #f1fbf6;
+}
 .metric-risk {
   border-left-color: #b42318;
   background: #fff6f5;
