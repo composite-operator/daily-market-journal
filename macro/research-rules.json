@@ -2061,5 +2061,20 @@
       "Separate isolated oversold reactions from sector-level trend changes.",
       "Reduce position size when event risk can convert an orderly support test into a gap."
     ]
+  },
+  {
+    "date": "2026-07-29",
+    "display_date": "Dated 2026-07-29",
+    "title": "Policy Hold Fails the Relief Test",
+    "href": "posts/2026-07-29.html",
+    "rules": [
+      "Do not label one policy-day reaction as structural capital flight.",
+      "Promote a confidence-stress hypothesis only after persistence or confirmation from credit, international relative strength, and funding-sensitive assets.",
+      "Use joint equity, dollar , long- bond , and volatility behavior to test whether policy transmission is functioning.",
+      "Require semiconductor breadth to stabilize before upgrading technology support.",
+      "Treat defensive rotation as temporary shelter until participation broadens and index structure improves.",
+      "Separate a chart support reaction from a durable regime low.",
+      "Use yen acceleration and intervention risk as a global-liquidity branch condition."
+    ]
   }
 ]
