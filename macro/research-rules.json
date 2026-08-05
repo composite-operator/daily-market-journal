@@ -2112,8 +2112,8 @@
   {
     "date": "2026-08-03",
     "display_date": "Dated 2026-08-03",
-    "title": "Semiconductor Lag Tests The Relief Rally",
-    "href": "posts/2026-08-03-semiconductor-lag-tests-the-relief-rally.html",
+    "title": "Semiconductor Weakness Tests the Relief Rally",
+    "href": "posts/2026-08-03.html",
     "rules": [
       "Do not upgrade a headline-index breakout without semiconductor and breadth confirmation.",
       "Score oil , the dollar , and long rates as a three-channel tightening stack.",
@@ -2123,6 +2123,22 @@
       "Treat positioning as an inference unless breadth and cross-asset evidence confirm it; do not assign an unverified actor.",
       "Use sector ETFs to gate correlated resource and semiconductor exposures.",
       "When a chart structure changes, retire the old entry support zone instead of forcing it into the new count."
+    ]
+  },
+  {
+    "date": "2026-08-04",
+    "display_date": "Dated 2026-08-04",
+    "title": "Macro Relief Meets A Confirmation Gap",
+    "href": "posts/2026-08-04-macro-relief-meets-a-confirmation-gap.html",
+    "rules": [
+      "Do not promote a one-session relief stack into a durable regime without persistence.",
+      "Require semiconductor breadth to confirm large-cap index strength.",
+      "Track oil , long rates , and the dollar as both a synchronous signal and three independent failure points.",
+      "Allow tactical participation and higher-timeframe caution to coexist when risk is explicit.",
+      "Require a five-wave advance and controlled pullback before labeling a resource-cycle low as durable.",
+      "Use sector baskets to confirm correlated single-name strength.",
+      "Retire stale levels when the structure changes instead of fitting the old plan to new price action.",
+      "Exclude unverified institutional or political causality from the model."
     ]
   }
 ]
