@@ -2128,8 +2128,8 @@
   {
     "date": "2026-08-04",
     "display_date": "Dated 2026-08-04",
-    "title": "Macro Relief Meets A Confirmation Gap",
-    "href": "posts/2026-08-04-macro-relief-meets-a-confirmation-gap.html",
+    "title": "Macro Relief Meets a Confirmation Gap",
+    "href": "posts/2026-08-04.html",
     "rules": [
       "Do not promote a one-session relief stack into a durable regime without persistence.",
       "Require semiconductor breadth to confirm large-cap index strength.",
@@ -2139,6 +2139,22 @@
       "Use sector baskets to confirm correlated single-name strength.",
       "Retire stale levels when the structure changes instead of fitting the old plan to new price action.",
       "Exclude unverified institutional or political causality from the model."
+    ]
+  },
+  {
+    "date": "2026-08-05",
+    "display_date": "Dated 2026-08-05",
+    "title": "Relief Rally Faces A Leadership Test",
+    "href": "posts/2026-08-05-relief-rally-faces-a-leadership-test.html",
+    "rules": [
+      "Do not treat headline-index strength as durable without semiconductor and small-cap confirmation.",
+      "Use the next rebound's wave quality and breadth to distinguish continuation from a connector failure.",
+      "Track oil , long rates , and the dollar as a synchronized tightening stack.",
+      "Require sector-basket confirmation before promoting resource or miner rebounds.",
+      "Measure diversification by independent flow channel, not by ticker count.",
+      "Use small initial positions and let relative-strength winners earn more portfolio weight.",
+      "Retire stale levels when structure changes rather than forcing the old plan onto new price action.",
+      "Exclude unverified institutional and political causality from the model."
     ]
   }
 ]
