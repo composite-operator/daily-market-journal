@@ -2145,7 +2145,7 @@
     "date": "2026-08-05",
     "display_date": "Dated 2026-08-05",
     "title": "Relief Rally Faces A Leadership Test",
-    "href": "posts/2026-08-05-relief-rally-faces-a-leadership-test.html",
+    "href": "posts/2026-08-05.html",
     "rules": [
       "Do not treat headline-index strength as durable without semiconductor and small-cap confirmation.",
       "Use the next rebound's wave quality and breadth to distinguish continuation from a connector failure.",
@@ -2155,6 +2155,50 @@
       "Use small initial positions and let relative-strength winners earn more portfolio weight.",
       "Retire stale levels when structure changes rather than forcing the old plan onto new price action.",
       "Exclude unverified institutional and political causality from the model."
+    ]
+  },
+  {
+    "date": "2026-08-06",
+    "display_date": "Dated 2026-08-06",
+    "title": "Oil And Rates Challenge Narrow Leadership",
+    "href": "posts/2026-08-06.html",
+    "rules": [
+      "Track oil , long rates , and the dollar as a synchronized tightening stack.",
+      "Use semiconductor and global breadth to confirm or reject headline-index strength.",
+      "Treat low volatility beside crowded call activity as complacency, not proof of safety.",
+      "Use clusters of earnings gaps as an early breadth warning.",
+      "Separate trajectory notes from official entries, stops, and status.",
+      "Require complete sector impulses before treating metals or miners as durable lows.",
+      "Use energy as a possible hedge when geopolitical and inflation risk rise together.",
+      "Exclude unverified institutional, political, war, and climate causality from the model."
+    ]
+  },
+  {
+    "date": "2026-08-08",
+    "display_date": "Dated 2026-08-08",
+    "title": "Oil Dollar And Rates Decide The Road To 8000",
+    "href": "posts/2026-08-08.html",
+    "rules": [
+      "Treat round-number targets as conditional destinations. Publish the route, gates, and invalidation separately.",
+      "Use cross-asset agreement as the regime signal. One index pattern cannot outrank oil , rates , FX , breadth, and volatility together.",
+      "Require component confirmation before promoting a sector-index breakout.",
+      "Distinguish nominal gains from improving purchasing power. Inflationary index strength is not the same as healthy expansion.",
+      "Do not convert political or institutional narratives into facts. Translate them into observable market tests.",
+      "Keep opposing branches until price resolves them. Remove a branch only after its stated control level fails."
+    ]
+  },
+  {
+    "date": "2026-08-10",
+    "display_date": "Dated 2026-08-10",
+    "title": "Oil Breakout And Semiconductor Stress Raise The CPI Stakes",
+    "href": "posts/2026-08-10.html",
+    "rules": [
+      "Use the joint reaction to an economic release, not the headline number alone, to classify the regime.",
+      "Require semiconductor component confirmation before promoting an index rebound into a durable impulse.",
+      "Distinguish commodity leadership from healthy breadth. Energy can rise while the rest of the economy tightens.",
+      "Translate geopolitical narratives into observable oil , dollar , rate, volatility , and breadth tests.",
+      "Evaluate AI theses through asset ownership, marginal cost, execution, and demand. Do not let a technology story override chart controls.",
+      "Treat distant targets as scenarios. Publish intermediate levels, failure points, and the expected corrective path."
     ]
   }
 ]
