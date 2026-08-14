@@ -3,9 +3,9 @@ $ErrorActionPreference = 'Stop'
 
 $SiteRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $Utf8NoBom = [System.Text.UTF8Encoding]::new($false)
-$script:NavDailyHref = 'https://ximxesabortion.github.io/daily-market-journal/posts/'
-$script:NavMacroHref = 'https://ximxesabortion.github.io/daily-market-journal/macro/'
-$script:NavSnapshotHref = 'https://ximxesabortion.github.io/daily-market-journal/snapshots/'
+$script:NavDailyHref = 'https://composite-operator.github.io/daily-market-journal/posts/'
+$script:NavMacroHref = 'https://composite-operator.github.io/daily-market-journal/macro/'
+$script:NavSnapshotHref = 'https://composite-operator.github.io/daily-market-journal/snapshots/'
 
 function Html($Value) {
   return [System.Net.WebUtility]::HtmlEncode([string]$Value)
@@ -126,12 +126,12 @@ function Get-DatedFiles($Folder, $Kind, $DefaultTitle, $ManifestPath = $null, $M
 
 function Site-Nav($Prefix, $Current) {
   $items = @(
-    @{ Key = 'operator'; Label = 'Homepage'; Href = 'https://ximxesabortion.github.io/' },
+    @{ Key = 'operator'; Label = 'Homepage'; Href = 'https://composite-operator.github.io/' },
     @{ Key = 'posts'; Label = 'Daily Journal'; Href = $script:NavDailyHref },
     @{ Key = 'macro'; Label = 'Macro Lens'; Href = $script:NavMacroHref },
     @{ Key = 'snapshots'; Label = 'Snapshots'; Href = $script:NavSnapshotHref },
-    @{ Key = 'archive'; Label = 'Archive'; Href = 'https://ximxesabortion.github.io/daily-market-journal/archive/' },
-    @{ Key = 'library'; Label = 'Pamphlets'; Href = 'https://ximxesabortion.github.io/daily-market-journal/library/' }
+    @{ Key = 'archive'; Label = 'Archive'; Href = 'https://composite-operator.github.io/daily-market-journal/archive/' },
+    @{ Key = 'library'; Label = 'Pamphlets'; Href = 'https://composite-operator.github.io/daily-market-journal/library/' }
   )
   $links = $items | ForEach-Object {
     $currentAttr = if ($_.Key -eq $Current) { ' aria-current="page"' } else { '' }
@@ -416,7 +416,7 @@ function Repair-LegacyLinks($Path, $Folder) {
   if (-not (Test-Path -LiteralPath $Path)) { return }
   $html = [System.IO.File]::ReadAllText($Path)
   $html = $html -replace 'href="\.\./\.\./"', 'href="../index.html"'
-  $html = $html -replace '<a href="https://ximxesabortion\.github\.io/">Main Home</a>', '<a href="../archive/">History</a>'
+  $html = $html -replace '<a href="https://composite-operator\.github\.io/">Main Home</a>', '<a href="../archive/">History</a>'
   $html = $html -replace '>Site Home</a>', '>Homepage</a>'
   if ($Folder -eq 'vault') {
     $html = $html -replace '>Journal Index</a>', '>Vault Index</a>'
@@ -456,9 +456,9 @@ $oldestDate = @($allDates | Sort-Object)[0]
 $latestPost = $collections.Posts[$latestDate]
 $latestMacro = $collections.Macro[$latestDate]
 $latestSnapshot = $collections.Snapshots[$latestDate]
-if ($latestPost) { $script:NavDailyHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestPost.Href)" }
-if ($latestMacro) { $script:NavMacroHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestMacro.Href)" }
-if ($latestSnapshot) { $script:NavSnapshotHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestSnapshot.Href)" }
+if ($latestPost) { $script:NavDailyHref = "https://composite-operator.github.io/daily-market-journal/$($latestPost.Href)" }
+if ($latestMacro) { $script:NavMacroHref = "https://composite-operator.github.io/daily-market-journal/$($latestMacro.Href)" }
+if ($latestSnapshot) { $script:NavSnapshotHref = "https://composite-operator.github.io/daily-market-journal/$($latestSnapshot.Href)" }
 
 $latestLinks = @()
 if ($latestPost) { $latestLinks += "<a class=""box-link"" href=""$($latestPost.Href)"">Daily Journal</a>" }
