@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+  <title id="title">July 2026 proxy returns since the original pamphlet</title>
+  <desc id="desc">Bar chart of ETF and BDC proxy returns from June 15, 2026 to July 13, 2026.</desc>
+  <defs>
+    <style>
+      .bg { fill: #fbfaf7; }
+      .panel { fill: #ffffff; stroke: #d8d3c8; stroke-width: 1.4; }
+      .title { fill: #172033; font: 800 34px Inter, Arial, sans-serif; }
+      .subtitle { fill: #5c6678; font: 500 18px Inter, Arial, sans-serif; }
+      .axis { stroke: #9ca3af; stroke-width: 1.5; }
+      .grid { stroke: #e7e1d7; stroke-width: 1; }
+      .label { fill: #293144; font: 800 18px Inter, Arial, sans-serif; }
+      .value { fill: #172033; font: 700 17px Inter, Arial, sans-serif; }
+      .note { fill: #5c6678; font: 500 15px Inter, Arial, sans-serif; }
+      .neg { fill: #b54708; }
+      .pos { fill: #0e9384; }
+      .flat { fill: #667085; }
+    </style>
+  </defs>
+  <rect class="bg" width="1200" height="760"/>
+  <rect class="panel" x="52" y="40" width="1096" height="650" rx="8"/>
+  <text class="title" x="92" y="88">July Progress Check: Public Proxy Returns Since V1</text>
+  <text class="subtitle" x="92" y="120">Close-to-close move from June 15, 2026 to July 13, 2026. Mild pressure, mixed BDC dispersion, no broad break.</text>
+
+  <line class="axis" x1="600" y1="168" x2="600" y2="612"/>
+  <line class="grid" x1="440" y1="168" x2="440" y2="612"/>
+  <line class="grid" x1="520" y1="168" x2="520" y2="612"/>
+  <line class="grid" x1="680" y1="168" x2="680" y2="612"/>
+  <line class="grid" x1="760" y1="168" x2="760" y2="612"/>
+  <text class="note" x="426" y="638">-4%</text>
+  <text class="note" x="508" y="638">-2%</text>
+  <text class="note" x="595" y="638">0</text>
+  <text class="note" x="668" y="638">+2%</text>
+  <text class="note" x="746" y="638">+4%</text>
+
+  <g transform="translate(0 0)">
+    <text class="label" x="92" y="180">BIZD</text>
+    <rect class="neg" x="577.6" y="160" width="22.4" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-0.56%</text>
+  </g>
+  <g transform="translate(0 38)">
+    <text class="label" x="92" y="180">HYG</text>
+    <rect class="neg" x="574.0" y="160" width="26.0" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-0.65%</text>
+  </g>
+  <g transform="translate(0 76)">
+    <text class="label" x="92" y="180">BKLN</text>
+    <rect class="flat" x="596.0" y="160" width="4.0" height="20" rx="2"/>
+    <text class="value" x="612" y="177">-0.10%</text>
+  </g>
+  <g transform="translate(0 114)">
+    <text class="label" x="92" y="180">KRE</text>
+    <rect class="pos" x="600" y="160" width="160.0" height="20" rx="4"/>
+    <text class="value" x="772" y="177">+4.00%</text>
+  </g>
+  <g transform="translate(0 152)">
+    <text class="label" x="92" y="180">SPY</text>
+    <rect class="neg" x="570.0" y="160" width="30.0" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-0.75%</text>
+  </g>
+  <g transform="translate(0 190)">
+    <text class="label" x="92" y="180">ARCC</text>
+    <rect class="pos" x="600" y="160" width="4.4" height="20" rx="2"/>
+    <text class="value" x="612" y="177">+0.11%</text>
+  </g>
+  <g transform="translate(0 228)">
+    <text class="label" x="92" y="180">BXSL</text>
+    <rect class="neg" x="534.4" y="160" width="65.6" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-1.64%</text>
+  </g>
+  <g transform="translate(0 266)">
+    <text class="label" x="92" y="180">OBDC</text>
+    <rect class="neg" x="520.4" y="160" width="79.6" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-1.99%</text>
+  </g>
+  <g transform="translate(0 304)">
+    <text class="label" x="92" y="180">FSK</text>
+    <rect class="neg" x="556.0" y="160" width="44.0" height="20" rx="4"/>
+    <text class="value" x="612" y="177">-1.10%</text>
+  </g>
+  <g transform="translate(0 342)">
+    <text class="label" x="92" y="180">MAIN</text>
+    <rect class="pos" x="600" y="160" width="95.2" height="20" rx="4"/>
+    <text class="value" x="707" y="177">+2.38%</text>
+  </g>
+  <g transform="translate(0 380)">
+    <text class="label" x="92" y="180">HTGC</text>
+    <rect class="pos" x="600" y="160" width="111.2" height="20" rx="4"/>
+    <text class="value" x="723" y="177">+2.78%</text>
+  </g>
+  <g transform="translate(0 418)">
+    <text class="label" x="92" y="180">GBDC</text>
+    <rect class="pos" x="600" y="160" width="62.8" height="20" rx="4"/>
+    <text class="value" x="675" y="177">+1.57%</text>
+  </g>
+
+  <text class="note" x="92" y="672">Source: Nasdaq public quote/historical pages for BIZD, HYG, BKLN, KRE, SPY, ARCC, BXSL, OBDC, FSK, MAIN, HTGC, and GBDC. Pulled July 14, 2026.</text>
+</svg>

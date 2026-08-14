@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 720" role="img">
+<style>
+  .title { font: 700 28px Arial, sans-serif; fill: #0f172a; }
+  .subtitle { font: 400 17px Arial, sans-serif; fill: #475569; }
+  .axis { font: 12px Arial, sans-serif; fill: #475569; }
+  .num { font: 800 24px Arial, sans-serif; fill: #af4c23; }
+  .card-title { font: 700 13px Arial, sans-serif; fill: #172033; }
+  .detail { font: 12px/1.2 Arial, sans-serif; color: #5c6678; }
+</style>
+<rect width="1200" height="720" fill="#ffffff"/>
+<text x="92" y="48" class="title">Projected Risk Curve: From Funding Pressure to Market Recognition</text>
+<text x="92" y="78" class="subtitle">A sequence for monitoring confirmation, not a guaranteed path.</text>
+<path d="M108 495C244 393 336 300 478 275C640 247 730 327 842 401C952 474 1020 517 1100 446" fill="none" stroke="#af4c23" stroke-width="6" stroke-linecap="round"/>
+<path d="M108 528C260 487 382 443 520 431C691 417 836 456 1098 370" fill="none" stroke="#0f766e" stroke-width="3" stroke-linecap="round" opacity="0.55"/>
+
+  <g>
+    <rect x="92.0" y="420.0" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="107.0" y="449.0" class="num">1</text>
+    <text x="107.0" y="476.0" class="card-title">SOFR stays high</text>
+    <foreignObject x="107.0" y="486.0" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Floating-rate burden remains elevated.</div>
+    </foreignObject>
+  </g>
+  <g>
+    <rect x="270.0" y="348.1" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="285.0" y="377.1" class="num">2</text>
+    <text x="285.0" y="404.1" class="card-title">Cash cushion thins</text>
+    <foreignObject x="285.0" y="414.1" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Borrowers absorb higher interest cost.</div>
+    </foreignObject>
+  </g>
+  <g>
+    <rect x="448.0" y="314.3" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="463.0" y="343.3" class="num">3</text>
+    <text x="463.0" y="370.3" class="card-title">PIK / amendments rise</text>
+    <foreignObject x="463.0" y="380.3" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Stress is managed before it is admitted.</div>
+    </foreignObject>
+  </g>
+  <g>
+    <rect x="626.0" y="342.3" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="641.0" y="371.3" class="num">4</text>
+    <text x="641.0" y="398.3" class="card-title">Marks and NAV pressure</text>
+    <foreignObject x="641.0" y="408.3" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Private values begin catching up.</div>
+    </foreignObject>
+  </g>
+  <g>
+    <rect x="804.0" y="432.1" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="819.0" y="461.1" class="num">5</text>
+    <text x="819.0" y="488.1" class="card-title">BDC dispersion</text>
+    <foreignObject x="819.0" y="498.1" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Public proxies reveal who is vulnerable.</div>
+    </foreignObject>
+  </g>
+  <g>
+    <rect x="982.0" y="560.0" width="146" height="116" rx="0" fill="#ffffff" stroke="#d8d3c8"/>
+    <text x="997.0" y="589.0" class="num">6</text>
+    <text x="997.0" y="616.0" class="card-title">Risk repricing</text>
+    <foreignObject x="997.0" y="626.0" width="116" height="40">
+      <div xmlns="http://www.w3.org/1999/xhtml" class="detail">Spreads, redemptions, and refinancings decide the cycle.</div>
+    </foreignObject>
+  </g>
+<text x="92" y="650" class="axis">Window to watch: 2026-2029 refinancing pressure, unless rate relief or credit recognition arrives sooner.</text>
+</svg>

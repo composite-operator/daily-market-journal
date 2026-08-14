@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 1900" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract macro regime title-page artwork</title>
+  <desc id="desc">Painterly abstract artwork evoking liquidity, rates, capital flows, credit stress, reflexivity, and regime transitions.</desc>
+  <defs>
+    <linearGradient id="ground" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#fbfaf7"/>
+      <stop offset="0.45" stop-color="#f5f1e8"/>
+      <stop offset="1" stop-color="#fffdfa"/>
+    </linearGradient>
+    <linearGradient id="rateFault" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#172033" stop-opacity="0.08"/>
+      <stop offset="0.33" stop-color="#172033" stop-opacity="0.72"/>
+      <stop offset="0.68" stop-color="#172033" stop-opacity="0.58"/>
+      <stop offset="1" stop-color="#172033" stop-opacity="0.10"/>
+    </linearGradient>
+    <linearGradient id="liquidity" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0f766e" stop-opacity="0"/>
+      <stop offset="0.28" stop-color="#0f766e" stop-opacity="0.44"/>
+      <stop offset="0.61" stop-color="#2f8f86" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#0f766e" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="credit" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#b45309" stop-opacity="0"/>
+      <stop offset="0.42" stop-color="#b45309" stop-opacity="0.42"/>
+      <stop offset="0.75" stop-color="#d7a06c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#b45309" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shadowFlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#334155" stop-opacity="0"/>
+      <stop offset="0.48" stop-color="#334155" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#334155" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="paperNoise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer>
+        <feFuncA type="table" tableValues="0 0.045"/>
+      </feComponentTransfer>
+    </filter>
+    <filter id="soften" x="-15%" y="-15%" width="130%" height="130%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <rect width="1400" height="1900" fill="url(#ground)"/>
+  <rect width="1400" height="1900" filter="url(#paperNoise)" opacity="0.72"/>
+
+  <g opacity="0.92">
+    <path d="M-90 555C116 424 279 471 471 407C636 352 746 215 935 234C1115 252 1241 401 1492 307L1492 603C1247 701 1087 552 917 551C739 551 625 691 453 718C260 749 96 646 -90 788Z" fill="url(#liquidity)" filter="url(#soften)"/>
+    <path d="M-60 1321C179 1106 367 1175 573 1032C752 908 813 692 1030 629C1201 579 1327 646 1488 548L1488 793C1305 874 1182 813 1034 875C845 955 774 1167 592 1278C385 1404 190 1348 -60 1549Z" fill="url(#credit)" filter="url(#soften)"/>
+    <path d="M-70 988C177 900 355 957 548 913C751 867 865 708 1082 729C1248 744 1344 855 1485 784L1485 1073C1315 1127 1221 1034 1074 1029C864 1022 735 1169 542 1197C334 1227 160 1127 -70 1240Z" fill="url(#shadowFlow)" filter="url(#soften)"/>
+  </g>
+
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-24 510C187 403 343 473 529 398C685 335 769 201 952 219C1130 237 1249 383 1452 306" stroke="#0f766e" stroke-width="8" opacity="0.32"/>
+    <path d="M-15 1377C196 1192 371 1244 569 1111C742 994 791 787 1001 716C1193 651 1308 727 1453 628" stroke="#b45309" stroke-width="8" opacity="0.34"/>
+    <path d="M-27 976C205 904 361 1013 565 958C770 903 842 769 1065 801C1235 826 1326 913 1454 860" stroke="#334155" stroke-width="6" opacity="0.26"/>
+    <path d="M-20 1586C163 1516 323 1420 547 1426C782 1433 906 1584 1137 1531C1260 1503 1350 1430 1457 1451" stroke="#0f766e" stroke-width="3.5" opacity="0.33"/>
+    <path d="M-36 728C168 791 300 723 496 769C695 817 777 1001 1004 955C1179 920 1282 789 1451 819" stroke="#172033" stroke-width="3.5" opacity="0.22"/>
+  </g>
+
+  <g>
+    <path d="M690 181C651 439 666 653 712 854C762 1075 781 1276 703 1716" fill="none" stroke="url(#rateFault)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M715 188C758 451 737 646 690 845C636 1076 616 1292 703 1718" fill="none" stroke="#172033" stroke-width="2.6" opacity="0.45"/>
+    <path d="M669 178C617 440 620 651 674 851C738 1086 774 1288 702 1718" fill="none" stroke="#172033" stroke-width="2" opacity="0.20"/>
+  </g>
+
+  <g opacity="0.55">
+    <path d="M235 327C319 367 407 373 495 345" fill="none" stroke="#172033" stroke-width="2.2"/>
+    <path d="M247 352C331 391 412 396 488 370" fill="none" stroke="#172033" stroke-width="1.6"/>
+    <path d="M922 1544C1022 1508 1123 1510 1226 1552" fill="none" stroke="#172033" stroke-width="2.1"/>
+    <path d="M926 1577C1018 1549 1116 1554 1215 1593" fill="none" stroke="#172033" stroke-width="1.5"/>
+    <path d="M238 1615C345 1570 454 1573 565 1624" fill="none" stroke="#b45309" stroke-width="1.8" opacity="0.72"/>
+  </g>
+
+  <g fill="#172033" opacity="0.50">
+    <circle cx="475" cy="496" r="3"/>
+    <circle cx="575" cy="421" r="2.5"/>
+    <circle cx="826" cy="312" r="3"/>
+    <circle cx="985" cy="385" r="2.6"/>
+    <circle cx="417" cy="941" r="3"/>
+    <circle cx="781" cy="1010" r="2.8"/>
+    <circle cx="1072" cy="875" r="3"/>
+    <circle cx="552" cy="1248" r="2.7"/>
+    <circle cx="875" cy="1310" r="3"/>
+    <circle cx="1126" cy="1390" r="2.5"/>
+  </g>
+
+  <g opacity="0.26">
+    <path d="M214 250H520M189 287H462M245 1772H589M267 1808H515" stroke="#172033" stroke-width="2"/>
+    <path d="M826 249H1114M856 286H1211M823 1754H1193M882 1791H1137" stroke="#d8d3c8" stroke-width="2"/>
+  </g>
+</svg>
