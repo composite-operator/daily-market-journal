@@ -374,6 +374,12 @@ footer {
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.96);
 }
+.top-nav .nav-section {
+  margin-right: auto;
+  color: var(--navy);
+  font-size: 13px;
+  font-weight: 900;
+}
 .top-nav a {
   display: inline-block;
   border: 1px solid var(--line);
