@@ -1,7 +1,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="../assets/style.css?v=21">
+  <script src="../assets/theme.js?v=2"></script>
+  <link rel="stylesheet" href="../assets/style.css?v=24">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>The Floating-Rate Fault Line</title>
@@ -9,19 +10,18 @@
 </head>
 <body>
   <nav class="top-nav" aria-label="Market Desk navigation"><a href="https://ximxesabortion.github.io/">Homepage</a><a href="https://ximxesabortion.github.io/daily-market-journal/posts/2026-08-12.html">Daily Journal</a><a href="https://ximxesabortion.github.io/daily-market-journal/macro/posts/2026-08-12.html">Macro Lens</a><a href="https://ximxesabortion.github.io/daily-market-journal/snapshots/2026-08-12.html">Snapshots</a><a href="https://ximxesabortion.github.io/daily-market-journal/archive/">Archive</a><a href="https://ximxesabortion.github.io/daily-market-journal/library/" aria-current="page">Pamphlets</a></nav>
-<div class="page-shell">
+  <div class="page-shell">
     <aside class="toc" aria-label="Table of contents">
-
       <div class="toc-title">Contents</div>
       <a class="toc-level-1" href="#abstract">Abstract</a>
       <a class="toc-level-1" href="#contents">Pamphlet Contents</a>
-      <a class="toc-level-1" href="#progress-check">July 2026 Progress Check</a>
       <a class="toc-level-1" href="#thesis">1. The Setup</a>
       <a class="toc-level-1" href="#mechanism">2. The Mechanism</a>
       <a class="toc-level-1" href="#risk-curve">3. Projected Risk Curve</a>
       <a class="toc-level-1" href="#charts">4. Chart Pack</a>
       <a class="toc-level-1" href="#names">5. Names and Proxies</a>
       <a class="toc-level-1" href="#confirmation">6. Confirmation and Invalidation</a>
+      <a class="toc-level-1" href="#glossary">Glossary</a>
       <a class="toc-level-1" href="#closing">Closing</a>
     </aside>
 
@@ -41,7 +41,7 @@
       </section>
 
       <section class="publication-note" aria-label="Source note">
-        <strong>Source Note.</strong> This pamphlet is an independent educational synthesis from a user-supplied transcript of a <a href="https://www.youtube.com/watch?v=YEhsWyY_WKQ">Casual Finance</a> video covering <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">Treasury yields</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, private credit, PIK interest, BDCs, and credit stress, combined with public <a href="https://fred.stlouisfed.org/">FRED</a> rate and spread data and Nasdaq public quote pages for ETF/BDC proxies. Updated July 14, 2026; original v1 is archived separately. It is a monitoring framework, not financial advice, a recommendation, or a claim of future performance.
+        <strong>Source Note.</strong> This pamphlet is an independent educational synthesis from a user-supplied transcript of a <a href="https://www.youtube.com/watch?v=YEhsWyY_WKQ">Casual Finance</a> video covering <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">Treasury yields</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, private credit, PIK interest, BDCs, and credit stress, combined with public FRED and Yahoo Finance chart data. This edition also incorporates publicly accessible Capital Flows Research material on <a href="https://www.capitalflowsresearch.com/p/mapping-macro-liquidity-and-how-ai">macro liquidity and AI transmission</a>, <a href="https://www.capitalflowsresearch.com/p/the-credit-cycle-and-ai-are-sowing">AI credit-cycle risk</a>, <a href="https://www.capitalflowsresearch.com/p/the-melt-up-trigger-the-playbook">the credit-cycle melt-up playbook</a>, and <a href="https://www.capitalflowsresearch.com/p/the-golden-era-of-finance-and-tracking">equity-flow tracking</a>. It is a monitoring framework, not financial advice, a recommendation, or a claim of future performance.
       </section>
 
       <h1 id="abstract">The Floating-Rate Fault Line</h1>
@@ -52,49 +52,10 @@
         <li>The setup: why the private-credit stress story is a medium/long-term thesis, not a one-day headline.</li>
         <li>The mechanism: <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a>, floating-rate debt, PIK interest, private marks, and BDC payout optics.</li>
         <li>The risk curve: a staged map from funding pressure to public repricing.</li>
-        <li>The progress check: whether July data has moved the idea closer to confirmation or invalidation.</li>
         <li>The charts: overlaid <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a>, curve pressure, spreads, BDC proxies, and individual names.</li>
         <li>The trigger sheet: confirmation, invalidation, and what would move the thesis from latent to active.</li>
+        <li>The glossary: terms needed to read the setup without losing the credit mechanics.</li>
       </ol>
-
-      <h2 id="progress-check" class="chapter-title chapter-start">July 2026 Progress Check</h2>
-      <p>The updated read is mixed rather than dramatic. The funding-pressure side of the thesis is still alive: <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> was 3.55%, effective fed funds was 3.62%, the <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y Treasury</a> was 4.21%, the <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">10Y Treasury</a> was 4.56%, and the <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US30Y" target="_blank" rel="noopener noreferrer">30Y Treasury</a> was 5.06% on the latest FRED observations available during this update. That is not the relief path borrowers would want.</p>
-      <p>But the public confirmation layer is not yet disorderly. High-yield OAS was 2.69% and investment-grade OAS was 0.77% on the same FRED window, which says the public credit market is still pricing contained stress. From the first trading day after the original pamphlet date, June 15, 2026, through the latest Nasdaq close on July 13, 2026, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a> fell 0.56%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HYG" target="_blank" rel="noopener noreferrer">HYG</a> fell 0.65%, and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BKLN" target="_blank" rel="noopener noreferrer">BKLN</a> fell 0.10%. That is mild pressure, not a break.</p>
-      <div class="market-tape">
-        <div>
-          <span>Funding Pressure</span>
-          <strong>SOFR 3.55%</strong>
-          <small>FRED, Jul 10, 2026</small>
-        </div>
-        <div>
-          <span>Credit Spread Check</span>
-          <strong>HY OAS 2.69%</strong>
-          <small>Contained, not yet stress confirmation</small>
-        </div>
-        <div>
-          <span>BDC Proxy Since V1</span>
-          <strong>BIZD -0.56%</strong>
-          <small>Jun 15 to Jul 13, 2026</small>
-        </div>
-      </div>
-      <table>
-        <thead>
-          <tr><th>Gauge</th><th>Latest Read</th><th>Progress Read</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Front-end funding pressure</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> 3.55%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:DFF" target="_blank" rel="noopener noreferrer">DFF</a> 3.62%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US02Y" target="_blank" rel="noopener noreferrer">2Y</a> 4.21%.</td><td>Pressure remains active. Floating-rate borrowers have not received clean cash-flow relief.</td></tr>
-          <tr><td>Long-end pressure</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">10Y</a> 4.56%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US30Y" target="_blank" rel="noopener noreferrer">30Y</a> 5.06%.</td><td>The refinancing clock still matters. Lower front-end expectations have not erased long-end pressure.</td></tr>
-          <tr><td>Public credit confirmation</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">HY OAS</a> 2.69%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLC0A0CM" target="_blank" rel="noopener noreferrer">IG OAS</a> 0.77%.</td><td>Not confirmed at the index-spread layer. The stress thesis remains a watch-list framework rather than an active spread break.</td></tr>
-          <tr><td>ETF proxy surface</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a> $12.47 (-0.56%), <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HYG" target="_blank" rel="noopener noreferrer">HYG</a> $79.52 (-0.65%), <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BKLN" target="_blank" rel="noopener noreferrer">BKLN</a> $20.44 (-0.10%).</td><td>Mild slippage, not a collapse. The public proxy layer is leaning cautious, but it is not screaming.</td></tr>
-          <tr><td>Spillover check</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=KRE" target="_blank" rel="noopener noreferrer">KRE</a> $75.12 (+4.00%) while <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=SPY" target="_blank" rel="noopener noreferrer">SPY</a> $749.17 (-0.75%).</td><td>Regional banks did not confirm a broad credit accident over this window.</td></tr>
-          <tr><td>BDC dispersion</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BXSL" target="_blank" rel="noopener noreferrer">BXSL</a> -1.64%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=OBDC" target="_blank" rel="noopener noreferrer">OBDC</a> -1.99%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FSK" target="_blank" rel="noopener noreferrer">FSK</a> -1.10%; <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=MAIN" target="_blank" rel="noopener noreferrer">MAIN</a> +2.38%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HTGC" target="_blank" rel="noopener noreferrer">HTGC</a> +2.78%, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=GBDC" target="_blank" rel="noopener noreferrer">GBDC</a> +1.57%.</td><td>The signal is dispersion, not uniform capitulation. That argues for name-level monitoring and reported-credit metrics.</td></tr>
-        </tbody>
-      </table>
-      <figure class="chart-figure">
-        <img src="assets/figures/private_credit_risk_curve/july_progress_proxy_returns.svg" alt="ETF and BDC proxy returns from June 15 to July 13 2026">
-        <figcaption>Proxy returns from the first trading day after the original pamphlet date through the latest Nasdaq close available during this update. The point is not a broad break; it is mild public proxy pressure plus name-level dispersion.</figcaption>
-      </figure>
-      <p><strong>Current status:</strong> the idea is progressing only in the sense that the rate-pressure premise has not gone away and weaker BDC proxies are not leading higher. It has not yet progressed into a confirmed public-credit break. The next evidence needs to come from widening spreads, weaker BDC relative strength, NAV pressure, rising non-accruals, higher PIK dependence, or refinancing concessions in the 2026-2029 maturity window.</p>
 
       <h2 id="thesis" class="chapter-title chapter-start">1. The Setup</h2>
       <p>The transcript's core idea is simple: the price of money has been repriced, but the most fragile balance sheets do not all reprice visibly at the same time. <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> hits floating-rate borrowers immediately. Private-credit marks, BDC NAVs, dividend coverage, and public proxy prices may lag.</p>
@@ -106,6 +67,8 @@
       <p><strong>PIK is the smoke chamber.</strong> Payment-in-kind interest can allow a borrower to avoid cash interest by adding unpaid interest to principal. That may prevent an immediate default trigger, but it also turns cash income into a claim on future repayment.</p>
       <p><strong>BDC optics are the public window.</strong> Business development companies and BDC ETFs are not the whole private-credit universe, but they are tradable proxy surfaces. They let the market express concern before every private loan is marked down.</p>
       <p><strong>The maturity wall is the clock.</strong> The transcript frames 2026-2029 as the refinancing window to watch. The key question is whether lower <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> arrive early enough, and whether lower <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=TVC:US10Y" target="_blank" rel="noopener noreferrer">rates</a> are relief or recession confirmation.</p>
+      <p><strong>AI capex is the reflexive bridge.</strong> Public Capital Flows material frames AI as a macro transmission channel, not only a technology theme. AI spending can support chips, power, data centers, cloud, software, corporate issuance, and equity leadership. In this pamphlet, that matters because the same loop can keep financing windows open while private-credit stress stays partially hidden.</p>
+      <p><strong>Non-cash income is the shared fault line.</strong> PIK interest and aggressive AI-financing structures both create timing risk. Reported income, demand, or collateral value can appear before durable cash proof arrives. The warning condition is not AI capex by itself. The warning condition is AI capex plus sticky funding costs, weaker credit spreads, slower buybacks, and heavier IPO or secondary supply.</p>
 
       <h2 id="risk-curve" class="chapter-title chapter-start">3. Projected Risk Curve</h2>
       <figure class="chart-figure">
@@ -148,12 +111,11 @@
           <tr><td>Private-credit proxy</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BIZD" target="_blank" rel="noopener noreferrer">BIZD</a></td><td>BDC ETF surface for the broader lending stress story.</td></tr>
           <tr><td>BDC dispersion</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=ARCC" target="_blank" rel="noopener noreferrer">ARCC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=BXSL" target="_blank" rel="noopener noreferrer">BXSL</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=OBDC" target="_blank" rel="noopener noreferrer">OBDC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FSK" target="_blank" rel="noopener noreferrer">FSK</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=MAIN" target="_blank" rel="noopener noreferrer">MAIN</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=HTGC" target="_blank" rel="noopener noreferrer">HTGC</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=GBDC" target="_blank" rel="noopener noreferrer">GBDC</a></td><td>Watch relative strength, dividend/NAV pressure, non-accruals, and PIK exposure by name.</td></tr>
           <tr><td>Spillover</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=KRE" target="_blank" rel="noopener noreferrer">KRE</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=SPY" target="_blank" rel="noopener noreferrer">SPY</a></td><td>Regional banks and broad risk appetite show whether private stress stays contained.</td></tr>
+          <tr><td>AI capex loop</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=NASDAQ:SMH" target="_blank" rel="noopener noreferrer">SMH</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=AMEX:XLK" target="_blank" rel="noopener noreferrer">XLK</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=NYSE:ORCL" target="_blank" rel="noopener noreferrer">ORCL</a>, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=NASDAQ:NVDA" target="_blank" rel="noopener noreferrer">NVDA</a>, IPO calendar, secondary offerings, buyback pace</td><td>Tests whether the public equity engine is still funding the narrative or becoming exit liquidity.</td></tr>
         </tbody>
       </table>
 
       <h2 id="confirmation" class="chapter-title chapter-start">6. Confirmation and Invalidation</h2>
-      <h3>Current Read</h3>
-      <p>As of the July 14, 2026 update, the thesis remains live but not fully confirmed. The funding-pressure indicators are still restrictive, while public credit spreads and broad proxy prices have not broken. The right posture is therefore conditional: keep the framework, sharpen the triggers, and avoid pretending that a contained spread market has already delivered confirmation.</p>
       <h3>Scenario Forecasting Aids</h3>
       <p>For a prospectus-style risk section or investment memo, the point is not to pretend that the future is a single line. The point is to translate the conditional thesis into visible paths: what confirmation would look like, what a muddled middle would look like, and what would invalidate the stress case.</p>
       <figure class="chart-figure">
@@ -174,6 +136,25 @@
           <tr><td>Invalidation relief</td><td><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> falls durably, refinancing windows reopen, and BDC proxies recover without a delayed credit-spread break.</td><td>Relief case and thesis invalidation language.</td></tr>
         </tbody>
       </table>
+      <h3>Cross-Confirmation Layer</h3>
+      <p>The private-credit thesis becomes stronger when it stops living inside private credit alone. The cross-confirmation layer asks whether AI capex, public equity supply, and credit markets still reinforce each other, or whether the system is starting to distribute risk to public buyers while funding conditions tighten.</p>
+      <table>
+        <thead>
+          <tr><th>Condition</th><th>Evidence To Watch</th><th>Interpretation</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Financing still works</td><td>AI leaders hold relative strength, buybacks remain active, IPO and secondary supply is absorbed, SOFR eases, and credit spreads stay contained.</td><td>Relief or melt-up condition. The stress thesis stays latent.</td></tr>
+          <tr><td>Distribution risk</td><td>Buybacks slow, IPO and secondary supply rises, AI leaders lose relative strength, and weaker BDCs fail to recover with the index.</td><td>Top-risk condition. Public buyers may be asked to absorb paper while institutions and issuers reduce exposure.</td></tr>
+          <tr><td>Credit break</td><td>SOFR stays sticky or falls only after spreads widen, PIK/non-accruals rise, refinancing windows close, and BDC proxies underperform credit ETFs.</td><td>Confirmation condition. The hidden stress is becoming visible.</td></tr>
+        </tbody>
+      </table>
+      <h3>Actionable Monitoring Behaviors</h3>
+      <ul>
+        <li>Early phase: do not short the narrative because it feels excessive. Require confirmation from rates, credit spreads, and relative strength.</li>
+        <li>Transition phase: reduce exposure to weak recoveries, fragile balance sheets, and high-PIK credit surfaces. Use defined-risk hedges if the memo requires trade expression.</li>
+        <li>Stress phase: separate panic from durable repricing. Require BDC reporting evidence, spread widening, and failed refinancing before treating the move as structural.</li>
+        <li>Relief phase: remove stress hedges when SOFR falls durably, spreads stay contained, refinancing opens, and AI capex validates cash flow instead of only valuation.</li>
+      </ul>
       <h3>Confirmation Path</h3>
       <ul>
         <li><a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> and <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:DFF" target="_blank" rel="noopener noreferrer">Fed funds</a> remain high enough that floating-rate borrowers do not receive meaningful cash-flow relief.</li>
@@ -190,12 +171,30 @@
         <li>Refinancing markets reopen for middle-market borrowers without forcing widespread lender concessions.</li>
       </ul>
 
+      <h2 id="glossary" class="chapter-title chapter-start">Glossary</h2>
+      <dl class="glossary">
+        <dt>SOFR</dt><dd>Secured Overnight Financing Rate. A short-term funding benchmark used in many floating-rate loans.</dd>
+        <dt>Floating-rate debt</dt><dd>Debt with an interest cost that resets as the benchmark rate changes.</dd>
+        <dt>PIK interest</dt><dd>Payment-in-kind interest. Interest that is added to principal instead of paid in cash.</dd>
+        <dt>BDC</dt><dd>Business development company. A public vehicle that lends to or invests in middle-market companies.</dd>
+        <dt>NAV</dt><dd>Net asset value. The reported value of a fund or vehicle after liabilities.</dd>
+        <dt>Non-accrual</dt><dd>A loan status used when the lender no longer expects normal interest collection.</dd>
+        <dt>OAS</dt><dd>Option-adjusted spread. A credit-spread measure that adjusts for embedded options.</dd>
+        <dt>HY and IG</dt><dd>High yield and investment grade credit. HY carries more credit risk; IG carries less credit risk.</dd>
+        <dt>Maturity wall</dt><dd>A period when many debts must be refinanced or repaid.</dd>
+        <dt>AI capex</dt><dd>Capital expenditure tied to AI infrastructure, including chips, data centers, power, networking, cloud, and software.</dd>
+        <dt>Buyback</dt><dd>A company purchase of its own shares. Slower buybacks can remove a source of equity demand.</dd>
+        <dt>Secondary offering</dt><dd>New or existing shares sold after a company is already public.</dd>
+        <dt>Cross-confirmation</dt><dd>Agreement between separate evidence sets. Here, that means rates, credit, BDCs, AI capex, and equity supply pointing in the same direction.</dd>
+      </dl>
+
       <h2 id="closing" class="chapter-title chapter-start chapter-compact">Closing: The Curve Is the Setup</h2>
       <p>The setup is not a single ticker. It is a sequence. If the thesis is real, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:SOFR" target="_blank" rel="noopener noreferrer">SOFR</a> and the curve should describe the pressure, <a class="ticker-link" href="https://www.tradingview.com/chart/?symbol=FRED:BAMLH0A0HYM2" target="_blank" rel="noopener noreferrer">credit spreads</a> should begin to confirm it, BDC proxies should reveal market recognition, and reported private-credit metrics should eventually lose the ability to hide the stress.</p>
-      <p>That is the pamphlet's discipline: track the pressure, wait for confirmation, and respect invalidation. The hidden thing only becomes tradeable when the visible surfaces start to agree. For now, the pressure is visible, but the confirmation is still incomplete.</p>
+      <p>The AI capex layer does not replace the private-credit thesis. It gives the thesis a broader confirmation map. If public equity supply rises while buybacks slow, credit spreads widen, and weaker BDCs fail to recover, then the market is no longer only rewarding the boom. It is starting to price who holds the bag when the funding loop stops working.</p>
+      <p>That is the pamphlet's discipline: track the pressure, wait for confirmation, and respect invalidation. The hidden thing only becomes tradeable when the visible surfaces start to agree.</p>
 
       <footer class="book-footer">
-        Updated July 14, 2026 with FRED observations available through July 10, 2026 and Nasdaq proxy closes through July 13, 2026. Original v1 archived separately. Educational research only; not financial advice.
+        Generated from public FRED and Yahoo Finance chart endpoints on 2026-08-14. Text updated with public Capital Flows source review on 2026-08-14. Educational research only; not financial advice.
       </footer>
     </main>
   </div>

@@ -312,6 +312,30 @@ th {
   text-align: left;
 }
 
+.glossary {
+  display: grid;
+  grid-template-columns: minmax(130px, 0.34fr) minmax(0, 1fr);
+  gap: 0 16px;
+  margin: 22px 0 32px;
+  font: 0.96rem/1.5 system-ui, sans-serif;
+}
+
+.glossary dt,
+.glossary dd {
+  padding: 10px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.glossary dt {
+  color: #293144;
+  font-weight: 750;
+}
+
+.glossary dd {
+  margin: 0;
+  color: var(--muted);
+}
+
 .book-footer {
   margin-top: 46px;
   padding-top: 18px;
@@ -333,6 +357,8 @@ th {
   .cover-title { font-size: clamp(2.25rem, 9cqi, 3.4rem); }
   .cover-lower { margin-top: 18px; padding: 12px; }
   .cover-classification { letter-spacing: 0.16em; }
+  .glossary { grid-template-columns: 1fr; }
+  .glossary dd { padding-top: 0; }
 }
 
 @media print {

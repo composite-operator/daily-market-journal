@@ -155,7 +155,7 @@ function Page-Head($Title, $Prefix) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$(Html $Title)</title>
-  <script src="${Prefix}assets/theme.js?v=1"></script>
+  <script src="${Prefix}assets/theme.js?v=2"></script>
   <link rel="stylesheet" href="${Prefix}assets/style.css?v=24">
   <script src="${Prefix}assets/table-sort.js?v=1" defer></script>
 </head>
@@ -298,7 +298,7 @@ function Build-VaultRedirectPage($RelativePath) {
   <meta http-equiv="refresh" content="0; url=../archive/">
   <link rel="canonical" href="../archive/">
   <title>Complete Month History</title>
-  <script src="../assets/theme.js?v=1"></script>
+  <script src="../assets/theme.js?v=2"></script>
   <link rel="stylesheet" href="../assets/style.css?v=24">
 </head>
 <body>
@@ -363,7 +363,7 @@ $(Site-Nav $prefix 'library')
         </div>
         <p class="clicker-label">Credit Risk</p>
         <h2>The Floating-Rate Fault Line</h2>
-        <p>Private credit risk educational material focused on SOFR, floating-rate debt, BDCs, credit spreads, and the risk curve from funding pressure to public-market repricing. Current version includes the July 2026 progress check; the original v1 is preserved.</p>
+        <p>Private credit risk educational material focused on SOFR, floating-rate debt, BDCs, credit spreads, and the risk curve from funding pressure to public-market repricing. Current version adds a Capital Flows research layer, scenario paths, and a glossary; the original v1 is preserved.</p>
         <div class="link-strip">
           <a class="box-link" href="private_credit_risk_curve_pamphlet.html">Read HTML</a>
           <a class="box-link" href="private_credit_risk_curve_pamphlet.pdf">Open PDF</a>
