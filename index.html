@@ -3,62 +3,51 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Daily Market Journal | Market Desk</title>
-  <meta name="description" content="Composite Operator Market Desk: daily journals, macro journals, tracking snapshots, and monthly history.">
-  <link rel="stylesheet" href="assets/style.css?v=16">
-  <script src="assets/table-sort.js?v=1" defer></script>
+  <title>Market Desk | Composite Operator</title>
+  <meta name="description" content="Composite Operator Market Desk: daily journals, Macro Lens research, pamphlets, tracking snapshots, and archive.">
+  <link rel="stylesheet" href="assets/style.css?v=18">
+  <script src="./assets/table-sort.js?v=1" defer></script>
 </head>
 <body>
-  <nav class="site-nav" aria-label="Market Desk sections">
-    <strong>Market Desk</strong>
-    <div>
-      <a href="https://ximxesabortion.github.io/">Hub</a>
-      <a href="posts/">Daily Journal</a>
-      <a href="macro/">Macro Journal</a>
-      <a href="snapshots/">Snapshots</a>
-      <a href="archive/">Monthly History</a>
-    </div>
-  </nav>
+  <nav class="top-nav" aria-label="Market Desk navigation"><a href="https://ximxesabortion.github.io/">Hub</a><a href="https://ximxesabortion.github.io/daily-market-journal/posts/">Daily Journal</a><a href="https://ximxesabortion.github.io/daily-market-journal/macro/">Macro Lens</a><a href="https://ximxesabortion.github.io/daily-market-journal/library/">Pamphlets</a><a href="https://ximxesabortion.github.io/daily-market-journal/snapshots/">Snapshots</a><a href="https://ximxesabortion.github.io/daily-market-journal/archive/">Archive</a></nav>
+  <div class="topline">
+    <header>
+      <p class="eyebrow">Composite Operator / Market Desk</p>
+      <h1>Market Desk</h1>
+      <p class="dek">Daily journals, Macro Lens research, pamphlets, tracking snapshots, and the complete archive.</p>
+    </header>
+  </div>
   <main>
-    <div class="hub-hero">
-      <div class="hero-panel">
-        <p class="eyebrow">Composite Operator / Market Desk</p>
-        <h1 class="hub-title">Daily Market Journal</h1>
-        <p class="hub-dek">Daily market journals, macro journals, tracking snapshots, and the complete monthly history.</p>
+    <section class="desk-section">
+      <h2>Market Desk</h2>
+      <div class="grid desk-grid">
+        <a class="desk-card daily" href="posts/">
+          <span class="desk-card-label">Session Notes</span>
+          <strong>Daily Journal</strong>
+          <span class="desk-card-meta">Dated market reads, setup changes, and risk posture</span>
+        </a>
+        <a class="desk-card macro-lens" href="macro/">
+          <span class="desk-card-label">Research Lane</span>
+          <strong>Macro Lens</strong>
+          <span class="desk-card-meta">Regime, liquidity, and cross-asset synthesis</span>
+        </a>
+        <a class="desk-card pamphlets" href="library/">
+          <span class="desk-card-label">Published Material</span>
+          <strong>Pamphlets</strong>
+          <span class="desk-card-meta">Macro manuals and focused research publications</span>
+        </a>
+        <a class="desk-card snapshots" href="snapshots/">
+          <span class="desk-card-label">Board State</span>
+          <strong>Tracking Snapshots</strong>
+          <span class="desk-card-meta">Dated watchlist and active-trade board states</span>
+        </a>
+        <a class="desk-card archive-card" href="archive/">
+          <span class="desk-card-label">History</span>
+          <strong>Archive</strong>
+          <span class="desk-card-meta">All entries organized by month and session</span>
+        </a>
       </div>
-      <aside class="latest-panel" aria-label="Latest market packet">
-        <p class="eyebrow">Latest Market Packet</p>
-        <span class="date">2026-08-12</span>
-        <div class="link-strip">
-          <a class="box-link" href="posts/2026-08-12.html">Daily Journal</a>
-          <a class="box-link" href="macro/posts/2026-08-12.html">Macro Journal</a>
-          <a class="box-link" href="snapshots/2026-08-12.html">Snapshot</a>
-        </div>
-      </aside>
-    </div>
-
-    <div class="quick-grid" aria-label="Market Desk sections">
-      <a class="clicker-card public" href="posts/">
-        <span class="clicker-label">Market Notes</span>
-        <span class="clicker-value">Daily Journal</span>
-        <span class="clicker-meta">Dated market reads, setup changes, and risk posture</span>
-      </a>
-      <a class="clicker-card macro" href="macro/">
-        <span class="clicker-label">Macro Lens</span>
-        <span class="clicker-value">Macro Journal</span>
-        <span class="clicker-meta">Regime, liquidity, and cross-asset synthesis</span>
-      </a>
-      <a class="clicker-card snapshot" href="snapshots/">
-        <span class="clicker-label">Board State</span>
-        <span class="clicker-value">Tracking Snapshots</span>
-        <span class="clicker-meta">Dated watchlist and active-trade board states</span>
-      </a>
-      <a class="clicker-card archive" href="archive/">
-        <span class="clicker-label">Archive</span>
-        <span class="clicker-value">Monthly History</span>
-        <span class="clicker-meta">All entries organized by month and session</span>
-      </a>
-    </div>
+    </section>
   </main>
   <footer>Static market archive. Not financial advice.</footer>
 </body>
