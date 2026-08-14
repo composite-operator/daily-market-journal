@@ -156,7 +156,7 @@ function Page-Head($Title, $Prefix) {
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$(Html $Title)</title>
   <script src="${Prefix}assets/theme.js?v=1"></script>
-  <link rel="stylesheet" href="${Prefix}assets/style.css?v=23">
+  <link rel="stylesheet" href="${Prefix}assets/style.css?v=24">
   <script src="${Prefix}assets/table-sort.js?v=1" defer></script>
 </head>
 "@
@@ -299,7 +299,7 @@ function Build-VaultRedirectPage($RelativePath) {
   <link rel="canonical" href="../archive/">
   <title>Complete Month History</title>
   <script src="../assets/theme.js?v=1"></script>
-  <link rel="stylesheet" href="../assets/style.css?v=23">
+  <link rel="stylesheet" href="../assets/style.css?v=24">
 </head>
 <body>
 $(Site-Nav $prefix 'archive')

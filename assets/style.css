@@ -699,6 +699,82 @@ a:hover {
   font-size: 11px;
   font-style: italic;
 }
+.hub-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.7fr) minmax(260px, 0.75fr);
+  gap: 18px;
+  margin: 0 0 18px;
+}
+.hero-panel,
+.latest-panel {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 24px;
+  background: var(--panel);
+}
+.hub-title {
+  margin: 0 0 10px;
+  font-size: 42px;
+  line-height: 1.08;
+}
+.hub-dek {
+  max-width: 760px;
+  margin: 0;
+  color: var(--muted);
+  font-size: 16px;
+}
+.latest-panel .date {
+  display: block;
+  margin: 0 0 12px;
+  color: var(--navy);
+  font-size: 28px;
+  font-weight: 800;
+  line-height: 1.1;
+}
+.quick-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+  margin: 0 0 18px;
+}
+.clicker-card {
+  display: grid;
+  min-height: 142px;
+  align-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-top: 5px solid #98a2b3;
+  border-radius: 8px;
+  padding: 16px;
+  color: var(--ink);
+  background: var(--panel);
+  text-decoration: none;
+}
+.clicker-card:hover {
+  border-color: var(--accent);
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 20px rgba(24, 34, 48, 0.12);
+}
+.clicker-card .clicker-label {
+  margin: 0;
+}
+.clicker-value {
+  color: var(--navy);
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 1.08;
+}
+.clicker-meta {
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 700;
+}
+.clicker-card.public { border-top-color: #2970ff; }
+.clicker-card.macro { border-top-color: var(--accent); }
+.clicker-card.library { border-top-color: var(--rust); }
+.clicker-card.snapshot { border-top-color: #7f56d9; }
+.clicker-card.archive { border-top-color: var(--gold); }
 .clicker-label {
   margin: 14px 0 6px;
   color: var(--gold);
@@ -943,4 +1019,7 @@ footer {
   .month-entry { flex-direction: column; }
   .month-box > summary { align-items: flex-start; }
   .library-cover { width: min(100%, 300px); }
+  .hub-hero { grid-template-columns: 1fr; }
+  .hero-panel, .latest-panel { padding: 18px; }
+  .hub-title { font-size: 32px; }
 }
