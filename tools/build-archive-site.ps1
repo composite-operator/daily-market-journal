@@ -176,7 +176,7 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 0) {
     $monthDates = @($month.Group | Sort-Object -Descending)
     $materialCount = 0
     foreach ($date in $monthDates) {
-      foreach ($lane in @('Posts', 'Macro', 'Snapshots', 'Private')) {
+      foreach ($lane in @('Posts', 'Macro', 'Snapshots')) {
         if ($Collections.$lane[$date]) { $materialCount++ }
       }
     }
@@ -184,7 +184,6 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 0) {
       $post = $Collections.Posts[$date]
       $macro = $Collections.Macro[$date]
       $snapshot = $Collections.Snapshots[$date]
-      $private = $Collections.Private[$date]
       $title = if ($post) { $post.Title } elseif ($macro) { $macro.Title } else { 'Archive Packet' }
       @"
         <div class="month-entry">
@@ -197,7 +196,6 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 0) {
             $(Link-OrMissing $post $Prefix 'Daily Journal' 'public')
             $(Link-OrMissing $macro $Prefix 'Macro Lens' 'macro')
             $(Link-OrMissing $snapshot $Prefix 'Snapshot' 'snapshot')
-            $(if ($private) { Link-OrMissing $private $Prefix 'Legacy Private' 'private' })
           </div>
         </div>
 "@
@@ -421,9 +419,6 @@ function Repair-LegacyLinks($Path, $Folder) {
   if ($Folder -eq 'vault') {
     $html = $html -replace '>Journal Index</a>', '>Vault Index</a>'
   }
-  if ($Folder -eq 'private') {
-    $html = $html -replace 'href="\.\./">Private Index</a>', 'href="index.html">Private Index</a>'
-  }
   [System.IO.File]::WriteAllText($Path, $html.TrimEnd() + "`r`n", $Utf8NoBom)
 }
 
@@ -441,22 +436,19 @@ $posts = Get-DatedFiles 'posts' 'post' 'Daily Market Journal' 'posts.json' 'post
 $macro = Get-DatedFiles 'macro/posts' 'macro' 'Macro Lens' 'macro/posts.json' 'posts'
 $vault = Get-DatedFiles 'vault' 'vault' 'Encrypted Vault Entry'
 $snapshots = Get-DatedFiles 'snapshots' 'snapshot' 'Tracking Snapshot'
-$private = Get-DatedFiles 'private' 'private' 'Legacy Private Entry'
 
 $collections = [pscustomobject]@{
   Posts = @{}
   Macro = @{}
   Vault = @{}
   Snapshots = @{}
-  Private = @{}
 }
 foreach ($entry in $posts) { $collections.Posts[$entry.Date] = $entry }
 foreach ($entry in $macro) { $collections.Macro[$entry.Date] = $entry }
 foreach ($entry in $vault) { $collections.Vault[$entry.Date] = $entry }
 foreach ($entry in $snapshots) { $collections.Snapshots[$entry.Date] = $entry }
-foreach ($entry in $private) { $collections.Private[$entry.Date] = $entry }
 
-$allDates = @($posts.Date + $macro.Date + $snapshots.Date + $private.Date | Sort-Object -Unique)
+$allDates = @($posts.Date + $macro.Date + $snapshots.Date | Sort-Object -Unique)
 $latestDate = @($allDates | Sort-Object)[-1]
 $oldestDate = @($allDates | Sort-Object)[0]
 $latestPost = $collections.Posts[$latestDate]
@@ -546,7 +538,7 @@ $(Site-Nav '../' 'archive')
     <header>
       <p class="eyebrow">Nested History</p>
       <h1>Complete Month History</h1>
-      <p class="dek">Month boxes for every dated item currently in the site: Daily Journal, Macro Lens, snapshots, and legacy private entries.</p>
+      <p class="dek">Month boxes for every dated Daily Journal, Macro Lens, and tracking snapshot.</p>
     </header>
   </div>
   <main>
@@ -573,9 +565,6 @@ Build-CollectionPage 'posts/index.html' 'Daily Journal' 'Private desk journal en
 Build-CollectionPage 'macro/index.html' 'Macro Lens' 'Public-safe macro-flow synthesis entries, grouped by month from the full historical backlog.' 'macro' $macro 'posts/' 'Macro Lane'
 Build-CollectionPage 'snapshots/index.html' 'Tracking Snapshots' 'Cleaned static board snapshots generated from the tracking sheet, grouped by month.' 'snapshots' $snapshots '' 'Snapshot Lane'
 Build-VaultRedirectPage 'vault/index.html'
-if ($private.Count -gt 0) {
-  Build-CollectionPage 'private/index.html' 'Legacy Private Archive' 'Older encrypted private entries retained for continuity.' 'archive' $private '' 'Legacy Lane'
-}
 Build-LibraryPage 'library/index.html'
 Build-LibraryPage 'library/educational_materials.html'
 
@@ -672,10 +661,6 @@ for ($i = 0; $i -lt $sortedSnapshots.Count; $i++) {
 
 foreach ($entry in $vault) {
   Repair-LegacyLinks (Join-Path $SiteRoot $entry.Href) 'vault'
-}
-
-foreach ($entry in $private) {
-  Repair-LegacyLinks (Join-Path $SiteRoot $entry.Href) 'private'
 }
 
 Repair-LibraryLinks
