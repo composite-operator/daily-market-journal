@@ -126,7 +126,7 @@ function Get-DatedFiles($Folder, $Kind, $DefaultTitle, $ManifestPath = $null, $M
 
 function Site-Nav($Prefix, $Current) {
   $items = @(
-    @{ Key = 'operator'; Label = 'Hub'; Href = 'https://ximxesabortion.github.io/' },
+    @{ Key = 'operator'; Label = 'Homepage'; Href = 'https://ximxesabortion.github.io/' },
     @{ Key = 'posts'; Label = 'Daily Journal'; Href = $script:NavDailyHref },
     @{ Key = 'macro'; Label = 'Macro Lens'; Href = $script:NavMacroHref },
     @{ Key = 'snapshots'; Label = 'Snapshots'; Href = $script:NavSnapshotHref },
@@ -417,7 +417,7 @@ function Repair-LegacyLinks($Path, $Folder) {
   $html = [System.IO.File]::ReadAllText($Path)
   $html = $html -replace 'href="\.\./\.\./"', 'href="../index.html"'
   $html = $html -replace '<a href="https://ximxesabortion\.github\.io/">Main Home</a>', '<a href="../archive/">History</a>'
-  $html = $html -replace '>Site Home</a>', '>Hub</a>'
+  $html = $html -replace '>Site Home</a>', '>Homepage</a>'
   if ($Folder -eq 'vault') {
     $html = $html -replace '>Journal Index</a>', '>Vault Index</a>'
   }
@@ -601,7 +601,7 @@ $sortedPosts = @($posts | Sort-Object Date)
 for ($i = 0; $i -lt $sortedPosts.Count; $i++) {
   $entry = $sortedPosts[$i]
   $links = @(
-    '<a href="../index.html">Hub</a>',
+    '<a href="../index.html">Homepage</a>',
     '<a href="../posts/">Daily Journal</a>'
   )
   if ($i -gt 0) { $links += "<a href=""../posts/$($sortedPosts[$i - 1].File)"">Previous: $($sortedPosts[$i - 1].Date)</a>" }
@@ -618,7 +618,7 @@ $sortedMacro = @($macro | Sort-Object Date)
 for ($i = 0; $i -lt $sortedMacro.Count; $i++) {
   $entry = $sortedMacro[$i]
   $links = @(
-    '<a href="../../index.html">Hub</a>',
+    '<a href="../../index.html">Homepage</a>',
     '<a href="../">Macro Lens</a>',
     '<a href="../research-rules.html">Research Rules</a>'
   )
@@ -633,7 +633,7 @@ for ($i = 0; $i -lt $sortedMacro.Count; $i++) {
 
 $macroRulesPath = Join-Path $SiteRoot 'macro/research-rules.html'
 if (Test-Path -LiteralPath $macroRulesPath) {
-  $rulesNav = '<nav class="top-nav"><span class="brand-mark">Composite Operator</span><a href="../index.html">Hub</a><a href="index.html">Macro Lens</a><a href="research-rules.html">Research Rules</a><a href="../library/">Pamphlets</a></nav>'
+  $rulesNav = '<nav class="top-nav"><span class="brand-mark">Composite Operator</span><a href="../index.html">Homepage</a><a href="index.html">Macro Lens</a><a href="research-rules.html">Research Rules</a><a href="../library/">Pamphlets</a></nav>'
   Replace-Nav $macroRulesPath $rulesNav
 }
 
@@ -641,7 +641,7 @@ $sortedVault = @($vault | Sort-Object Date)
 for ($i = 0; $i -lt $sortedVault.Count; $i++) {
   $entry = $sortedVault[$i]
   $links = @(
-    '<a href="../index.html">Hub</a>',
+    '<a href="../index.html">Homepage</a>',
     '<a href="../vault/">Vault</a>'
   )
   if ($i -gt 0) { $links += "<a href=""../vault/$($sortedVault[$i - 1].File)"">Previous: $($sortedVault[$i - 1].Date)</a>" }
@@ -658,7 +658,7 @@ $sortedSnapshots = @($snapshots | Sort-Object Date)
 for ($i = 0; $i -lt $sortedSnapshots.Count; $i++) {
   $entry = $sortedSnapshots[$i]
   $links = @(
-    '<a href="../index.html">Hub</a>',
+    '<a href="../index.html">Homepage</a>',
     '<a href="../snapshots/">Snapshots</a>'
   )
   if ($i -gt 0) { $links += "<a href=""../snapshots/$($sortedSnapshots[$i - 1].File)"">Previous: $($sortedSnapshots[$i - 1].Date)</a>" }
