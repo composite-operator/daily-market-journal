@@ -920,17 +920,6 @@ footer {
   color: #dce6f2;
   background: #394554;
 }
-@media (prefers-reduced-motion: no-preference) {
-  body,
-  .topline,
-  section,
-  th,
-  .top-nav,
-  .entry-nav,
-  .theme-toggle {
-    transition: color 140ms ease, background-color 140ms ease, border-color 140ms ease;
-  }
-}
 @media (max-width: 760px) {
   .top-nav { padding: 8px 14px; overflow-x: auto; scrollbar-width: none; }
   .top-nav::-webkit-scrollbar { display: none; }
