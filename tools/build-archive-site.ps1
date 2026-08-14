@@ -3,6 +3,9 @@ $ErrorActionPreference = 'Stop'
 
 $SiteRoot = (Resolve-Path (Join-Path $PSScriptRoot '..')).Path
 $Utf8NoBom = [System.Text.UTF8Encoding]::new($false)
+$script:NavDailyHref = 'https://ximxesabortion.github.io/daily-market-journal/posts/'
+$script:NavMacroHref = 'https://ximxesabortion.github.io/daily-market-journal/macro/'
+$script:NavSnapshotHref = 'https://ximxesabortion.github.io/daily-market-journal/snapshots/'
 
 function Html($Value) {
   return [System.Net.WebUtility]::HtmlEncode([string]$Value)
@@ -123,18 +126,16 @@ function Get-DatedFiles($Folder, $Kind, $DefaultTitle, $ManifestPath = $null, $M
 
 function Site-Nav($Prefix, $Current) {
   $items = @(
-    @{ Key = 'operator'; Label = 'Composite Operator'; Href = 'https://ximxesabortion.github.io/' },
-    @{ Key = 'archive'; Label = 'History'; Href = "${Prefix}archive/" },
-    @{ Key = 'posts'; Label = 'Daily Journal'; Href = "${Prefix}posts/" },
-    @{ Key = 'macro'; Label = 'Macro Lens'; Href = "${Prefix}macro/" },
-    @{ Key = 'library'; Label = 'Pamphlets'; Href = "${Prefix}library/" },
-    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = "${Prefix}snapshots/" },
-    @{ Key = 'substack'; Label = 'Substack'; Href = 'https://substack.com/@compositeoperator' }
+    @{ Key = 'operator'; Label = 'Hub'; Href = 'https://ximxesabortion.github.io/' },
+    @{ Key = 'posts'; Label = 'Daily Journal'; Href = $script:NavDailyHref },
+    @{ Key = 'macro'; Label = 'Macro Lens'; Href = $script:NavMacroHref },
+    @{ Key = 'snapshots'; Label = 'Snapshots'; Href = $script:NavSnapshotHref },
+    @{ Key = 'archive'; Label = 'Archive'; Href = 'https://ximxesabortion.github.io/daily-market-journal/archive/' },
+    @{ Key = 'library'; Label = 'Pamphlets'; Href = 'https://ximxesabortion.github.io/daily-market-journal/library/' }
   )
   $links = $items | ForEach-Object {
     $currentAttr = if ($_.Key -eq $Current) { ' aria-current="page"' } else { '' }
-    $externalAttr = if ($_.Key -eq 'substack') { ' target="_blank" rel="noopener"' } else { '' }
-    "<a href=""$($_.Href)""$currentAttr$externalAttr>$($_.Label)</a>"
+    "<a href=""$($_.Href)""$currentAttr>$($_.Label)</a>"
   }
   return @"
   <nav class="site-nav" aria-label="Site sections">
@@ -154,7 +155,7 @@ function Page-Head($Title, $Prefix) {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$(Html $Title)</title>
-  <link rel="stylesheet" href="${Prefix}assets/style.css?v=15">
+  <link rel="stylesheet" href="${Prefix}assets/style.css?v=21">
   <script src="${Prefix}assets/table-sort.js?v=1" defer></script>
 </head>
 "@
@@ -167,7 +168,7 @@ function Link-OrMissing($Entry, $Prefix, $Label, $Class) {
   return "<span class=""archive-link missing"">$Label</span>"
 }
 
-function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
+function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 0) {
   $months = $Dates | Group-Object { Month-Key $_ } | Sort-Object Name -Descending
   $monthIndex = 0
   $html = foreach ($month in $months) {
@@ -188,7 +189,7 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
       @"
         <div class="month-entry">
           <div class="entry-main">
-            <strong>$(Short-Date $date)</strong>
+            <span class="entry-date">$(Short-Date $date)</span>
             <span>$(Weekday $date)</span>
             <em>$(Html $title)</em>
           </div>
@@ -201,7 +202,7 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
         </div>
 "@
     }
-    $openAttr = if ($monthIndex -le $OpenCount) { ' open' } else { '' }
+    $openAttr = if ($OpenCount -gt 0 -and $monthIndex -le $OpenCount) { ' open' } else { '' }
     @"
       <details class="month-box"$openAttr>
         <summary>
@@ -217,7 +218,7 @@ function Build-MonthGroups($Dates, $Prefix, $Collections, $OpenCount = 2) {
   return ($html -join "`r`n")
 }
 
-function Build-CollectionMonthBoxes($Entries, $LinkPrefix, $OpenCount = 2) {
+function Build-CollectionMonthBoxes($Entries, $LinkPrefix, $OpenCount = 0) {
   $months = $Entries | Group-Object { Month-Key $_.Date } | Sort-Object Name -Descending
   $monthIndex = 0
   $html = foreach ($month in $months) {
@@ -227,7 +228,7 @@ function Build-CollectionMonthBoxes($Entries, $LinkPrefix, $OpenCount = 2) {
       @"
         <div class="month-entry collection-entry">
           <div class="entry-main">
-            <strong>$(Short-Date $entry.Date)</strong>
+            <span class="entry-date">$(Short-Date $entry.Date)</span>
             <span>$(Weekday $entry.Date)</span>
             <em>$(Html $entry.Title)</em>
           </div>
@@ -237,7 +238,7 @@ function Build-CollectionMonthBoxes($Entries, $LinkPrefix, $OpenCount = 2) {
         </div>
 "@
     }
-    $openAttr = if ($monthIndex -le $OpenCount) { ' open' } else { '' }
+    $openAttr = if ($OpenCount -gt 0 -and $monthIndex -le $OpenCount) { ' open' } else { '' }
     @"
       <details class="month-box"$openAttr>
         <summary>
@@ -461,6 +462,9 @@ $oldestDate = @($allDates | Sort-Object)[0]
 $latestPost = $collections.Posts[$latestDate]
 $latestMacro = $collections.Macro[$latestDate]
 $latestSnapshot = $collections.Snapshots[$latestDate]
+if ($latestPost) { $script:NavDailyHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestPost.Href)" }
+if ($latestMacro) { $script:NavMacroHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestMacro.Href)" }
+if ($latestSnapshot) { $script:NavSnapshotHref = "https://ximxesabortion.github.io/daily-market-journal/$($latestSnapshot.Href)" }
 
 $latestLinks = @()
 if ($latestPost) { $latestLinks += "<a class=""box-link"" href=""$($latestPost.Href)"">Daily Journal</a>" }
@@ -525,7 +529,7 @@ $(Site-Nav '' '')
       <p class="resource-note">Open a month to reveal the entries inside it. Each date shows whichever lanes exist for that session.</p>
     </section>
     <div class="archive-shell">
-      $(Build-MonthGroups $allDates '' $collections 2)
+      $(Build-MonthGroups $allDates '' $collections 0)
     </div>
   </main>
   <footer>Static archive. Not financial advice.</footer>
@@ -556,7 +560,7 @@ $(Site-Nav '../' 'archive')
       </div>
     </section>
     <div class="archive-shell">
-      $(Build-MonthGroups $allDates '../' $collections 4)
+      $(Build-MonthGroups $allDates '../' $collections 0)
     </div>
   </main>
   <footer>Static archive. Not financial advice.</footer>

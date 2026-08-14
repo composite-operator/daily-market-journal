@@ -46,6 +46,12 @@ h1 {
   font-size: 34px;
   line-height: 1.12;
 }
+.post-date {
+  margin: 0 0 10px;
+  color: var(--gold);
+  font-size: 14px;
+  font-weight: 800;
+}
 .dek {
   max-width: 840px;
   margin: 0;
@@ -519,6 +525,173 @@ a:hover {
 .post-list li:last-child {
   border-bottom: 0;
 }
+.pill {
+  display: inline-block;
+  border-radius: 999px;
+  padding: 5px 10px;
+  color: var(--accent);
+  background: var(--accent-soft);
+  font-size: 12px;
+  font-weight: 800;
+}
+.archive-shell {
+  display: grid;
+  gap: 12px;
+}
+.month-box {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--panel);
+}
+.month-box > summary {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: baseline;
+  padding: 14px 16px;
+  cursor: pointer;
+  list-style-position: inside;
+}
+.month-box > summary span {
+  font-size: 18px;
+  font-weight: 800;
+}
+.month-box > summary small {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 700;
+}
+.month-body {
+  border-top: 1px solid var(--line);
+}
+.month-entry {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 11px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.month-entry:last-child {
+  border-bottom: 0;
+}
+.entry-main,
+.entry-actions,
+.link-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: baseline;
+}
+.entry-date {
+  font-weight: 400;
+}
+.entry-main span,
+.entry-main em {
+  color: var(--muted);
+}
+.archive-link,
+.box-link {
+  display: inline-block;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 3px 8px;
+  background: #ffffff;
+  font-size: 12px;
+  font-weight: 800;
+}
+.archive-link.missing {
+  color: #98a2b3;
+  background: #f2f4f7;
+}
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 18px;
+}
+.library-card {
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 18px;
+  background: var(--panel);
+}
+.library-cover {
+  display: block;
+  width: min(100%, 360px);
+  aspect-ratio: 2 / 3;
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  object-fit: contain;
+  background: #f2f4f7;
+}
+.private-credit-title-thumb {
+  position: relative;
+  isolation: isolate;
+}
+.private-credit-title-thumb > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.private-credit-title-thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  background:
+    linear-gradient(180deg, rgba(251, 250, 247, 0.94) 0%, rgba(251, 250, 247, 0.68) 45%, rgba(251, 250, 247, 0.14) 72%),
+    radial-gradient(circle at 50% 42%, rgba(255, 253, 247, 0.58), transparent 44%);
+}
+.private-credit-title-copy {
+  position: absolute;
+  inset: 9% 8%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: var(--navy);
+  text-align: center;
+}
+.private-credit-title-copy p {
+  margin: 0;
+}
+.mini-cover-imprint {
+  color: #af4c23;
+  font-size: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.mini-cover-the {
+  margin-top: 12% !important;
+  font-family: Georgia, serif;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.mini-cover-title {
+  margin-top: 3% !important;
+  font-family: Georgia, serif;
+  font-size: clamp(28px, 4vw, 44px);
+  line-height: 0.95;
+  text-transform: uppercase;
+}
+.mini-cover-subtitle {
+  margin-top: auto !important;
+  padding: 10px 12px;
+  border: 1px solid rgba(179, 138, 58, 0.5);
+  background: rgba(251, 250, 247, 0.88);
+  font-size: 11px;
+  font-style: italic;
+}
+.clicker-label {
+  margin: 14px 0 6px;
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
 footer {
   padding: 10px 24px 34px;
   color: var(--muted);
@@ -605,4 +778,14 @@ footer {
   .table-wrap { overflow-x: auto; }
   table { font-size: 13px; }
   th, td { padding: 8px; }
+  section > table,
+  main.book > table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+  .month-entry { flex-direction: column; }
+  .month-box > summary { align-items: flex-start; }
+  .library-cover { width: min(100%, 300px); }
 }
