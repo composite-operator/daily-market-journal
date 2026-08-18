@@ -22,7 +22,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "6f6e48dd9a54fee6d67088823b49febacc91ad45fa2ffdfb9dd4022f4e14711a"
+      "sha256": "e7b900e2941ca771e8968d7f601e555451d08a816726939a57c3609961edbfad"
     },
     {
       "path": "library/assets/figures/bitcoin_vs_m2.png",
@@ -198,11 +198,11 @@
     },
     {
       "path": "macro/index.html",
-      "sha256": "09dfea7c8d3db30f2345dd3aaa19180418a94652475c21b0310b3f2749b44c59"
+      "sha256": "f75d7f46cdc8b88de682e4e9185ac2d83a1dc8ed77f6920542178abf706252b6"
     },
     {
       "path": "macro/posts.json",
-      "sha256": "3955243ea736b26683acdb021c98371057a12b7dd1f1a6f062dbb7d2bfbe38ee"
+      "sha256": "12e61c75ec1ac6f91a58d81e3be07008fe1af594c1646567b223df09db49e100"
     },
     {
       "path": "macro/posts/2023-03-16-dollar-and-volatility-keep-risk-defensive.html",
@@ -833,12 +833,16 @@
       "sha256": "e31eb832df2a0f1ef23af322a102e0230e41eec18998a7e76c24f4c23109f0b8"
     },
     {
+      "path": "macro/posts/2026-08-17.html",
+      "sha256": "07687db634df7f174c420b1799e189fd0df1539290b301ba60ade357a821db7f"
+    },
+    {
       "path": "macro/research-rules.html",
-      "sha256": "4ea30a11a4a9e61d51cf6d2c42eb0a89389569046e6e6a076e663f4c2792ce59"
+      "sha256": "09e2dde10f5772598b9c74dbf245db8606ffcfbd5b0c41ea9315a7daf32f3e26"
     },
     {
       "path": "macro/research-rules.json",
-      "sha256": "99400a41dba78b521bd6d0d0068d30a34b6cee5ce9ef3c0e272b650ac55c7722"
+      "sha256": "9f1d9f30263361841d995d4d725924a6171efec9a6a36ef9db7bc5d4139c80d9"
     },
     {
       "path": "posts.json",
@@ -1049,6 +1053,10 @@
       "sha256": "68fae82976a7ff4ece83886416311fe3fd4421e287150f7bbc54fc1cdc158a54"
     },
     {
+      "path": "posts/2026-08-17.html",
+      "sha256": "e88d31434f2851f74c42d7a5e3b79a9bd260d9a4184e7340a0d135779a1ee6e9"
+    },
+    {
       "path": "posts/index.html",
       "sha256": "7f2f1017aa7a2a51983dbb1e33eb0faca4efb0d9fb02dbc900763d3885c31cbe"
     },
@@ -1251,6 +1259,10 @@
     {
       "path": "snapshots/2026-08-14.html",
       "sha256": "cf6e03d92aa9c0a92df0571dc72e18ed85bd9d7bddf5d7fdedd0baf70042e764"
+    },
+    {
+      "path": "snapshots/2026-08-17.html",
+      "sha256": "8aedea815033f18bcb93043940d6511cda1c624ac8a8573d5fe3142ed17603e8"
     },
     {
       "path": "snapshots/index.html",
