@@ -22,7 +22,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "8e607b27ffd61c6d8332292729c1386160430d30087da48562939449e029035a"
+      "sha256": "cd56ccd74b6c2aee5effb9868f69b9010ffc160b2c639bd6632336827083a9fa"
     },
     {
       "path": "library/assets/figures/bitcoin_vs_m2.png",
@@ -198,7 +198,7 @@
     },
     {
       "path": "macro/index.html",
-      "sha256": "9becd21979e0515340a810693aab13eb4df77b4d27f2850f545a6be386d42914"
+      "sha256": "54967a93824d31ce97fa9cd8b02e7804d59e607fa00fa116011436c9182d6d87"
     },
     {
       "path": "macro/posts.json",
@@ -838,11 +838,11 @@
     },
     {
       "path": "macro/posts/2026-08-18.html",
-      "sha256": "293a366a877e0b7cabc8e846843086ccd2de19f53e39b5902f7c37207db47af1"
+      "sha256": "c4cbaec2ff4acaa07583d831db476f3f7cd1d70472fcb5cfaa99c80fee6c5809"
     },
     {
       "path": "macro/research-rules.html",
-      "sha256": "1f1cd48b5ba83222d348033658ab36748ec9e445fae3f2ba374bf1fb365a99b6"
+      "sha256": "cfe813be43454a7bc381c4c8ab392270c03c485403775c2cb6fffd4e498da2ff"
     },
     {
       "path": "macro/research-rules.json",
@@ -1062,7 +1062,7 @@
     },
     {
       "path": "posts/2026-08-18.html",
-      "sha256": "c34fc6294ffc4ff5b6abf61973d82097aae144be0b72a59997550e473912eee6"
+      "sha256": "342daddbb3a531fe8d639e8fb784a6ced9902117cd47609dc5b8a5f994d433a6"
     },
     {
       "path": "posts/index.html",
@@ -1274,7 +1274,7 @@
     },
     {
       "path": "snapshots/2026-08-18.html",
-      "sha256": "f103b4461611024295b1fe3347d809e6c52dc3cc5bc97da0bf7620e80e985d8a"
+      "sha256": "aeb6d887b8af785dcb8777be8c360cc96b5c13b20309348d6823ebeadfcfa107"
     },
     {
       "path": "snapshots/index.html",
