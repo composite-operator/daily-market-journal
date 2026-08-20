@@ -6,7 +6,7 @@
     },
     {
       "path": "archive/index.html",
-      "sha256": "2254e2529b447986475a22f3a64d40e8214581c8ae4a4355e400dd85266d3edf"
+      "sha256": "57729880fdd4d6f550746f1a8b188e00bc56e424341173ee4da8d5db2c1c9654"
     },
     {
       "path": "assets/style.css",
@@ -198,7 +198,7 @@
     },
     {
       "path": "macro/index.html",
-      "sha256": "c19647daa4ab78ac60515cb7a3d6155522df728f7c8ff73e87d768e744c472a5"
+      "sha256": "92c3f83f7f01dd558d5a69e10222d02b587c7a8c1f0f61b83e6e1f6140f9c17c"
     },
     {
       "path": "macro/posts.json",
@@ -1074,7 +1074,7 @@
     },
     {
       "path": "posts/index.html",
-      "sha256": "b3d4ad223c814ad498062fcbbc0abe3f1b4567a6da893baae1caa4ffc13934cb"
+      "sha256": "a795fadc13b7a7c74effa2095b77f3770fc3918be818be0c6691d4e522024211"
     },
     {
       "path": "snapshots/2026-06-03.html",
@@ -1290,7 +1290,7 @@
     },
     {
       "path": "snapshots/index.html",
-      "sha256": "0878b82c31f30e7faf64aebf686db562fca698af3536d830c719cf845479546a"
+      "sha256": "de974643cd10bb656ae35ae3484de0d0f2e5d6210b3b5c33281f3524e7fde66f"
     }
   ],
   "profile": "market-desk",
