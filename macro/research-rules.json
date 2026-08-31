@@ -2409,5 +2409,23 @@
       "When higher-degree corrections dominate the tape, reduce turnover and require defined risk areas aligned with the larger cycle.",
       "Do not convert a spoken status conflict or ambiguous ticker into a ledger mutation without authoritative confirmation."
     ]
+  },
+  {
+    "date": "2026-08-28",
+    "display_date": "Dated 2026-08-28",
+    "title": "Jackson Hole Reprices the Commodity Frontier",
+    "href": "posts/2026-08-28.html",
+    "rules": [
+      "Separate observed market response from the policy forecast used to explain it.",
+      "A regime claim requires propagation through multiple independent channels, not one asset or headline.",
+      "Treat cross-market non-confirmation as evidence. Real estate and regional-bank resilience currently weaken the strongest tightening thesis.",
+      "Use an event reaction to define pivots and invalidation. Do not treat the first reaction as a complete long-cycle verdict.",
+      "Weather, crop-failure, food-shortage, reserve, and shipping claims require independent data before they enter the core thesis.",
+      "Historical concentration analogies explain mechanics; they do not prove timing or magnitude.",
+      "Calendar tendencies can frame a scenario but cannot authorize an entry.",
+      "When a watch board has duplicate symbols with conflicting levels, fail the data-quality gate and block automation.",
+      "When narrative status conflicts with the ledger, retain the ledger and mark the item Needs Review.",
+      "Visual-only levels are research references unless a precise number and workflow instruction are confirmed."
+    ]
   }
 ]
