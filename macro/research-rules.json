@@ -2444,5 +2444,23 @@
       "When narrative status conflicts with the ledger, preserve the ledger, label Needs Review, and block automation.",
       "When an ETF note contains company-specific earnings language, treat it as a copy error until corrected."
     ]
+  },
+  {
+    "date": "2026-09-01",
+    "display_date": "Dated 2026-09-01",
+    "title": "Oil and Rates Corner Big Tech",
+    "href": "posts/2026-09-01.html",
+    "rules": [
+      "Separate the observed oil , yield , and technology response from the geopolitical explanation offered for it.",
+      "Require measurable cross-asset transmission before declaring a regime change.",
+      "Use sector rotation as evidence against indiscriminate liquidation, but do not assume rotation can survive unlimited rate pressure.",
+      "Distinguish a tradable reaction area from a confirmed durable low.",
+      "Require VIX acceptance after a breakout; an intraday spike alone is insufficient.",
+      "Use the dollar , long yields , semiconductor breadth, and commodity ratios as independent confirmation channels.",
+      "Treat rounded discussion levels as research zones when the ledger contains exact official values.",
+      "Do not overwrite an active trade with a later research zone unless a complete new entry, stop, and replacement instruction are explicit.",
+      "When narrative status conflicts with the ledger, preserve the ledger, label Needs Review , and block automation.",
+      "Remove political, conspiratorial, and generational-collapse claims from the core thesis unless independent evidence makes them testable."
+    ]
   }
 ]
