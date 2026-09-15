@@ -6,7 +6,7 @@
     },
     {
       "path": "archive/index.html",
-      "sha256": "3b09c1f52beda8f220041cd911744a823de758e8279eb6c33fb2665e2082314d"
+      "sha256": "af3b2008995de7d1c12bcb939a4b6459d29002e3596738d1dcda4e25cdb1d553"
     },
     {
       "path": "assets/style.css",
@@ -22,7 +22,7 @@
     },
     {
       "path": "index.html",
-      "sha256": "b88bc6027f573a91dcccfe8314ae7218807022be085cc3f69cbb576098d73726"
+      "sha256": "444276ca02e7ca372aef307df7a3f58213673b708a0ed527ab041e01ca6152ed"
     },
     {
       "path": "library/assets/figures/bitcoin_vs_m2.png",
@@ -162,15 +162,15 @@
     },
     {
       "path": "library/capitalflows_textbook.html",
-      "sha256": "15a9b0821dcb96bd997083e26c8034757984da5fbfe3a900e2b86a92879b8837"
+      "sha256": "7fcf8a313556e288f7e4b8bbb9d48748cc4094df11fd2084b72fa49471e223c3"
     },
     {
       "path": "library/educational_materials.html",
-      "sha256": "ad18c92d2206a80a3ed5526d26c7a2c7f59b10c3b19a407e5ce707122eb2d29a"
+      "sha256": "39d5a9db4b0e5788b73f809176747dcd4bb1c15ed0d1d1f413832cfe3f6d1cac"
     },
     {
       "path": "library/index.html",
-      "sha256": "2aa04519d3acf67f0c0c4fe9e991507b52020e3a4e8ae028ad662ecd6124a47f"
+      "sha256": "5e1711b46fabcb0fae4a2974559b8b5787bba87294fb5502d7ba36af5788cbf7"
     },
     {
       "path": "library/macro-regime-operating-manual.pdf",
@@ -178,7 +178,7 @@
     },
     {
       "path": "library/private_credit_risk_curve_pamphlet.html",
-      "sha256": "2d2db025fa424219a110b9c30e9e852740d36b02330c451b16e2d4f2764e7939"
+      "sha256": "80efc0243d6b2dcb57acad19357ebf54fffbcc225369a7e49c2096d16a1b2191"
     },
     {
       "path": "library/private_credit_risk_curve_pamphlet.pdf",
@@ -186,7 +186,7 @@
     },
     {
       "path": "library/private_credit_risk_curve_pamphlet_v1.html",
-      "sha256": "146f4d88c571e6eecfa4c2fb16d4b6b68e85419698e8102da8f8e9f09681fd9e"
+      "sha256": "20bfd3ca12deac827e2c9547d50a0bd7a515f862bb574ff97a39827f1052bd9d"
     },
     {
       "path": "library/private_credit_risk_curve_pamphlet_v1.pdf",
@@ -198,1291 +198,1303 @@
     },
     {
       "path": "macro/index.html",
-      "sha256": "d7d7e96c8b3815054b21d29ee5e7b7bc378490eafd562167e53227d63c86a1ed"
+      "sha256": "268cfc4b0c8782811f10d1177fd0913e1572ce350ddfd1dbba7fc0238f4e1bf3"
     },
     {
       "path": "macro/posts.json",
-      "sha256": "a9cc19532e22718433fd72229a5eb0835594cf9f6ee85fd2f9db89f0c82d46ad"
+      "sha256": "f41b9299033c7911db30f20d739c56f57c2c457e32b499563d35abf5efb7ce6f"
     },
     {
       "path": "macro/posts/2023-03-16-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "0ba12aaaf92083e50b16592892adca4b7cc8f092551950592fffdc00a1305080"
+      "sha256": "69e0e4727e9662dcd7fae0c1d1e49998a6eca2892bc4d11672a6132907b30bf8"
     },
     {
       "path": "macro/posts/2023-03-17-commodity-signals-split-the-macro-tape.html",
-      "sha256": "294ec52b16b2753205dcf1c3cc635f3991d65f58c1e38962453315a4a4ed2a6a"
+      "sha256": "d877a4b351f953da674143e8892d2f668b8794225e79629f6b8f1d9355b12d98"
     },
     {
       "path": "macro/posts/2023-03-19-tech-leadership-faces-a-defensive-test.html",
-      "sha256": "b037e00a3a670e83a7da946250c37d9b40bb6098ddc1d02e5f1112c0d5c5b28d"
+      "sha256": "590825f5098095ef984d4e7106e6969640def20ebe53b101c42b69d5e8ad35f5"
     },
     {
       "path": "macro/posts/2023-03-20-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "93095442eda23a6c9e8f81bdcaf9ddf36caa89542e00d612907febdae9ec1b36"
+      "sha256": "287ebbf3d4161b2691a692c1a3202b47659d6375d13f6d255fe908d705c56551"
     },
     {
       "path": "macro/posts/2023-03-21-dollar-fx-leadership-tests-a-broader-advance.html",
-      "sha256": "2ac3eb15ca3bcaf9d594cd61f2129fcda300b7df11cdf8cf6e5d66253ce146c0"
+      "sha256": "42ae020fac930e5468a82e26c1eb4f153736d178a884c4a60e81b93cdf598ad2"
     },
     {
       "path": "macro/posts/2023-03-22-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "f58f70db2fd5fd6f5e1571cce090559d75937060b5da0134efdbaf4d67610998"
+      "sha256": "f3ef33166587eff568183b4b0b409f9d1d1497a63bfd458a7f893d014665117c"
     },
     {
       "path": "macro/posts/2023-03-23-tech-leadership-faces-a-defensive-test.html",
-      "sha256": "ad47ac0f2f274c6d308456e5a64ef702c8997f2ab14e1df54c7da08dd6378e02"
+      "sha256": "04706b5f730eef144e23e395c3fd784f37ad9b60b8bab16fa68477a93847acbe"
     },
     {
       "path": "macro/posts/2023-03-31-commodity-signals-split-the-macro-tape.html",
-      "sha256": "8cb5c5d0180a7fa78d9e548353f29dd2a272908b0b75e5b626a7b9addd40a1be"
+      "sha256": "d1d76ee042531f3e143f90589f4b2e591829071823e9d5859d98f0f5531af0c9"
     },
     {
       "path": "macro/posts/2023-04-03-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "92597f696f6e64f0047e5e96c9aa490b886e7bc671364cd91f3abc00287774f3"
+      "sha256": "6d4ca967124ad87f194033f586374f388d1626ae59a80cf83c932b428666e5d8"
     },
     {
       "path": "macro/posts/2023-04-04-commodity-signals-split-the-macro-tape.html",
-      "sha256": "5db582f8566b76c0dad3d1ba2dd8c4709806062741b2fb84cd8979b39bdb132c"
+      "sha256": "c54a4f4cbf7a967b61390a3be3b387fe793455591f5b8baa784ba7fed57b21a8"
     },
     {
       "path": "macro/posts/2023-04-05-commodity-signals-split-the-macro-tape.html",
-      "sha256": "a1154aa9264be7a241f841c0c9fa8c6f76c468dc00e92192d11adabfec8a8c8d"
+      "sha256": "68234821e61a9629cf42697e9299599ef73de64a7e163af5a472f97839655625"
     },
     {
       "path": "macro/posts/2023-04-13-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "f945a52c6aef3dd57832796788d853dc2f1a3cbcf496e51d57d6495fb641249d"
+      "sha256": "3b91f9995dfa9bf8fdc12773f81c7a5b4e670dc56224309bd610d1c9ae422259"
     },
     {
       "path": "macro/posts/2023-04-17-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "31f287d47f0749317823346fd766ab4c5ffbe398ac5c5659d8601eee41e8ac43"
+      "sha256": "d57a4830d9050d2dfbaa3b5209b49398d28c651ecd3aff53846e6d0f33ce60f3"
     },
     {
       "path": "macro/posts/2023-04-21-commodity-signals-split-the-macro-tape.html",
-      "sha256": "9213a55db2cf48d6bf6cbebd6831a6869f27d928f602b4008cd784b38187317c"
+      "sha256": "e128ed7b748c893c0ebe55b73166036a7e610289794a039951fc88aa47f59bd9"
     },
     {
       "path": "macro/posts/2023-04-25-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "015f79dbb0102bbdfd25cc230e964f6f77556a25db8b6f465c7a1100eae92359"
+      "sha256": "ef833561308c2d8a64fd70c0800d00bc93b85bb043fe5dcb211954a364a401ef"
     },
     {
       "path": "macro/posts/2023-05-02-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "a5e3cda4a58609efc0897bed2ecb511ef8f58679bc0f4e8159d5be5ca7f4ed79"
+      "sha256": "b246d31662fc5ada4717b01cda849c98889053ce99b38b9b29f433ca352dd28e"
     },
     {
       "path": "macro/posts/2023-07-24-emerging-markets-and-volatility-define-the-risk-test.html",
-      "sha256": "3ebc3044c2db4d74984d923a597cb3e1597b0d45721f9bb5917788356396c1e0"
+      "sha256": "40b7c8f137244950705866d1261aee4049c7826ee756f9d29418f37fa4272fe1"
     },
     {
       "path": "macro/posts/2024-06-07-rates-credit-pressure-puts-risk-on-defense.html",
-      "sha256": "7081286d0dd8cc0dd22e65bb541fe3a6b681e58b7beb223f21191da87c6a98b3"
+      "sha256": "fe524d414051c5dbacf41c92ae2263e44e3fa6548456a60418ec524faf38c88b"
     },
     {
       "path": "macro/posts/2024-06-11-emerging-markets-and-rates-credit-define-the-risk-test.html",
-      "sha256": "730f6d1092ba8cd8cb45b6f0b777c856ec4bb8faa911544c5c7c33522bd559bd"
+      "sha256": "0b0a8cdbf34d9b1f8772c91f9124071fccc8f9df49245e258c4cd7d245268f25"
     },
     {
       "path": "macro/posts/2024-06-13-breadth-small-caps-and-metals-miners-define-the-risk-tes.html",
-      "sha256": "4fba67690e9d7d31eb18979d7c29228cb28e6ad30c00c4c2269e7436a517ad62"
+      "sha256": "e233b0a087b1298ccf2b1ca6a437a94d6252ae6f538e73c39839c3460d98be88"
     },
     {
       "path": "macro/posts/2024-07-08-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "d1205069d5536d05e2eaee0c8f197c3015b2e12236adeb26747efe5bc313e450"
+      "sha256": "87383c40652f4c489802361c969350f48188e5aa780dba44b635153cfc288cc6"
     },
     {
       "path": "macro/posts/2025-07-10-rates-credit-and-crypto-define-the-risk-test.html",
-      "sha256": "029059c9829a6b0f651fd4d3f187edf990ca8a7d336dae12e3d79f99fba6e0f4"
+      "sha256": "53943ecf27d01cfed5e4e061def18ae1da0d277ddd763c97cb692836c46e8a41"
     },
     {
       "path": "macro/posts/2025-07-15-breadth-small-caps-leadership-tests-a-broader-advance.html",
-      "sha256": "83c5f0d0cf5c4ba8f69fd3364d755519ee136c132c525f28cd4130b83d2ccb54"
+      "sha256": "3ab3669bd36441d0d1668be2e195ce46126d2c588d255c5f34a32f548ef9ec7f"
     },
     {
       "path": "macro/posts/2025-12-04-tech-leadership-reopens-the-risk-window.html",
-      "sha256": "ae25c1e44aace2bd48d5b4f43201b45e0ce1e699ccbcf60b3a17416dbdde6a69"
+      "sha256": "b0e151513488dd6f62c28eae94036fe20a7091fec144d9834095002af3447ea3"
     },
     {
       "path": "macro/posts/2025-12-12-industrials-and-rates-credit-define-the-risk-test.html",
-      "sha256": "cf7fc669f25caa8eefe344db9f70700bb6ad32fc7b9bf4ba19b89f751ff97765"
+      "sha256": "bd6e28c69ea0e2ea69dbad80d561663dd32d43ef299c269ccc040cd71fd4ef57"
     },
     {
       "path": "macro/posts/2025-12-16-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "3ed54729e2ad681d5f7386624eb42fa9c70b2af0c8195ca150ce5be2b9406db6"
+      "sha256": "58b2918299ef5edecad506ea380a60f4db81f8d9f95255c78cfeb6667218c2f1"
     },
     {
       "path": "macro/posts/2025-12-17-emerging-markets-and-crypto-define-the-risk-test.html",
-      "sha256": "843a51749508c0d57ce29ed43da119be28ab9f90d2c3581a819607f56b321a25"
+      "sha256": "b6f1e3bcd403d58b8417ba21401cc9c28215674012802e088df06557b9276363"
     },
     {
       "path": "macro/posts/2025-12-18-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "3c8a44f7ac0c02dddc848a3cfca0ca8de60485c5156a87692235543f7f51db79"
+      "sha256": "19856793fdbbcc327df429b364fb11093344d9417cd5fc64d410c6ec7b09693b"
     },
     {
       "path": "macro/posts/2026-01-06-commodity-signals-split-the-macro-tape.html",
-      "sha256": "4f16733c5240f0fc6555b7a4541f5f6848f21f33d9075561fc723c939ec27ea6"
+      "sha256": "4cbf2fb909ae241394104ca744202aea2baa2c05901acc795d53a6033daeaef2"
     },
     {
       "path": "macro/posts/2026-01-07-commodity-signals-split-the-macro-tape.html",
-      "sha256": "ccc5c07d0632297d76102046d0e1233874ea611d3b738cd6802694d3735c7621"
+      "sha256": "2e7f923612c527e09f54262a497b47206c1f49b8fcda54b9e5b395dc7fc784f4"
     },
     {
       "path": "macro/posts/2026-01-12-commodity-signals-split-the-macro-tape.html",
-      "sha256": "dcc2c50766d476daefa86d6fe298ce0a8121d147c321c4a1e6da7ea022fd931a"
+      "sha256": "5dff47cf12683833a8a74d0cd93f13a7b0d2ebdb972205e659ad614162d14c5d"
     },
     {
       "path": "macro/posts/2026-01-13-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "fe30f3a9b582c5df62474122e222f888b4ebb7e576eb929f10514fe983ac0ac2"
+      "sha256": "a43ce6513f097e839ce8d637a0d59333a700871431adb625b8aab6d1eb1e1488"
     },
     {
       "path": "macro/posts/2026-01-15-industrials-leadership-tests-a-broader-advance.html",
-      "sha256": "24d2d3c637c0b5bcd79ada7971805daaeb38727f8ef8949f57dff73be55bf6f6"
+      "sha256": "14621bb4f32e67f9d8afb4ba5c4202a535b092b3bebb5d2a9ec6200a55881aa1"
     },
     {
       "path": "macro/posts/2026-01-22-commodity-signals-split-the-macro-tape.html",
-      "sha256": "d9bc6fcc260d088cbe643113084aada5ffd55f6c7900f36cd66247e374abf582"
+      "sha256": "dbed44d493504cfe786bae730665d6c1a1f40224e4352e05a4ab4113b87232f0"
     },
     {
       "path": "macro/posts/2026-01-26-commodity-strength-broadens-the-risk-tape.html",
-      "sha256": "e224c0b5cd41165c41e859654ade189290c632f3d6b7cd30c9532b8d7829e973"
+      "sha256": "b31d08625871b5b46ab238b7a381da000b9529562f12ed6dbd56352b3ca2b88b"
     },
     {
       "path": "macro/posts/2026-01-27-commodity-signals-split-the-macro-tape.html",
-      "sha256": "b02c1b66708d1e0f71aabb1781f6b5e3128e0f11333e3fd16a060c651bfa2634"
+      "sha256": "6717f027a83e8c5a6ab9fa5854190cf46b11200a3ff589e2ffd18293b0bec5c8"
     },
     {
       "path": "macro/posts/2026-01-28-commodity-signals-split-the-macro-tape.html",
-      "sha256": "490baf0f79003df38e1d166c8e0389401d83fc8b7c70cd06145d600fef6bb74e"
+      "sha256": "04b9a74cebe612cdfce02753b3a61e849eab17b363368bcbefe3c73a0732752c"
     },
     {
       "path": "macro/posts/2026-01-29-commodity-signals-split-the-macro-tape.html",
-      "sha256": "039653d84b93b62d49bcf33d739e75eaa362bf6bd81a3fac3e9dea3e392e690d"
+      "sha256": "88eb4d9342379a0cd7baaa7debd6545d50298d74ef7563493234a1628bf0e0c0"
     },
     {
       "path": "macro/posts/2026-02-02-commodity-signals-split-the-macro-tape.html",
-      "sha256": "3877aee86e6d5875b4576c1123a54d3cffe9ad7b71643899c61e9e956e27581d"
+      "sha256": "1a9c5d27d65421277cfbfd0c5fcfb86b4c2e5c5f3a2bb002bd890faad7d1acd9"
     },
     {
       "path": "macro/posts/2026-02-03-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "1c369c7e4a94cadb4fe8220703dd5efbf016d551883edd2373d473e70840b3ce"
+      "sha256": "1345b4b6c73d18d418c0ab87e63f2ecc618153b1b868f4113672dc14750bd44a"
     },
     {
       "path": "macro/posts/2026-02-04-tech-ai-and-metals-miners-define-the-risk-test.html",
-      "sha256": "a35457daf88166c53cceaed1060dbeae0fea64b56b47a6512e5bae389e4e3b6f"
+      "sha256": "2ffaa38b0667c35d61f093474d9c62d4bdf067f19d767286d46f33a1c1a009ba"
     },
     {
       "path": "macro/posts/2026-02-05-commodity-signals-split-the-macro-tape.html",
-      "sha256": "108e4d2d420ad29108524b839fe062e37d5b98363c0fe59b18b661a6d9c7f9d9"
+      "sha256": "72a7d79dc1e8749057d8591b19d99dcca8b0fe0c3a6707ce73aef9136859771f"
     },
     {
       "path": "macro/posts/2026-02-06-tech-ai-and-metals-miners-define-the-risk-test.html",
-      "sha256": "5f7493590285487dc502630274e6b7c2910db06a3f29f44ce488e94cda0d5479"
+      "sha256": "31b7f04ac8bfea8bbf7347b503b30c6b606a1373696f70336e8b476760e78d13"
     },
     {
       "path": "macro/posts/2026-02-10-commodity-signals-split-the-macro-tape.html",
-      "sha256": "5871332489b58e6cee7bd9718a26a6f51cb03e32e6dd0c76a74afb564783d750"
+      "sha256": "574f8ceb70a7ecac8383c2f52cf0d625f9c301f2152b09d505eb436ffca8fd68"
     },
     {
       "path": "macro/posts/2026-02-11-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "cf859232429ea1f3e08408f3c6b90610eac3c73ef1d0f3c9c37549fa66af860a"
+      "sha256": "0263ae00718ce8bec17da125fb4329c5b1c6f74c7df4476be811ee3db8843bce"
     },
     {
       "path": "macro/posts/2026-02-12-commodity-signals-split-the-macro-tape.html",
-      "sha256": "ccabee20f4a1835b22a712baf2ceff343cbcdc909965a946ccafdf9bb1e4cccf"
+      "sha256": "f8b9ee7f8f0eb1b426a6da7e13edbd3d816f9ed4dcd6adf1bfc5e51bfae08963"
     },
     {
       "path": "macro/posts/2026-02-17-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "a2f754a590216ef700be3633b6ee9250a01fb6de09557dae34f5b08f335508a0"
+      "sha256": "4a054f6dc09574eb42f39d9ca7639ef48284f73c82a359fa64e147237c3c9b1d"
     },
     {
       "path": "macro/posts/2026-02-18-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "64a95998af30761fd138e57e0e0560fe3453107ea7d09b7842e08cd1f356ac3a"
+      "sha256": "03600f42533c0d296f506f08e82aade0f1efb792e0bc580c5e27267f76b19c6d"
     },
     {
       "path": "macro/posts/2026-02-19-tech-ai-and-crypto-define-the-risk-test.html",
-      "sha256": "6c1097510af378282ed0203471652ab82a8463d4311102b49eeca7ad8d32db8e"
+      "sha256": "eabb5976478409fa69d7c1abcbb7987630fea381404cd8e925626f6bd6d616f7"
     },
     {
       "path": "macro/posts/2026-02-23-commodity-signals-split-the-macro-tape.html",
-      "sha256": "d1c32d79b0f2cd4693810e881cc772346391692ea022fe6bd00eaf5a68aa6fb0"
+      "sha256": "1aa31de70996b9fea313a3787f4fd9057523dd14e2990ef58f4506f2f66d4fd2"
     },
     {
       "path": "macro/posts/2026-02-24-commodity-signals-split-the-macro-tape.html",
-      "sha256": "f9f731f53cbb32302df7324af7b42f3a59051b2b2fa63a4c2d72aeaea849d1e6"
+      "sha256": "7415a24099bc563c4037b38143150389dcbee3a7e2ef025c8184923386e8b565"
     },
     {
       "path": "macro/posts/2026-02-25-commodity-signals-split-the-macro-tape.html",
-      "sha256": "c8aac678b36ae90a77631130a84c02ef7f333b265ddf71a853717628319a4526"
+      "sha256": "40fb905ec760cdec944fce6610ac57b540da7eb605173ce65a43ebe2a0c611e3"
     },
     {
       "path": "macro/posts/2026-02-26-commodity-signals-split-the-macro-tape.html",
-      "sha256": "387d9d2ffa93d65d7ed5d4e2a81476b82d0fc6ae884ded94d9b10003d15fddb3"
+      "sha256": "40d6f261f2223eacbcc8ab52666149b326cf203bcde43d7c8a169833f5b9c3e9"
     },
     {
       "path": "macro/posts/2026-02-27-rates-credit-and-metals-miners-define-the-risk-test.html",
-      "sha256": "8972d129fa29e4406ddaaa66124d3762921058b549b556b002093be0dcb9ba4c"
+      "sha256": "2f5339a7e337da74ecd27f06f870d002deca6ce8f499058de053404402584ab2"
     },
     {
       "path": "macro/posts/2026-03-03-commodity-strength-broadens-the-risk-tape.html",
-      "sha256": "6cfb03dffd4a3ec1adc92cb620f32466375e901cd9470d861787f9fe9a48847a"
+      "sha256": "0225d56c6c135e5399ff09de67ba393eb9f2c913b0ce20db0ffc410470d33e84"
     },
     {
       "path": "macro/posts/2026-03-04-commodity-strength-broadens-the-risk-tape.html",
-      "sha256": "55838bae267e1c05dc63ad35a43a4e49d78b968279d6ab42eb21fe95a6cd5a5e"
+      "sha256": "3a78a7b7121e6d8a0406136695fcdfc0665c9f20287b8152f2dc88dd5ac5aad3"
     },
     {
       "path": "macro/posts/2026-03-06-commodity-signals-split-the-macro-tape.html",
-      "sha256": "d632b3f9fda2bba3d0455f1b1dcd3985410b7c1d2a09ab933fc711864d74aa54"
+      "sha256": "f2794a1b22acf139197a5184e1672b5def27652b8326600b8bd56807f31e8786"
     },
     {
       "path": "macro/posts/2026-03-10-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "1362c36da16a4e2571937dda6b33b73002cf77e364ab252bd4ac2a523b760b3b"
+      "sha256": "b0470868089ca7fa9f563d38add3e5dc95a125211b43d45283d8c56c1011d8ac"
     },
     {
       "path": "macro/posts/2026-03-11-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "8392f8aa610d2fd830f962a892503b4fe9618de527d5479e574d550f7414d701"
+      "sha256": "81b7ad0482ffa4119e36a483f4f0f6bb2a728bd34682cee47f0e82263bdeb0d1"
     },
     {
       "path": "macro/posts/2026-03-12-commodity-signals-split-the-macro-tape.html",
-      "sha256": "c137d16b2fa3b43ea19d7f4bff86b65f9338477a24927694c16a36ade9e2532b"
+      "sha256": "520935b99ac75163ef5bc2752862be61b805d746dbf7561ac21723a8b9ef9f1c"
     },
     {
       "path": "macro/posts/2026-03-13-commodity-strength-broadens-the-risk-tape.html",
-      "sha256": "ec3dc90962d7cc258bbed768d3778605d0833baa45f73bb97b23a42483629e44"
+      "sha256": "ab5963486a52dbae89380c15dcbd20aca0b9ad9a2f9089a1cdeac8994c6010b5"
     },
     {
       "path": "macro/posts/2026-03-17-commodity-signals-split-the-macro-tape.html",
-      "sha256": "5f2ad23cd23fb3ba969be1bfc12a0b93b5af26d8b8bec7575e36b801eda25ef5"
+      "sha256": "d5a1d29dbbd89cd3ccaee9965255c697dd24c80790e0eca2dea3eb253e4d14ef"
     },
     {
       "path": "macro/posts/2026-03-19-commodity-signals-split-the-macro-tape.html",
-      "sha256": "f8663530bedd0d54d8dc7ff4ddb075179f43540f9b1055ca98c3099ba34143db"
+      "sha256": "2f7b56b8f58329ee8ab1e8e2d6ea682c7894665f1892d07e98f952b433d9cfb8"
     },
     {
       "path": "macro/posts/2026-03-20-commodity-signals-split-the-macro-tape.html",
-      "sha256": "1bea1f55db11062f9e9ad494ee4f2bb81565dd2cd7d5f4f79ec1fb58cbced59c"
+      "sha256": "94f3dc46fae3c983a873257bf84a86870ce2eef99cf5027da3eac9a156dff54e"
     },
     {
       "path": "macro/posts/2026-03-25-commodity-signals-split-the-macro-tape.html",
-      "sha256": "356773f7e5bf0776a131aa5c2163ad3f43a413eae4b377638d904a4cca001cab"
+      "sha256": "2596f584e6798cc8b9e164528d42a4f0008da43ff5f8c82a568cfb82b434491d"
     },
     {
       "path": "macro/posts/2026-03-26-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "8f242c29dfbf589ba0c44e3ccfd3cace9225e57a2c08103bcaf1063e80a325eb"
+      "sha256": "9b0b5a731f7a0cd4d25c7d9dc94770b861b30123460e128e2926ca267e836203"
     },
     {
       "path": "macro/posts/2026-03-27-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "594293191272dd42c95f6be91d8a8c36c7c1b3c53d7c218613ba8b52ac19c389"
+      "sha256": "ffeec90dc5383c0be729ccb12cca4f775609f3e84b8a7b1fd685e16a025f3ead"
     },
     {
       "path": "macro/posts/2026-03-30-volatility-leadership-tests-a-broader-advance.html",
-      "sha256": "d8d02e4815a30d2e46ffa47e33e2b1ba1b348d83e5324566676aada52426e56e"
+      "sha256": "7ec26fd58e0b0257374e4a73f6263f59438c03cf975ccf736cd9e59c55f0355b"
     },
     {
       "path": "macro/posts/2026-04-01-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "38ad616e2a4f5477f18e627eb3eb8bec93856bc552ed5a1630a964f1f9d38727"
+      "sha256": "d69c3d9e11f058eb829080c6edc67ed8539a275bba0fcc6fc441ecbcf31c2401"
     },
     {
       "path": "macro/posts/2026-04-07-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "bdee095a594a700334fe1f26f59d9194d1127cf904c356e2bd20601bf1feff42"
+      "sha256": "8be6d0db6c7266a84f55def43de3b3a122ea9c7c55a690886307d3419de34e95"
     },
     {
       "path": "macro/posts/2026-04-08-commodity-signals-split-the-macro-tape.html",
-      "sha256": "820736d25dafd6a67e54abe9c66869380da146a2f747add8581573bcf21b6778"
+      "sha256": "51aa8bc20d70ce1e549f427d97df5c1a44dfc36f4db70b9ed576f2988f0d6854"
     },
     {
       "path": "macro/posts/2026-04-09-commodity-signals-split-the-macro-tape.html",
-      "sha256": "1a4bd7d5c9c47181e572a19ce7caddd259f1b5945c77d35245b5d252d9d018e8"
+      "sha256": "b5de1aec0000123bb8a849f550b308f1b89c3b8e4a9696f93da36a9c37d093d9"
     },
     {
       "path": "macro/posts/2026-04-10-tech-leadership-reopens-the-risk-window.html",
-      "sha256": "4eabbc133b912f68a6e6c59c7a8765034f3cb99f7531f216e60bd7b175a36c86"
+      "sha256": "cb5db3f017ea8b7bae3a201090db27800e73bfaf8e31d9c98aacd384b44b70ca"
     },
     {
       "path": "macro/posts/2026-04-13-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "c30c4dffcf875f40859af8909941279397f3d4d76f65948cfeaf30ad3835dd2f"
+      "sha256": "801b0e159b91cd89bfc2dfebfe3c86d4416eb673d5f12d07e6b5fc22993efad7"
     },
     {
       "path": "macro/posts/2026-04-14-commodity-signals-split-the-macro-tape.html",
-      "sha256": "3699fecc6564d6ba49929a58488d1740d3d74ad5b892d99bcef018b239f85df6"
+      "sha256": "ae51507f0e877d13fd196040cd9abfcabca1f477c26f0c5591f59c927825b7e5"
     },
     {
       "path": "macro/posts/2026-04-15-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "77fa980affe27ae542455c669414aa6e6f6148d83331aea10aebc3df475a4064"
+      "sha256": "4b14f3466bf0c00cea4e3927f8db463788de5b31d5ee5ffa0f24dd88371c4440"
     },
     {
       "path": "macro/posts/2026-04-20-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "a3d361f2da48aaea03cb74a682ea24f325dba9ac9a47d80d3b02fc7254405246"
+      "sha256": "f1f18e7e2a0210dce19290c6e7276750f9b6f64b32d4e0f2d7b2ecbdb05e5844"
     },
     {
       "path": "macro/posts/2026-04-21-commodity-signals-split-the-macro-tape.html",
-      "sha256": "46caa400d1c5ace2123e5d52070098cc50fb6a332aeb8958ceb809ef9b3078e9"
+      "sha256": "318f322e18066b897d90c4d61208e5e91feb20c06f00e628e3ac56e3274a38ba"
     },
     {
       "path": "macro/posts/2026-04-22-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "4064ab2b5c27faeae74f147fbbb2b12f289243a65e729555106e6b6668c005d9"
+      "sha256": "6730cf123512819c8985b4fd2a197ed17950d8b6a32b567a51c40490f35eb944"
     },
     {
       "path": "macro/posts/2026-04-23-tech-leadership-reopens-the-risk-window.html",
-      "sha256": "d605f89d3fce6b7ed3d7438ead721596f42f0d06017ba917de41b8d5397c49a4"
+      "sha256": "ac5b75a2c7ae4d16d679f30a5e6bdae75dc8bfaba6d557c69738bdb019a2f8ec"
     },
     {
       "path": "macro/posts/2026-04-24-volatility-keeps-the-tape-on-trial.html",
-      "sha256": "a84fb72c4f8c23247d018d611115d73892af5bdfacf561ae11579b3db57015eb"
+      "sha256": "f21bb65ad5e1f3085a200b62168ef2be02a3ace7a8845b54d62ee3578180f763"
     },
     {
       "path": "macro/posts/2026-04-27-commodity-signals-split-the-macro-tape.html",
-      "sha256": "d7df984afcce3f048f9b1eed1325a4beb78eb3aef4acb628b7eeb219a1fc2503"
+      "sha256": "79ae727957096616d3adca4dc4304e909c10083faa5f626afd522389d911e957"
     },
     {
       "path": "macro/posts/2026-04-28-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "0d23d3e3b019734d6f703dd10f15d1ad36cb7f92965351a47789a15efd379e6c"
+      "sha256": "aa525a7d090c08c291005d99a1feb8a21cb2570b7f4281f8f1dc18fbaad1bd63"
     },
     {
       "path": "macro/posts/2026-04-29-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "fc44271f908ccb4855f4e5c80c5f878c0fe0a2db72136a1a1ebd1af61679659a"
+      "sha256": "244186870396b2aed937d218eb9a2cccc9bcf36e1590e9f89dd0ed4189d51c1c"
     },
     {
       "path": "macro/posts/2026-04-30-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "180a361b580b01b7f17386ccfb77cc9e601ac4c1f62f2cac9aa6a2e26aa25242"
+      "sha256": "e41c27c5fe694533d8a6963c18514e1eab4917e939f56bbefa384b73418b665a"
     },
     {
       "path": "macro/posts/2026-05-01-tech-ai-and-energy-define-the-risk-test.html",
-      "sha256": "112411fd578bafbc3afe5ea869631bef036c3d5387b3c35dce091c429bf992f3"
+      "sha256": "88d63bf2c3c5f58b5740dd87c85ba611fadf38085c95b8ed2a132b839e52c3e3"
     },
     {
       "path": "macro/posts/2026-05-04-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "14ee17ac9ed256ef9581fca39d861c5c070938cc3f21b9991ba2205fa6e4241f"
+      "sha256": "55049597f3b75dd91f7bbd8d1a22a9897458a343da6a0c330fa75e5897f0b8bb"
     },
     {
       "path": "macro/posts/2026-05-05-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "5489f914c9aa1605064a572734b6fe9fb607d731a279875bf531abaab839a4b9"
+      "sha256": "e9189e2dc9fd79fb68879f2cf73f04a46e795e02bd851e164a23d3f894e1b027"
     },
     {
       "path": "macro/posts/2026-05-06-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "e2e9218d711f7075809843c930eea73433e099bcf4653f5c7dab75152bd14e01"
+      "sha256": "1ef93ddbfac959b550cd1bfe37cdb8e6399efa02ac65ddd04723f98307fa87c0"
     },
     {
       "path": "macro/posts/2026-05-07-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "4ae31dce447116b05fc89a9cbb7143f4fbdded80978f1b4d1d18a13454bfd6f6"
+      "sha256": "0b573af35cee864fd41bae5f70d581bee69c9be2ebf6b1f6e8adda79786fb620"
     },
     {
       "path": "macro/posts/2026-05-08-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "90dc6e7a97a840a60c471f8a2119c99a6a7643d1d85b84ecc63194105d3fb1e8"
+      "sha256": "f41f7f1282b8aa9dda5337fe39bd6a733f16f1a46ab216a0068b7f13e3872b5c"
     },
     {
       "path": "macro/posts/2026-05-11-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "42339a1006f05c04a8e912b7c75f8d2cbdf92fd158e2baec51dcc9d1a23a14d6"
+      "sha256": "92d4d067c102c207d662ece99638a0160e43638032462a90bba26e529c02cb66"
     },
     {
       "path": "macro/posts/2026-05-12-crypto-and-metals-miners-define-the-risk-test.html",
-      "sha256": "8fcc551ff1b9fa16d00684e36ba320fff9b43658c2ea6fd1d10a8c82dd9d6de3"
+      "sha256": "30a6e8a6b42cf33fe9320569ee884e9ec830ede176f35c41015ffe5beb769d03"
     },
     {
       "path": "macro/posts/2026-05-13-dollar-fx-leadership-tests-a-broader-advance.html",
-      "sha256": "852a028edd41ddc5adc925c74bc711de5a1ce0ef3700ccf99942cf3935191e7f"
+      "sha256": "6e280a9efe15e5d8d0ed71f652aeaadc790cbad5f6fed9ec303ae270a0fa32a8"
     },
     {
       "path": "macro/posts/2026-05-14-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "fc34ab3842db289d096f5c3a495b44e2187627954a44d624175bd0675a411316"
+      "sha256": "800cac2c08edb0ae48db11b8d24c6a3252d4bdc26f48674b82314be052d83e2f"
     },
     {
       "path": "macro/posts/2026-05-15-rates-credit-and-emerging-markets-define-the-risk-test.html",
-      "sha256": "94d6d82defbc216ecc9711e2f7ea3ec87fc72935d604f892e482e8fd0ee3de22"
+      "sha256": "7c0aa65ffae1deca20fc87886582810b70c85e8cc006a2ce56661bfc51c7a95d"
     },
     {
       "path": "macro/posts/2026-05-18-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "42f846fbc9642d5b0f629af11df2397ffd8e6d8d59a268636a50091d8880c036"
+      "sha256": "0e6bdf2fbda3341e975a206c506e8b1747b7fa1df19573a027ecdab78a6a9419"
     },
     {
       "path": "macro/posts/2026-05-19-dollar-crosscurrents-test-the-risk-rally.html",
-      "sha256": "d44d2fb07a7938f5d1cab42c4808e7a52e1a23cb8cb33813f71f4c974f9aca9a"
+      "sha256": "7b94a5fbd62432a8793a84d9d0a45e0db2cd28c077f15937eb637de2377a2e33"
     },
     {
       "path": "macro/posts/2026-05-20-commodity-signals-split-the-macro-tape.html",
-      "sha256": "ceb9f59f42bebcdb44b291e557938b85313f719349e1e8832db05c4146ff2fb6"
+      "sha256": "5e7a085992d1eadbd7d2815454ae4bab9b5be4d9a6ea84a6ff18ebd57c28ddbf"
     },
     {
       "path": "macro/posts/2026-05-21-crypto-pressure-puts-risk-on-defense.html",
-      "sha256": "755dea2640ae6f0b96df5a84d6de62dc72243a5cda63faff75a1996922bc2910"
+      "sha256": "613d7a395995b6ff570a9b185d07c6186724f53a7c803a273aac641016b3fa3b"
     },
     {
       "path": "macro/posts/2026-05-22-tech-ai-and-energy-define-the-risk-test.html",
-      "sha256": "e5d7ce38ba64584813fb4f617585feff50389b16fd4bf231c6776a12615e08ce"
+      "sha256": "663cedd80a250943d46c540fb67a471565e04bd5bde9db77eb0d030db921f0a0"
     },
     {
       "path": "macro/posts/2026-05-26-crypto-and-energy-define-the-risk-test.html",
-      "sha256": "45eb8337b766a8708fa2ea38b9050cdd42bcf47f5f43d912a7567888729d2520"
+      "sha256": "9e56c188f4cf2882ed6e57baf90cfe35cd4e7132a72c14f82157a16f01b7ef68"
     },
     {
       "path": "macro/posts/2026-05-27-dollar-and-volatility-keep-risk-defensive.html",
-      "sha256": "fc30aa118826ebc5af6ae619611b2941dfd7a1fbe30c23a62d6e69df758e28a7"
+      "sha256": "82b42c0c1b2ee3fed0c1edb17c0eecce19f69bba1131cc9ff401f93f809cdbf9"
     },
     {
       "path": "macro/posts/2026-05-28-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "4e745c919dc9fe9dcedd0b7cb2f066eb4e9fd1df7902ef93a854c0b34a796942"
+      "sha256": "28da5995051a4ac2f184f62821e6ef368f50d18045c9f4375d2665da41746426"
     },
     {
       "path": "macro/posts/2026-05-29-commodity-pressure-tightens-the-risk-map.html",
-      "sha256": "661bf21dcb43c2571001337e417447dd09d7e4c01356cfe1f798552fdaf300cb"
+      "sha256": "99b8ff231114ebe3a213075c849ed7e03df08335a20931f1bc9bb613e8525c05"
     },
     {
       "path": "macro/posts/2026-06-01-dollar-crossroads-selective-risk.html",
-      "sha256": "37e0cef629fc5eb8fde693e037f3006031578b6d45f4a2dcf4da9db46c3e8cc0"
+      "sha256": "78cdcca0bca05220c27faaa94255f268b39b4b75c3b9f980dd0cb699320eb663"
     },
     {
       "path": "macro/posts/2026-06-02-commodity-strength-broadens-the-risk-tape.html",
-      "sha256": "2636aebe1f5fa8a1632333f09c52e587d55ae8a765a4f65e388139700d384a40"
+      "sha256": "648a0a50a588ddcc41d8d31732534f781fcfee536f5bceb0f02798f574c997d4"
     },
     {
       "path": "macro/posts/2026-06-03-commodity-signals-split-the-macro-tape.html",
-      "sha256": "dba483876248f2e6f1d47711159fdd2626611eb6875630b490c5ce675ce10c20"
+      "sha256": "54a73f322e2467dde459ab1f3f8e21150678fa0dbb8d2e92eb48a671fe7a5571"
     },
     {
       "path": "macro/posts/2026-06-04-rate-relief-broadens-risk.html",
-      "sha256": "b49025072e44e4ac75d73d7cbc790aa99bcb8460c929062972c2320294e08cc7"
+      "sha256": "d68bada6eef59102f3f21924ab056d918889b1f6e64ca6cecc98c9f5378f69e4"
     },
     {
       "path": "macro/posts/2026-06-05-risk-curve-defensive-transition.html",
-      "sha256": "4d4dc65a7a8dd39430552f5763aff7d834df3cb26748744f04465903ab23da8c"
+      "sha256": "3c7f0a24e160a29ec198b9b5234918d32e6ccd359407d87f3165e3400eabef84"
     },
     {
       "path": "macro/posts/2026-06-08.html",
-      "sha256": "7645fb5667237f7c55064148a3db4e4b285935491befa3059d93d2f4fafdceaa"
+      "sha256": "dfcbe706e4a804d107040165d8f3ec5ad167e1ca4eb770881f49a5f6c91b7838"
     },
     {
       "path": "macro/posts/2026-06-09-emerging-markets-pressure-puts-risk-on-defense.html",
-      "sha256": "9e2bc7b99de4fe510330a42b635876a542465fc8e37573e892d4eb6060f5b683"
+      "sha256": "1de6125b11143780bec391b9a115f82fb4ad8e4fee68c42ab65a70e236664854"
     },
     {
       "path": "macro/posts/2026-06-10-parabolic-risk-enters-a-waterfall-test.html",
-      "sha256": "20c3bc740e18707ee6e57ff43e43e27f81a0b14d43d4957af606e5d548914092"
+      "sha256": "d276cbf35e78cc1a39d4b5c5b88039967268bcabcda46a081a26daf486fff64e"
     },
     {
       "path": "macro/posts/2026-06-11-headline-whipsaw-traps-the-middle-trade.html",
-      "sha256": "5bf8785c174afad815f22d58fc40069a4c237b72142b6097058ff46211fc4e40"
+      "sha256": "d561bbcbfaedad326378c34759ab8e1edb8e69e2b3716ad4ec69732f491853fe"
     },
     {
       "path": "macro/posts/2026-06-12.html",
-      "sha256": "4aa469ec00d43225de907da324fce3a383a02f96d9bfae1c22c8374a405e5aec"
+      "sha256": "bbb9450f241e8bb9a39235294730ded1ce716423a6e2cebcf2b8170b26a87925"
     },
     {
       "path": "macro/posts/2026-06-14.html",
-      "sha256": "a596efd410661cd0e28d2dc9a743a0163871f4235d53b869a07a1c18691b3d0d"
+      "sha256": "e8cb1429a1f4823c53f522b1fa704110a9d359aa715222a60082ccf337623566"
     },
     {
       "path": "macro/posts/2026-06-15.html",
-      "sha256": "c942bd26aa374bb8d99b494b5e08dc4c1215be5af1fa9a252e1bbc9c63f4278c"
+      "sha256": "632e9df4bafd4f227b647420b99c247440b14d733d5f800b08c6ebec65668b3b"
     },
     {
       "path": "macro/posts/2026-06-16.html",
-      "sha256": "5887e7e87f6a29602651f71c13f3783a03d5e3c05e9720524fb7ff892d8ef0d7"
+      "sha256": "132c93d3a2374cf1953d458dce3d96b867863cc34b289bc8c124480a4bd8e974"
     },
     {
       "path": "macro/posts/2026-06-17.html",
-      "sha256": "99b9424aab385b8f86d8f0b6eb69dcfad51371beb5a5cd21177b521383d7923c"
+      "sha256": "589971ad665c5daa6c3b529fc6d2dfad5d912ab58d4a80f3e7b31d9f66e5b6dc"
     },
     {
       "path": "macro/posts/2026-06-19.html",
-      "sha256": "3d41cb809e053fe92c23839cb4a66078e70d76330285b7903b840f7cc3b6e20a"
+      "sha256": "992d29a1073081b02009382368c82a84bbeddb5b221d971f4cc56fd5886d47c2"
     },
     {
       "path": "macro/posts/2026-06-22-dollar-and-semis-put-risk-on-trial.html",
-      "sha256": "5af7fb55229e017a19b99aafd22df7e3c7057232b3f079042a3e150d28ee99a9"
+      "sha256": "fd3426e918509ff9b1c8cca3c6ccb78cd4e4f57cb9028ea5b750a044e36c8e3e"
     },
     {
       "path": "macro/posts/2026-06-23-dollar-breakout-tests-the-last-tech-bid.html",
-      "sha256": "5236348d239671c989996c087e3fc2c5f8e79b790c9354bec2aeed10db169bbf"
+      "sha256": "471b6cf0383870d646c2787a28bfdcfbedad0d96949fdcf6eaa06b75fb2798a7"
     },
     {
       "path": "macro/posts/2026-06-24-micron-rescue-leaves-breadth-on-trial.html",
-      "sha256": "78aa8c370b3777d36ea3c914ee867519e3a3f33297f2dc3fef094a84d56dba8a"
+      "sha256": "8b0d76023b9098a5c9c56c335f51659d315b15e62ad39ba5d133dfb5d74b1cb6"
     },
     {
       "path": "macro/posts/2026-06-25-oil-reflation-tests-the-ai-capex-bubble.html",
-      "sha256": "7ea0d92db329be69965d51a5493cfa658971301bae8343dec540a4360e88dc8e"
+      "sha256": "5c6103d03b437d934b9028350597f9097ba1db5db38e217841c9fff3c35a0070"
     },
     {
       "path": "macro/posts/2026-06-26-ai-capex-strain-meets-oil-reflation-risk.html",
-      "sha256": "3a06ea0d8a6176842cbfe667a4e5e306d62b6e10aff3ebb18fbaa15e673ee1ea"
+      "sha256": "51e00d49ffbe36025225214ca6d4bd463862aca0bed0db04337c1b477fa891e1"
     },
     {
       "path": "macro/posts/2026-06-29-holiday-melt-up-meets-oil-and-yen-stress.html",
-      "sha256": "4e306981cd7e1f8c560e6d90678c6cc67facb0d4b72b49056555855efc15a848"
+      "sha256": "d57c3b5f3c91cbf1701ba18cd96da777f562d883c39048356cbc43cb61287b78"
     },
     {
       "path": "macro/posts/2026-06-30-oil-yen-and-vix-put-squeeze-tape-on-trial.html",
-      "sha256": "f50f023fc62b994ebce7b0461af724035a9ddbb27c47bedfe72afa1ad0922854"
+      "sha256": "3b487e51ab1000c0ba5032db08f4e6482de038e3bb2f95352ccae37cb5ed43c6"
     },
     {
       "path": "macro/posts/2026-07-01-ai-rotation-fails-the-fed-liquidity-test.html",
-      "sha256": "97777960d8b40cd782bf1a1fb089979776aaf92aa36897cb89f5946269dc2bb3"
+      "sha256": "6277e8b97e906cdbd4192686a0ca00515b8660178b75be6bea2c0797b0e13dd9"
     },
     {
       "path": "macro/posts/2026-07-05-ai-capacity-crack-dollar-oil-pivot.html",
-      "sha256": "f925ae532ef6178ac0415672e1884dfbd9751b2aacb0360204d671a04137069a"
+      "sha256": "1996abe04cdf4dc64c93a2624a7d181f8d44389af037b7170f8e112f5a8a33ad"
     },
     {
       "path": "macro/posts/2026-07-07-oil-shock-risk-tightens-the-tape.html",
-      "sha256": "843b27ebe6ef9e1c363f0fa4edd389bfa63fee4ea9e5b92ae7cfc73305ba4cd3"
+      "sha256": "f77c9074c8aa9cc2c88faa48666ad27ce9c81554f7a7a437f952fec709db1bce"
     },
     {
       "path": "macro/posts/2026-07-08-oil-rates-and-dollar-tighten-risk.html",
-      "sha256": "86d261ac960d7f1c9ff4e65eaa2718a2e86232f0be9f11a239f78f04273546d5"
+      "sha256": "ecb81442e54d5318910d0043115e662cf78bbef36019bf6862cc6656d0889182"
     },
     {
       "path": "macro/posts/2026-07-10.html",
-      "sha256": "40fdc6c863bbab06bda2ea8f83adc4c1920215a7dffdd18c1a1784c4a86de184"
+      "sha256": "c9dcf97a5d4c85ac763fc4471e5c5ec49231dc47c74cbce6ac7d9373d80b6ca6"
     },
     {
       "path": "macro/posts/2026-07-13.html",
-      "sha256": "5da20e18dad03659179372297b6eb5d42eccc32c7f34222eff1778893cb88ae1"
+      "sha256": "acea6add17045bb0f23514ee10d09783f102cdf29baa06ba52a34836659c28fd"
     },
     {
       "path": "macro/posts/2026-07-14.html",
-      "sha256": "5d952348c385251ce0d1cdd3a37a3a0cc26c0f413be1d87ec9b077d2e65be011"
+      "sha256": "bd897e6434506caa994c87eafed285a14c40e6a87cf6409ed25b1dd9eee6e0ec"
     },
     {
       "path": "macro/posts/2026-07-15.html",
-      "sha256": "33a90a163da894bf80a912b9e0dfc4adc076ed3d6b9dbe58c804995e53b1ce67"
+      "sha256": "963eb2a2353683d205870533d5297502dd40afe353cd641af0304e6ad0ec94ff"
     },
     {
       "path": "macro/posts/2026-07-16.html",
-      "sha256": "2713cb22b740be41990199832440c90fbffcebcdf092d2645f8e4754cf0dbc8d"
+      "sha256": "179800b98c6d256b9d178bf83f1da4345fc774f32d86a457532f5cb78c77389b"
     },
     {
       "path": "macro/posts/2026-07-17.html",
-      "sha256": "9f59e64ba18b81f1e3860c1e53814694447393b473dddceb5895e2a76f7254e9"
+      "sha256": "874629c88bfd045fb663b6e6f9619246a59119c1a0d198da3b702bbc0d6f8aa5"
     },
     {
       "path": "macro/posts/2026-07-20.html",
-      "sha256": "7c7f91ce0b1e9e52e469aaccf2ae4076f6be7fe9567c48e4113e2e1d9520c8e4"
+      "sha256": "b2e34e40323dfe6695a058c67e93e81554567bff36bb834e7ef54f7e97621caa"
     },
     {
       "path": "macro/posts/2026-07-21.html",
-      "sha256": "cbcf001de023a2f13bb3dd50732f977ab2abb5e45488f6ce3eee488ed1a62b82"
+      "sha256": "e59aa888f71bb60b25aeefba6afeb074deec351ca1947af8cf9c41f4ed2d1c8b"
     },
     {
       "path": "macro/posts/2026-07-22.html",
-      "sha256": "e54d705d62ebf0c3ab6378dc7208bea8503185e90673d6e6d5bb1b3c17d3d673"
+      "sha256": "449d7d5cb23856d3bbd5ccd773d34c8d63cabda381f9df611188f2049b7b1889"
     },
     {
       "path": "macro/posts/2026-07-23.html",
-      "sha256": "a9f80045d150f92477d3fe5de06ad4947b32f8b50cb1d6acc3aaf0a4dc3d22cf"
+      "sha256": "2a5fdb769a78231a9064f31196d17561f79231a8d13715b0f476c8f69f1e8d34"
     },
     {
       "path": "macro/posts/2026-07-24.html",
-      "sha256": "f12c3423935f6ec2405e745b7c22ee8cb366bd7a981d1670a5138ed173cefaaa"
+      "sha256": "b3ee28ef27af5c21a034fd1c1b3cf49a9600daadd3604b9ec0ede7358131576d"
     },
     {
       "path": "macro/posts/2026-07-27.html",
-      "sha256": "2b81efcd9c97e2b8b04bdb9f2f4dc64f132bf049f45e1a707ba8513a8051fd32"
+      "sha256": "c261ea697d28380daa826c315970323f207dee3d0709e189de4cefa23271c12f"
     },
     {
       "path": "macro/posts/2026-07-28.html",
-      "sha256": "00d8d40676c12a4e07792f0bb0dc5fc22a25b5f312de853b44489091a9f2237b"
+      "sha256": "b243bfa3c87a897f72741ed4d7b80cd69ef2db4f1a5f0e3c969f711ee318072b"
     },
     {
       "path": "macro/posts/2026-07-29.html",
-      "sha256": "f42304e540075867a4ae0d10af4ee4dc3ee9d5ecfae0141c7f0fa2d5add6e567"
+      "sha256": "47581de4282129e737e83bbd4ca7791f2b43ef5c49dfa5ee8b481e3c174fb797"
     },
     {
       "path": "macro/posts/2026-07-30.html",
-      "sha256": "b222818482bd5a2e286e613066cad147f3f48b53ab9e618c60d77dded0cfb106"
+      "sha256": "3a4d0e4a177667049b86c6c1c682c999072d7f9f449d9177c1716d4ccb8c3391"
     },
     {
       "path": "macro/posts/2026-07-31.html",
-      "sha256": "acc2f7a0bd4e415cac8ad24d0bf41882c7803d237c3de5342701eb930d3a4e50"
+      "sha256": "8f2f545f8299d402fd293307978ecdf1ca0ffe65d938429c569696d6d38117f8"
     },
     {
       "path": "macro/posts/2026-08-03.html",
-      "sha256": "9861acecc58020bb5dfa131878981c12372b16c3fbb24cdc0a5f7da83b9830b0"
+      "sha256": "acf91dbc659a30b8dddeb492b8a1f443fd4e4a102c06dda912cc9370d5bf3207"
     },
     {
       "path": "macro/posts/2026-08-04.html",
-      "sha256": "a0b438d0e9380a80b0a1ff813327b878bb95f3f5cfda7ff33c765f8c8f37496d"
+      "sha256": "8297de02465e5bc84e0dcbd229383a455414c950852dfd15dace57fefbe8613f"
     },
     {
       "path": "macro/posts/2026-08-05.html",
-      "sha256": "92be4eaec57837c6d88dbe7e62e1b80791026828dbd6b77946ddad3185fcb25e"
+      "sha256": "221d39e8b2b44f7b2f086f636e3c5e4a16847c88e265b7a4c325b7ab0419ac5a"
     },
     {
       "path": "macro/posts/2026-08-06.html",
-      "sha256": "a51ecb16e22cc6632bff79dcc805855a8b6b9552b4fdb5551db61d1f0288fb7a"
+      "sha256": "3679bfbd4758b8015cdd4025237648d1883f35788d05ddabe607dddd5babb8cc"
     },
     {
       "path": "macro/posts/2026-08-07.html",
-      "sha256": "5d6e13c68b6518bdd7645f83cec391e7ecda420a40ae2ac6fb87bc62e8181857"
+      "sha256": "2461f2fb2d77ab472f427cd4b47c0288bd3ad632aafc175abfe467b0f893bc91"
     },
     {
       "path": "macro/posts/2026-08-10.html",
-      "sha256": "950dca241d92d2a9b293621f759025ac49cdd4cac87a8417f8f744b47919ec90"
+      "sha256": "6c07ebed283265de394a7f017666c12b88e27ec5d40c66bebc24fcf8e9e83186"
     },
     {
       "path": "macro/posts/2026-08-11.html",
-      "sha256": "c088cda6a7dfe92c6de9fa2650cbf42fbb648d7626e11125f17b81a6d75ef580"
+      "sha256": "4f50bce4bcf3abf92e05bfd38759cd9e47dcb3e75466a3a759427ebe3d91f10c"
     },
     {
       "path": "macro/posts/2026-08-12.html",
-      "sha256": "f0b0013bb4d6b8df664b9720bd8cd8aa912a1cefc499fe1170b871e2a6ba14da"
+      "sha256": "68bbab6fdf126c1ec916a2b624306fd1a5e47a707deaee35ba62e13d1cd574bd"
     },
     {
       "path": "macro/posts/2026-08-13.html",
-      "sha256": "76b5170bc166d53eba2feb415e1576f6e09008a5bd7e1b8c326a6c24015513a0"
+      "sha256": "7959c8e87ee719b0b93d7ae606b4e08883be70daaa7e98e81f043999b98301dc"
     },
     {
       "path": "macro/posts/2026-08-14.html",
-      "sha256": "83cf262ec05444cb42a84960d44d3d9c8000360436911837189eb85a97f00f82"
+      "sha256": "7375ca8e51156dbf429df4a3edf22071755915f4d09f61e28849526677b5c217"
     },
     {
       "path": "macro/posts/2026-08-17.html",
-      "sha256": "e643080140de6c8c43ff4b3c365b6800c110fbae092994eaba56dd2e52293402"
+      "sha256": "84c3024a1c8c50fd8aa82e963cec668ce37f61700c5fe833334bfcbc2ba679e0"
     },
     {
       "path": "macro/posts/2026-08-18.html",
-      "sha256": "032f8095857bf1e948320447f89ca414d2bab4874a371653ab52445f41547524"
+      "sha256": "08d625a41ca8ca9ed82526777855bbe6d219c9d1b703870ea49429897ee3517b"
     },
     {
       "path": "macro/posts/2026-08-19.html",
-      "sha256": "bee868e284a36d15c82ba2951be94353eec07df3f69e30243b471f6a6509f3f9"
+      "sha256": "312556b380182c3985590fec85e05f00149e5da4f3755e17644c0e4e12b27a0d"
     },
     {
       "path": "macro/posts/2026-08-20.html",
-      "sha256": "cae3d38310f11990600b46655fc9a3fa92183268a42d148bf5e80a2cbc2a8bd4"
+      "sha256": "5d6833fdacf00822b61bff46b28894f56956748c80671b90433a4fd690323d88"
     },
     {
       "path": "macro/posts/2026-08-21.html",
-      "sha256": "9cd55a1028458b05c0685945ad003705e03fb35ab3c2779de0ec5ed72b64cffb"
+      "sha256": "0e052463bda386d2dce48ea6caab693130166fc6851df646764be2caf773e694"
     },
     {
       "path": "macro/posts/2026-08-24.html",
-      "sha256": "61966605eb25c574913e3e5461b232f0896cecc42fc9d60792c8c8c2f676984b"
+      "sha256": "31e726092e4093d3dc761bc20c0c7edae3cc33a08bb5a99587126938167029b1"
     },
     {
       "path": "macro/posts/2026-08-25.html",
-      "sha256": "47931ad086f5656c682bd2608ad01191ea12e175e6df651bb119061bccb094eb"
+      "sha256": "1027f8eed60b3c3c720e366ea15a4b316561e0693d0e151a203adba04d1a0c34"
     },
     {
       "path": "macro/posts/2026-08-26.html",
-      "sha256": "a1292c0dc2b54b18fd80b55e95a93ec75dbc3fe60d06cb42ecc8593939d9cbfa"
+      "sha256": "3c11b57983dd57d9cd19537c0777c6611c94ada78de569847708edc272735faf"
     },
     {
       "path": "macro/posts/2026-08-27.html",
-      "sha256": "8ec2b742ebe67d947ab8e58ad2d996d6d075530c783e4ba719c21d415eab0dbb"
+      "sha256": "8edc28cfaea814c4c5c3a80a3888eb18f065a50c22869aaeff2b3a4c37434115"
     },
     {
       "path": "macro/posts/2026-08-28.html",
-      "sha256": "88d94ae020d12b15286ac148d0d70f046ca2095a312b95045dd82650712898bd"
+      "sha256": "3c05cd14ff1b856cabea788564d7ef5c4583e442261022583e9ebf20829b6415"
     },
     {
       "path": "macro/posts/2026-08-31.html",
-      "sha256": "adac335823263d55eca2a93b981c24c94ba2df79913055866540fa73aa452f8d"
+      "sha256": "6a381465d36e3de27f8ddb710a26bc1f729287a2ce0c6a443d5ff2ee2c2cc25d"
     },
     {
       "path": "macro/posts/2026-09-01.html",
-      "sha256": "86ffb6f6dffc5a91f66941fa8ce51cd05ef721b9970f4121b68a620958d0585e"
+      "sha256": "2bb2df8fa3023ef1ceecaae031e272144d07181a64fc0f56c47d7c2a08129cad"
     },
     {
       "path": "macro/posts/2026-09-02.html",
-      "sha256": "129ea052e2dafb77136dfd7b9fae043de1377c497a31e33f758a647744a828d9"
+      "sha256": "e53892340a2042aae3affd37068f8362f9092b8a5835b87cdb93f957014e4969"
     },
     {
       "path": "macro/posts/2026-09-03.html",
-      "sha256": "9c54f9436371fb66bb325d4c7c93e82069b842bf02aff96008f5ae958871fa75"
+      "sha256": "55acb4368395717150e55a1fa15f1af48eb9f846f1910bebf91d0d03b0d3762f"
     },
     {
       "path": "macro/posts/2026-09-04.html",
-      "sha256": "f7321d05f8d99ea36fafae11401f43fd37e6bc0dff7a5bc2fc76a4cf0f432d49"
+      "sha256": "0bbff8ae8e0d9bd79b6a3cec2564165545568d2da0c0096477557d92145905bf"
     },
     {
       "path": "macro/posts/2026-09-08.html",
-      "sha256": "a71612cdbd2863cd55f1a494cda4ba7eaa36516f9291bc72d6a274d82a7f9c07"
+      "sha256": "ab373fca1e588ac27a4f41fc4ce744e7b4ddfd6113ffaafc1464eff14e884e72"
     },
     {
       "path": "macro/posts/2026-09-09.html",
-      "sha256": "34d50493da81764d3ec97ec7b0f645c41d115a7b93edaacea6f87bd20fa12082"
+      "sha256": "cda5fc99cf8d0c190a444e3b03393ed18d946e4accfa0b7bb56d3b85123a3287"
     },
     {
       "path": "macro/posts/2026-09-10.html",
-      "sha256": "4ce81f82227b58bdc7d847a1534755044fcbc39fb85ea2240e4559f8674050ae"
+      "sha256": "b92cd867656171b7f7d609e53b05a1476583281454df348ad369d9083d275dac"
     },
     {
       "path": "macro/posts/2026-09-11.html",
-      "sha256": "432a50e8ec8c6415e1b3bffbd670dfbb46850a6db047fc9205adb9fbe0fd6963"
+      "sha256": "87213ae855f0c4fdb283d496a1b9267305f2223d42ad2251c6dea09c396777ca"
+    },
+    {
+      "path": "macro/posts/2026-09-14.html",
+      "sha256": "11e8bb7859a62339b48170ba2687ccf04e41324e92d4a227422ac2ad00f410c2"
     },
     {
       "path": "macro/research-rules.html",
-      "sha256": "c70e7518ee7c2758ed7f3d17b763cb3308869682707298f9d2ace2bedc940a4d"
+      "sha256": "fe2ce4bdb2d8016f3e0a305b262203e551962dc9ccd15e2f057a3e2443c33b81"
     },
     {
       "path": "macro/research-rules.json",
-      "sha256": "3971905e8d69a228dddede4baa5b956fd54e390f68a2b7b1aa67e98842f66ec5"
+      "sha256": "95564a16862a46e6962278c75d2c03dcba81d2cd578d1623c528a0b0a79e6176"
     },
     {
       "path": "posts.json",
-      "sha256": "f70592319ce90ef63d880f1cea50da64295c0ecc7448e2548a413ef5c01f1218"
+      "sha256": "4a83c659e0e5e0525b4bcd5cc5a798e084607d98e4a3d2e91b98021184f61c0e"
     },
     {
       "path": "posts/2026-06-02.html",
-      "sha256": "2ba185b9fabd9b11a99c33d292e63c20bd87f59322c170b4ff8aba6232ec7aba"
+      "sha256": "05e55d7f6f7efe33712010fa4ecb1f913b9b42efdebb01f128a414647e86e52a"
     },
     {
       "path": "posts/2026-06-03.html",
-      "sha256": "c13155872b34d7de1c6d23890689efc45f7294ea7f9be80b946d34ff0a131aa0"
+      "sha256": "03cf2fba3f0990351b04a948042c894d94e2dbf4c22cad3ef78abaaea3577b4d"
     },
     {
       "path": "posts/2026-06-04.html",
-      "sha256": "b6c341a5508e05a1f00d14480c66866cb61d15e60e7ef28e8e0559dc2a89ef19"
+      "sha256": "08457040818500cc3c99f320b57aee38e516e3639af6275db8fa716bd02c71a0"
     },
     {
       "path": "posts/2026-06-05.html",
-      "sha256": "0b986aa1cf389e9bf3eddbe479ef4738c734f35ed29261d885435d0b197541ea"
+      "sha256": "80d92435df6dd001685bf246e6b22553f136f19058af330b7fa7bbe97d812271"
     },
     {
       "path": "posts/2026-06-07-sunday-livestream.html",
-      "sha256": "b01d08335758513b7413e6b21a463b4914f5260614b23eb459d2ccb75d45bd7e"
+      "sha256": "cf4fa90240aaaf0301e380426c937432ccd671ca1453e868a32a0293710e232b"
     },
     {
       "path": "posts/2026-06-08.html",
-      "sha256": "c9d8c4c4fa49f1776a2f0471958c3d65b4a87bc40638763ff13c024140d4df12"
+      "sha256": "a037deefc4058b4680ded075b26980e0713fdeec7d7313e4a0fbeeff9c95b918"
     },
     {
       "path": "posts/2026-06-09.html",
-      "sha256": "bc3573376730494b43fba63a01378afb627f319854c187a64669869a1f9faff5"
+      "sha256": "f1dd9d88c42f5aaceb9d85c42e79da466bde8d63d6bb367000ace74dbfcc3ea3"
     },
     {
       "path": "posts/2026-06-10.html",
-      "sha256": "05769d48b40e63e49e4ec5170b5e60dc578745d1f3c17d666c9dd2adbeb29fce"
+      "sha256": "ffc7da3df4ad1a376a385b676c279cabd8f6379078a059bce0a103e7d036cd29"
     },
     {
       "path": "posts/2026-06-11.html",
-      "sha256": "a7583c8629db1f9d71b0a6e796fce8bffe699e324534311b56173c2092754fd3"
+      "sha256": "3b156309513ea6cb926c7ca7531abe929041ee949f18f8c819161efaa6ec6e23"
     },
     {
       "path": "posts/2026-06-12.html",
-      "sha256": "be33e13ac44e54a37cd665ddebc7855a06e816ce070070a39709795a277134da"
+      "sha256": "930568c7c4c57bbc23376751ac3afa93e10312297c59a69087e3fbc7a0d64e0f"
     },
     {
       "path": "posts/2026-06-15.html",
-      "sha256": "445b512ae6012b8b049836f0504f548511992e2c9629b364f4449b44cc63cdaa"
+      "sha256": "fbef501c330804cd9c18b43ad76b05dc2568860479504fb3d129f8c28ba5459b"
     },
     {
       "path": "posts/2026-06-16.html",
-      "sha256": "58247b41adc451b7a4f9adbad72b5908361a71eb1f9a2a5294797e7155332353"
+      "sha256": "97800b153d51288f716084db96299767e9e4b9824f305a005087f483cc817e0f"
     },
     {
       "path": "posts/2026-06-17.html",
-      "sha256": "67f79a40b59b1ddc23d2a0b3aefbf570f4211387766940beceab2c001e52208f"
+      "sha256": "22fe44d9c2f2818ee446a4a3526a59a8fb7bf00a2ab0ae4b8814ec611a506df6"
     },
     {
       "path": "posts/2026-06-19.html",
-      "sha256": "9492bd28c10c6a70c132259dd1b979220bef39404da056010881ca5b6709d648"
+      "sha256": "7028502d41563503601d3fc6bfa2bf488e684e55bab2149fd0e4612384fefbbe"
     },
     {
       "path": "posts/2026-06-22.html",
-      "sha256": "7fac8ef17d375aa8152d6a431f27dc10d90f948b6afa5790425072332f6c65a1"
+      "sha256": "6b2a048a9f52270a2d24a6bd5775ef03ce5bd66c6b6e72f85b7383596a8ead5e"
     },
     {
       "path": "posts/2026-06-23.html",
-      "sha256": "552e87dc08484f35e25455551e138e9cd2e4bc96889d8ca67a1f72051deec6bf"
+      "sha256": "b3550e668fc57a795fdfff3b009c01e67eaf645c34beed2b895be5f5e95908ce"
     },
     {
       "path": "posts/2026-06-24.html",
-      "sha256": "d723d667497bc99d01b448b127a2e81bb2bff5b576dc046910b52eaec4046c09"
+      "sha256": "c78b5dd6f289a66269be571fb1fe2620ab5d865f08e2084644c915cfdc62486d"
     },
     {
       "path": "posts/2026-06-25.html",
-      "sha256": "8aeca167556518af14e216e883183e9c094b601b3e6a12ef3d4d1bd0a307ae01"
+      "sha256": "caea998a0892dee1f6dc0876f4d3ad4f3f870a01fd35b571f55bab2094cc6c88"
     },
     {
       "path": "posts/2026-06-26.html",
-      "sha256": "0ec702d1d4e4de625340d3c68c87f40cfd444a79a1f68e816b260cdbe8d4d7d7"
+      "sha256": "8125915adfc0750127e10220b7f3bc47a185cb83731805f994af0a405f820b6d"
     },
     {
       "path": "posts/2026-06-29.html",
-      "sha256": "91d47a63c970dd552c9fa6e2dfa3ba80a9c180bd235a00f29bb21cd7cafc0509"
+      "sha256": "0c0f7f798461d78bb89b69233ba9bfecdb48f4673fc4e591cec0e6aa75cc79e2"
     },
     {
       "path": "posts/2026-06-30.html",
-      "sha256": "9642a6e75db6dffd92ff1cfddb3c13a1623177d0eebb41604facced769a0e8ea"
+      "sha256": "c53c18cd45c21626b9d32bedc4f86404ec2787757ef7226bfca8da743b7dce36"
     },
     {
       "path": "posts/2026-07-01.html",
-      "sha256": "36878cefe8049b264e5fdd319c2b2fc33f168ce881d9bfb004a0c0542967fe59"
+      "sha256": "bcdb3af66444c4a681c3969dc32facd4714104a5d8697cd1e78b88990ffe4ce2"
     },
     {
       "path": "posts/2026-07-05.html",
-      "sha256": "0e158330cc6f2d55fdb63e422c23f53a4163a6d44b887727486b1d1be630156b"
+      "sha256": "4ae7f0da89b9635552fdeac8666650ce71ab3f2fa726a035835b9801431b119f"
     },
     {
       "path": "posts/2026-07-07.html",
-      "sha256": "c0eb3377b0c718a4f9eac852a20e5145aa6eede54e7fbe86a6482f26de6e02ee"
+      "sha256": "245d2fb50663ab9e33777d7f90351fb76907c031e2f698939ce1c099bca6897d"
     },
     {
       "path": "posts/2026-07-08.html",
-      "sha256": "011147462420aac544ed226fa26b0136e945424d5ee4eb8a98338b585b9a28c5"
+      "sha256": "478aca9d4136871aacdef7ae77c5cf5889b113f104182b6357bc4c8f37f19f10"
     },
     {
       "path": "posts/2026-07-10.html",
-      "sha256": "91ac865fbc76fce10e72f515e32ebb6f49d67fc3e266e2db429128d8d4cc0d78"
+      "sha256": "21d9af7d1fe339a814c080ae3775912aa761b0e42828977b82f3894bca1eab42"
     },
     {
       "path": "posts/2026-07-13.html",
-      "sha256": "34ef5545994207dea15957fcade38cf40eb24a3296f50c8ae0c7f9280dc9e7e4"
+      "sha256": "d7c7c22a980e95c3e41b248a1601dc9dc0f0b6ecea876f9b243b18514e563acb"
     },
     {
       "path": "posts/2026-07-14.html",
-      "sha256": "b969828522d44b9bf7a4a56e86dddd23572428d5169d59327b2499f9db090182"
+      "sha256": "c3523b865339ba0eb5a0b1a6bbdc31f2869a016c526e8dd51aa972a16d19da68"
     },
     {
       "path": "posts/2026-07-15.html",
-      "sha256": "d20af59f786efa83b40edc4db4c189a9484276ab629c217cd87f6317bbfa02cf"
+      "sha256": "921a04093911d0ce0bc8559b0dbbab001b00b5d574b08da2c326c8779bd77e77"
     },
     {
       "path": "posts/2026-07-16.html",
-      "sha256": "27a08aba0c6d16988f122a71867262217573d4c200f89688d489dae4fed2e044"
+      "sha256": "17ea39b23bdb5134f83aeb5d8ec276f28fdb42f3385465d4c58928113265858d"
     },
     {
       "path": "posts/2026-07-17.html",
-      "sha256": "488a929baf950634389bd0fc22bffdb6e39c13ab2be354468b88aee16deac3be"
+      "sha256": "3f1dd7d28a9ffc0453ffef5826c0f051063c91063efc57aed0cbc2479b72c249"
     },
     {
       "path": "posts/2026-07-20.html",
-      "sha256": "3cd9f2bde1221595517b31dfa8bbcd3542b2d685dc28627294d0ef2f6fb89b4f"
+      "sha256": "b5f212d5f7bef528cb1aedcbae36ff1c613b172608ae94d52e2c63e33eeedbd0"
     },
     {
       "path": "posts/2026-07-21.html",
-      "sha256": "4b9aafaac01ac1b0c6122997e120cd0e82533d8bd1d1bf928b1f3e377dedfff2"
+      "sha256": "bfe46e995387ddae7cd3ff50b622ce6f3d38a21a1a7a1f9900f0b7fa1620057b"
     },
     {
       "path": "posts/2026-07-22.html",
-      "sha256": "63f76015d1677823965efd1b609ffdd1ed0bef1b0aa2acc28531947891ab0e9e"
+      "sha256": "7ecb43dd373e6add891b123d06197ed87fe4e84619c6fb42531fe164411d3680"
     },
     {
       "path": "posts/2026-07-23.html",
-      "sha256": "627f953c449eecb1896f2e56cec886bcf5a25c9cd3f6afd6bf4181f66328d80f"
+      "sha256": "013ecb703dd8770a953a94ed743865cf0c5c6945c5a8b6c055d287142d54ac0b"
     },
     {
       "path": "posts/2026-07-24.html",
-      "sha256": "8ad3ede459007940937bfb0df9cc674210894ca98a152506d897c6be1195a299"
+      "sha256": "f666740f4ed73300325a3efddf0788e49d1bde1d03fb263f9321f2f5e6da040c"
     },
     {
       "path": "posts/2026-07-27.html",
-      "sha256": "5d8ecdbf1b57cc533d5b1eebedc1d5a7a068c6d64684372b6b9793e0bd373457"
+      "sha256": "4a03803d54cbdd1ef1a4a9a64022de37a6356786cbfd5400b111674cc67f6ee1"
     },
     {
       "path": "posts/2026-07-28.html",
-      "sha256": "b807e1c37c516ca5c1a6372be18a644ba1af1532aabf5f5d38df8f6e012993c8"
+      "sha256": "11d60ac856f6676cc826a53493b979c8440644a34d48bba693e172d406baf976"
     },
     {
       "path": "posts/2026-07-29.html",
-      "sha256": "6219d24e8de629cdba17759f09a6bdaaa44f562a68a589b7a632ac5461b37ec8"
+      "sha256": "3c6fba7de3430c7f72c92614b1b697118849ee9c037d329fd32cfd2591b3af10"
     },
     {
       "path": "posts/2026-07-30.html",
-      "sha256": "39ee2e856d3057e63901a0c29021301d188d461f6b2ee69e89a6e50b22e34839"
+      "sha256": "bf870e5729fa64c0aa0d4a2cca81dde369949ea47f697ff54db87be914934bed"
     },
     {
       "path": "posts/2026-07-31.html",
-      "sha256": "0ed07b7c93d8f81541037d7b93d7ed219458bd511fa259b786633ad0dc517a0c"
+      "sha256": "0ef1c2a56e4584a6495917d50c5cf7b453a0978bea966e78ebd7e400945f2f7f"
     },
     {
       "path": "posts/2026-08-03.html",
-      "sha256": "699731f1643153cdefefa42f5af2a78410741cbeb0b86f65c5197a52cb0267ce"
+      "sha256": "8e90f2edfc23c39de3f453934c7e96c6e10340c7f281d468b4d52a6ee0ad794c"
     },
     {
       "path": "posts/2026-08-04.html",
-      "sha256": "9bc04ddb3c6ac46ababdea1afcb42908daa4c689f4b8f8041b68912ff85c24fb"
+      "sha256": "79d57ef9cb01c57546819bd8faf080eb3cca5c9264497346253a009c9dde412a"
     },
     {
       "path": "posts/2026-08-05.html",
-      "sha256": "ea9a75f64fbbe979f20ad6272d6102c729a85f23efd92a36e616949dc3a4113f"
+      "sha256": "854ff8b7850a19f47b5bd07b5132b82de3a11d2cdf18d1bc949a61cbe912772a"
     },
     {
       "path": "posts/2026-08-06.html",
-      "sha256": "9fcc3cc5c70e5d21d4f01ae6fa130edc3fbaca090ff350642be78601c2934c0e"
+      "sha256": "3c629e7bbfeee7eb8e849b0bc19745e1b946f4a712a394e933972579c5d6c71a"
     },
     {
       "path": "posts/2026-08-07.html",
-      "sha256": "c4b90c291e19b3f6da0a5d44a924be9104caf388b7beded5823b97af97e03ace"
+      "sha256": "5cf4c0605719efa2738153b67028456a17d1c32642e7c85c45c9b7ac8e925d53"
     },
     {
       "path": "posts/2026-08-10.html",
-      "sha256": "de8a292e1db1214dd2db4a5abb363ac9ffe783d518be1e7546e9c2155fb8422d"
+      "sha256": "54abf64f605bbed745fd3a49c1cba0c7c931ba0121b6871572cf9a96bd3952a2"
     },
     {
       "path": "posts/2026-08-11.html",
-      "sha256": "d0287c4230bd701f0d78236065353bf53978e7797d726865af4c6efab49f6c19"
+      "sha256": "14b148b999953b9293098a6b2ce5bfaf39942ff05732857637805be35d161b41"
     },
     {
       "path": "posts/2026-08-12.html",
-      "sha256": "ab7b03428fd62f317d67c0f79bb994663ef1464c974a49a21ad69caf0dbf1b6c"
+      "sha256": "2be05ebcab7bc55ddfd7a9b2746e22dc8a781f367962e73373e423c0dd1ac848"
     },
     {
       "path": "posts/2026-08-13.html",
-      "sha256": "2fdb84d4003b3cf09d9b04dccd51d905df96e3c1ab4fc6ebee52f2e5d2695e78"
+      "sha256": "5477d1e77ab082d004f39fb29c01b6225fdb99e2f77051704f5aa5eee88f37c1"
     },
     {
       "path": "posts/2026-08-14.html",
-      "sha256": "a0a5ac161dbd3aea85f8bfca90edefb9affe73db781946537d47b7b8be47ec12"
+      "sha256": "7263bbed748b6fd3049dcb53dcf96c32271b959437c87db2c33d7f035a64c4a8"
     },
     {
       "path": "posts/2026-08-17.html",
-      "sha256": "e3a11999c9a48d88595d7cd5125315a8f29d08a3cd38f44e064fab2f77ebfc2e"
+      "sha256": "e39517c08f5798229fed0cc1d0303480bf4212f3a2b545da8682706d3f626134"
     },
     {
       "path": "posts/2026-08-18.html",
-      "sha256": "9d2c797e7a1c21450ed0d60d3c5369cb25d4151c930988770356dff1e22f2dc1"
+      "sha256": "6aa8cec74e4c976b8be24faa6a67204fd11428d9904917060a8029e6d24c7a08"
     },
     {
       "path": "posts/2026-08-19.html",
-      "sha256": "57855b1307f4df29c1f33ccec6074cf8f899ce4446af627264d57de8d8be261a"
+      "sha256": "8498838e354eca2c1a7aacff41f7071f927e9982c98318e6406d347a556a9cb6"
     },
     {
       "path": "posts/2026-08-20.html",
-      "sha256": "68ebbd92801843efcd5a8b1de4fd1d5716dfbbef5a07e5fab98c6d49de6c4d37"
+      "sha256": "33f7b4fed576696431bc209a81342ad6cfdccc1ee7e5e7f4ac4c0a99a6f49455"
     },
     {
       "path": "posts/2026-08-21.html",
-      "sha256": "2ef4b16a9439c1ef0079bc4a01bd3170130599ff52874f2b7ea97eb59ee9ce9e"
+      "sha256": "a3d63deb9b51e72dea9dc139ee30a18dcb760472e36188f0646e11fe197d240d"
     },
     {
       "path": "posts/2026-08-24.html",
-      "sha256": "ff6e78a5755aaad0508566987d4ba29afe02ea402efa6317fa7fdd95d1a83c24"
+      "sha256": "3189a461beb83b3ab5c55502ed69c1999d8228b367bde5507bcabcfbbf100915"
     },
     {
       "path": "posts/2026-08-25.html",
-      "sha256": "4d34dcc0634afc2a59b9ae850ecd9ee98d2fef174c73b79d5785fe0bab543c3a"
+      "sha256": "a3736ae9305fa34fcce5a7ee2d2ca73572d9ab0d1a7bf84ef8137120ba7e8824"
     },
     {
       "path": "posts/2026-08-26.html",
-      "sha256": "092e9d2a44659f5d96ec0c03d629eb4b4498d4a3ed6c0eb0d38e6573b32bed5c"
+      "sha256": "3339d58f645634b565100e99fdefbd40ad48d24d9b6ff9e2a7f0609409f355e4"
     },
     {
       "path": "posts/2026-08-27.html",
-      "sha256": "84b0c93be924335661f8f5bbc577064fc7684e9e54a757fba2404352c5e42241"
+      "sha256": "6619309d4b967135a5b35b1a884cf6c7ec419e86c1519d740fe15199d1ee5702"
     },
     {
       "path": "posts/2026-08-28.html",
-      "sha256": "fba945510b3d0b88beff3e980ec054ba6e7c7fc62f97b31b5690ed9881a40e08"
+      "sha256": "293b3b7111471583b66f03936b214af8877e2c8366e5268c4a8397814d34d381"
     },
     {
       "path": "posts/2026-08-31.html",
-      "sha256": "0e993166423af83d8760c684c65c85c2585d9c4ec12c88437cba993089b8acba"
+      "sha256": "a4b8fa8445118c6780b1c63939a9d28f05ab0e92bfb81ea52b4cb57a4d96d6b9"
     },
     {
       "path": "posts/2026-09-01.html",
-      "sha256": "66bcf7b0663cefa62b3118b4f633a381dc3151cb36c3e8e81322600e6f1eb4b7"
+      "sha256": "fb5bfbdcf67c01a9c738f863c160e63bf2965f3dbaa125b286cf10da9402a462"
     },
     {
       "path": "posts/2026-09-02.html",
-      "sha256": "f55127786ed65b7183effbd8da3b540fe3c14ebbc05a3c2f6827b8c4b5c2c4ac"
+      "sha256": "e2582927139234b8645f857ef175b43e363bbf4a060184e09ad0c4c0c72cb069"
     },
     {
       "path": "posts/2026-09-03.html",
-      "sha256": "248a31e8dfa7c6619c688472ed70c0bf804e5af5bcd79bd4a935629115aaf7bc"
+      "sha256": "4204575d86b1f9344abdf8806e020b460e87c0d1812f3c095ce8ad067ee02327"
     },
     {
       "path": "posts/2026-09-04.html",
-      "sha256": "172442cc017966d39df91d6979668a58784b78f698278c0abda5ade6d55403f5"
+      "sha256": "7b97babb300e7d62b59f8d097481a7c0f5955fa3ffce7341e33840e47fdc1aa7"
     },
     {
       "path": "posts/2026-09-08.html",
-      "sha256": "52a02f1b63263fcdd2b0c4233f2ac1b53497f864a8b77de4903bc0c347530957"
+      "sha256": "5502e8bd665274edd6e3a55adb2b93d934f66e4bef90184ee7a50fddd34b50cb"
     },
     {
       "path": "posts/2026-09-09.html",
-      "sha256": "3cfce911ba3c81b484f1b47b1868b5f2435834cedb291933f15219c187ef60d2"
+      "sha256": "51b0b846527b54d3d0a41bebabff4736838f08d17b937ee271bd66f2aafe445e"
     },
     {
       "path": "posts/2026-09-10.html",
-      "sha256": "f5ef535428d06abb2b61f4a8f75363f6a714210fffede5872eff11967d351a57"
+      "sha256": "07dd0e18a92f28a3693d82d8984600076abd2d4d131d9a90d4b3166d57f23f71"
     },
     {
       "path": "posts/2026-09-11.html",
-      "sha256": "af95dafd7df14852790b0ac101887f6338e0c8cbe67fc5d4b498358af5edd8fd"
+      "sha256": "d02c5854fe21e17b1851e457b5816ecc1778767f88d3f4af2d8a272465e35ada"
+    },
+    {
+      "path": "posts/2026-09-14.html",
+      "sha256": "91abcbfcd187f7d86802d9a68f645dec498383d5636162044dac4aa2de4ee38a"
     },
     {
       "path": "posts/index.html",
-      "sha256": "aab08b54812a41cad0f0b2b6371ed798ba0dad0a608473cf59f3a35e343191c5"
+      "sha256": "cf405f15c59b2a86a74856c0c24b690d25ecfe66692b704abe08e7940ae9139f"
     },
     {
       "path": "snapshots/2026-06-03.html",
-      "sha256": "5e1f1a6b951b4a5dc5669a38d8b3c6d081b81d2e6b444bc8066ffcc73218c4e4"
+      "sha256": "15a549013ec9e240ab996a1db2b844e58264afe8e2034c055b0de5d1abed7ba4"
     },
     {
       "path": "snapshots/2026-06-04.html",
-      "sha256": "5141892ff82d3fa081ae15e40916ee9594259bc0c4a3420d3625021a141c37bb"
+      "sha256": "a3744fb8bfcbb212e7b282179130e8ee009169b12ce02d30de982f75fa55f454"
     },
     {
       "path": "snapshots/2026-06-05.html",
-      "sha256": "ea9eb485e80c42f6c773eee2859d4ef652ef6dac26e2480fa64fd67477291630"
+      "sha256": "2527665d770e6b7e9bb5812c2fa1af15033501ab547f0a47ddffe8935bce3992"
     },
     {
       "path": "snapshots/2026-06-08.html",
-      "sha256": "8abb41829d21b84ff041337a4f24f4e91c1f57cac3e91233510b7464b03d06d3"
+      "sha256": "7bc9b293ea8c41fb607951dc817c4775cf27a75a1fd7c1bb284070f9d2b24b8d"
     },
     {
       "path": "snapshots/2026-06-09.html",
-      "sha256": "493f5cd2a4dc4efff7696ba6ec75c12c5258a6901586b5ebdf3855d223e7cb6b"
+      "sha256": "b83248804f470e1ed3dc0b9fc13b3e2fa6846b4be21c41b83a6699d4312660af"
     },
     {
       "path": "snapshots/2026-06-10.html",
-      "sha256": "af872e6b13732d77f3af3cf8101754ece6ce6f48497b2c5b9a4cd9f27f3e64d8"
+      "sha256": "afd4e673f40b466b6a39d15f92e36eea3fb17f9e93e3a8f8c78fa23ad9eec589"
     },
     {
       "path": "snapshots/2026-06-11.html",
-      "sha256": "90576e19f36e503b5a1c72ceeba14103b1bdfccb8309254b14d1e8d7912cfc64"
+      "sha256": "9a82da26aca86746523239e533b0bee318f44896520b871a63506bf97d70ac49"
     },
     {
       "path": "snapshots/2026-06-12.html",
-      "sha256": "07eadb4494bc2ce7b1360821f9e97c5b405e27dee1354eff5f7ba6cbca5cf318"
+      "sha256": "7cb6e0d50741f9c4c7b71bd4b6ef49ceeeed32a62ac353a47802001af506dac3"
     },
     {
       "path": "snapshots/2026-06-15.html",
-      "sha256": "02bfdc3debc28e256372b861cbb7ca4b44f6912738b2126ffebe11350eae93be"
+      "sha256": "a248452792b8c8933460224b3634c18f5ed0fb17a43d529162c0ed9ccdeefe56"
     },
     {
       "path": "snapshots/2026-06-16.html",
-      "sha256": "5b3efc82f7ebc596bc66292739d15ce50f937be863e5503060d82957435033ea"
+      "sha256": "c80bc1d4323e47585fa9d5212dd02276f5f98319c9a38af5322b4431ac286262"
     },
     {
       "path": "snapshots/2026-06-17.html",
-      "sha256": "d8976ccf22e34eeb4030d7bdbc91f415f2549e1ac3214bf10bcfd2e9ac5355c6"
+      "sha256": "17fd9bc0280d1177c7d6890ebc42ac9f3a6ce186ce1f21fb1a00403b74909b00"
     },
     {
       "path": "snapshots/2026-06-19.html",
-      "sha256": "b4ffb9a39c5b6a77047ffcb729d77d07ab68521f307be105cb54ed71603866a8"
+      "sha256": "4929dfe2abbf6c519e250f476acdc81214790b875aba19b32ce18295ddca9a40"
     },
     {
       "path": "snapshots/2026-06-22.html",
-      "sha256": "87c8351b827d05188d64f56b98ce2a10fc4ae8448db6388a8b52e0bc7d4e2ea1"
+      "sha256": "06ef1fa554381db1f5078bdaeb6e15ceb2591c7e084c371083d0b755ac92ff34"
     },
     {
       "path": "snapshots/2026-06-23.html",
-      "sha256": "846be9da5a93249d9d12ada839938eb5eed5f57e247777b9c26c812519893cee"
+      "sha256": "2507fe866fd40977ed547627156a9447c1d0637a253fa4433cd2dafbb8198652"
     },
     {
       "path": "snapshots/2026-06-24.html",
-      "sha256": "c53234494a13fd9378061c31641f4b87846b4b6e70b22c970f60725afa5b9b2f"
+      "sha256": "d5fd47fdbcf6e85f3b36767375abd665ce2868ae3090d9484822141241019e50"
     },
     {
       "path": "snapshots/2026-06-25.html",
-      "sha256": "6c15037476541e8bb29b1876e1b5767a903a8d40744ec521985927ffc14ac54d"
+      "sha256": "0c97b1372b0e5c8a0907325c745d2b5f4cb4f2dac04bab25784789fa23c43070"
     },
     {
       "path": "snapshots/2026-06-26.html",
-      "sha256": "682689b67dae9b3e432e34b8c4ac5b9a3430898b614d896408c10b54e8756094"
+      "sha256": "a4328b1b49d791da98dd1343dea77501a592604bb1a34fedafe704c8330b74bb"
     },
     {
       "path": "snapshots/2026-06-29.html",
-      "sha256": "f14a13d81c29e4e44c4f66bcd102d53e1e25ed89c8af2216d453793cdc95e7ed"
+      "sha256": "fae44f37eb4e5c9de0834c8b4435a3a1b85e0ca0827c1f750e1a0db1278c88ef"
     },
     {
       "path": "snapshots/2026-06-30.html",
-      "sha256": "233830b63843f77cdc48b1af2cba73fa95ab590c795c9db96de225cf3065bef8"
+      "sha256": "09cd79d6205aebac1e460388deafb7ed62570a232918719e309e2fa65991a09e"
     },
     {
       "path": "snapshots/2026-07-01.html",
-      "sha256": "b1995e8587fb51320489d40456d124135e01b9209b6d55a592ffc20c9f4c59eb"
+      "sha256": "0aadafc1710248fecb6f6d60ffae2fa38ca5bba01bad9671d0db9893a066917f"
     },
     {
       "path": "snapshots/2026-07-05.html",
-      "sha256": "694a9bcdf3f111e1273d2c20395763370d8d5f93f9c4402582bf0ac694f8dddc"
+      "sha256": "1855c13e863b9eb5c25bbecc4413b13ec7b1b8d6fc4fc5452a6a4d395cd7a1ca"
     },
     {
       "path": "snapshots/2026-07-06.html",
-      "sha256": "c7691e10a98ac16de5c6e872dbf73cac2619e57f662388a6501664f102768297"
+      "sha256": "c01f624d99092c545300dd326110dbe04569eb9f29beee5c243c6b55b17e06dd"
     },
     {
       "path": "snapshots/2026-07-07.html",
-      "sha256": "d87e1ec59ce5be28e5e234cd31c83ac06de2408b215e65e27ae4b3c8878435a5"
+      "sha256": "3a33bb7dc380214f1883612c6921a8464b8434d27f316a733b83a43e70dbb28c"
     },
     {
       "path": "snapshots/2026-07-08.html",
-      "sha256": "96426cb4a6d784f5328ecf02080ab04046824007b63e3f77fae7501188531ba6"
+      "sha256": "95d2250e327b3789155b8ba11710382e14f9c47c1c104780582d575453c03719"
     },
     {
       "path": "snapshots/2026-07-10.html",
-      "sha256": "bf30e46161342b527f22804ad3098ae3dd6d765e03525b68fdbe172deffe32a6"
+      "sha256": "1bd2cb99ae5f4794ae76cdea8ed80d0ac5c874e1a9eb87fe3633caf934163974"
     },
     {
       "path": "snapshots/2026-07-13.html",
-      "sha256": "d7530375e7cb4f7f458d70ed5b9f739fcf4b0d2dbfb654a855eaf506b12dd8ac"
+      "sha256": "902669f9bc3b8b1fda41d76000e7e54ada1231acb301765e65ce5509f459872f"
     },
     {
       "path": "snapshots/2026-07-14.html",
-      "sha256": "bf066cc7dcd00ff3518727f9e17125e021af77e541964f815b5b1844d64e9fac"
+      "sha256": "e16fe29f7f9ef47d2b6566a6500a3907c9a1b0a19482991655e74d0ef208a7ef"
     },
     {
       "path": "snapshots/2026-07-15.html",
-      "sha256": "3867fcb42c66637eb5461652d3777d43787ba72090cd6b2b4ec3b1218aa97028"
+      "sha256": "090efbab286fe9347e9e010e0d95ce887575778d32219d65badd22f2f3fbd39a"
     },
     {
       "path": "snapshots/2026-07-16.html",
-      "sha256": "5bf67a6c1be45a47d53d6e625e165e93fd03e5a2ed022591bdef989bce56c301"
+      "sha256": "358aa73b0981b066dcc268ab65b3ac7893fe4a930c39aaca7063bd6549fc12ed"
     },
     {
       "path": "snapshots/2026-07-17.html",
-      "sha256": "8ba04b825be16680b190cb3dfe953f16fd6eb619b7f7313eb966549fa17d80f6"
+      "sha256": "b821890425ffafd825e1ecb934d2a1e745732d28aabe2ee7d1e86d879a4e2d24"
     },
     {
       "path": "snapshots/2026-07-20.html",
-      "sha256": "a0d678613a16a6ba2f5bac347d84319c003099615d9fef13e9dddbb19137b4f5"
+      "sha256": "2fc7a794374c660f2393fabbd4418983857afb27fbf2f8c7bbfa37ab03a16020"
     },
     {
       "path": "snapshots/2026-07-21.html",
-      "sha256": "f5053472e20bdb028c262dd1bc6d4568148d2b85fe0f891d753bab8a8b98754f"
+      "sha256": "16278a8cefaa4662503015a129acf466cc892cc1155e7b0cac97ff49548ea94c"
     },
     {
       "path": "snapshots/2026-07-22.html",
-      "sha256": "a0bad8ab9521f3666dac6cf4bf27f23020f4a18c5af0cbcd264385395f9952ec"
+      "sha256": "2e3650495032a22312714e4bb59e2fccfe421d231ec4201285bbddb339732e44"
     },
     {
       "path": "snapshots/2026-07-23.html",
-      "sha256": "2754114f41e9c6710cd150913709dbfea307bf8314c319fafa9c1d96adaec873"
+      "sha256": "9727f03ac765bbe96c2f6dc970342db6db3ecdf668584560ea034051474e6d8c"
     },
     {
       "path": "snapshots/2026-07-24.html",
-      "sha256": "e617e4e0721fabdb9e8754e3277fb0ff988f38a5cf3b785efb9ad22c70d0dbe5"
+      "sha256": "8eb2b1a4001a66fc0bc5c0959ce8ac2f87072784b64f9c8fb2130c05ea15183d"
     },
     {
       "path": "snapshots/2026-07-27.html",
-      "sha256": "31712c49ca8abde4283d2890a6011a173dec07fa639e94d47785fc43130331e1"
+      "sha256": "ab983ee0e808cad80f2e07f161eac7b6843f551c24bbee7c494a4f23af7c5ba0"
     },
     {
       "path": "snapshots/2026-07-28.html",
-      "sha256": "186932cb11bad84a00e7f9bf39e780700709a3a047bb5dd60cbf562e0dcc774e"
+      "sha256": "461755feccab00f7e64a7dbfbe7be83c0be7afdbc42312ff587ea6f7960c6710"
     },
     {
       "path": "snapshots/2026-07-29.html",
-      "sha256": "a18803c7f90fc06064fc0741b72d11f9f0841450fa1cad2b7e36e09462913101"
+      "sha256": "547272544888bcb3a25096b8aac75566fc735142bce7e07fa69ba3260dae769b"
     },
     {
       "path": "snapshots/2026-07-30.html",
-      "sha256": "0576ea3908f0e1c4cb6bf82a8d35fb86c8e372a559df60dbd24a1e15931cc8ec"
+      "sha256": "116cabbedf78fb3e51b64ea1ad6bdc784f66713213050a0554976ff6782f1bfe"
     },
     {
       "path": "snapshots/2026-07-31.html",
-      "sha256": "3502012dd11515ebd6da0fbbc7a7358e4a12f3fbc16bf4b8dee6ed68cd3da30e"
+      "sha256": "ecb033bd051fc4504061f5e3b4e53648a70d245e2bb71425c49a0a2170380dda"
     },
     {
       "path": "snapshots/2026-08-03.html",
-      "sha256": "ab59a412c81927a414b46463f3fd527c48fd853a4a37b0717684f99ad3bd66c7"
+      "sha256": "86bd7ebf4229b1e5a51c4499781a50167e543f0743df1a74b5d6d1d4e0c45e4d"
     },
     {
       "path": "snapshots/2026-08-04.html",
-      "sha256": "72c69161e2f2070011551e0f7af599c3932b94636e3ea14059803cca04438797"
+      "sha256": "14956c2dd40cca0fef71ba1d4dadcb9cbca0b425fc56cd476297ff2b7f583870"
     },
     {
       "path": "snapshots/2026-08-05.html",
-      "sha256": "e9e0f4e5b211d2fe63e0c81afdbb2c4ba5973161d227939316c33494674066c3"
+      "sha256": "435f6f71e2c7aa41a1f0ca1ee962571a836f880d0ad54e41fd84e665cd58810c"
     },
     {
       "path": "snapshots/2026-08-06.html",
-      "sha256": "d59a4e8555de260ea172ca2d6e85c5a8d191c67dff93c96c2f565d18459c3e47"
+      "sha256": "325ef27ae2ac0bfc04d48e5a992cda1351d7d6632fd663f6a8d7a39b4a951642"
     },
     {
       "path": "snapshots/2026-08-07.html",
-      "sha256": "8ea7bca1a2a318db243f91202e0474b9c8da33725e7ee040f9c7440aecd2315e"
+      "sha256": "6ecc89f1b6a3419f6af75fc6d4ac38accc4d2c89b721d5f44cd51c45eab5d156"
     },
     {
       "path": "snapshots/2026-08-10.html",
-      "sha256": "86104221003a8fb57286e643ec9fcb91fac88aedcd47e89da31a50c2bdf3e5e2"
+      "sha256": "eee9b58bf705d2b62856959e58d569f8afcd9f8e0c199fee5315b40bc294f2ed"
     },
     {
       "path": "snapshots/2026-08-11.html",
-      "sha256": "7dc86793d6b629287cae167e2eec4e3a46e661d5ede5b6799a0239c91944fb01"
+      "sha256": "c043a6e297453d47c072ceffa8f68dc9635baa1a2c6e54cdc21daab6ef68c3cc"
     },
     {
       "path": "snapshots/2026-08-12.html",
-      "sha256": "d6d2f873f0e731537d2a0ed33155d3abc8387e58fa8ff4c5286253b99d67643b"
+      "sha256": "0ce6150ea226897d40e4a1a1d5e3429c97fd249d92d51358e1c8486c850935e9"
     },
     {
       "path": "snapshots/2026-08-13.html",
-      "sha256": "54476f4265cd693c35ada10beae750e55ee6c74ee7a51d3603daf3daf624b371"
+      "sha256": "f114c567a896617590e75ec008ac0f2a55e6ba77bfa7078884a180afe4735105"
     },
     {
       "path": "snapshots/2026-08-14.html",
-      "sha256": "9bf267d6ff3c2696f5814071e642b06a0f7dc2f241e34d2bd2bb82af4dd8250c"
+      "sha256": "25a4a4128bc469205a9a918c7777028eba8eb527a629bf21ca6b0a29f58d3c54"
     },
     {
       "path": "snapshots/2026-08-17.html",
-      "sha256": "380f6bf966b6052d1ea9e4a5d5d1deba79562a3b87b8b39701e1d5df62483884"
+      "sha256": "48fb7cbf62361fa0914c90071f718e5784e48a8d57004ee3011541c58c82388a"
     },
     {
       "path": "snapshots/2026-08-18.html",
-      "sha256": "05c01d7a43fcb13d1372d04002ff27d199a5c24986114dc2f52abb60e2ce3f4f"
+      "sha256": "f18861a955b3ecb51e8d82967da4f3094b40f493bccb3d0f95429d6b61443989"
     },
     {
       "path": "snapshots/2026-08-19.html",
-      "sha256": "f3ede6f2b9b2701a83cfe80429cd212f18e3d194394a2539b3630e324c9ee7b9"
+      "sha256": "a388889e30ce788d4affe74a9265646ad8a7610fbdc59c272e7b989cf90f8560"
     },
     {
       "path": "snapshots/2026-08-20.html",
-      "sha256": "35614e70f905f1c4cad2dbe5583c0869dfc96c4d6f6591adf44c9f711b38a39b"
+      "sha256": "5961c7e52152d4fde12faba604db684719f447f0675d87a54dd24531f67da014"
     },
     {
       "path": "snapshots/2026-08-21.html",
-      "sha256": "b68006ce2ea034f555b3ee85b8e5c0e5a30ccb0eb8f8d3c16c45025549988426"
+      "sha256": "61124fd4a187819ffc3483101bd033716ca485fd72391552314faf4b5bc6753d"
     },
     {
       "path": "snapshots/2026-08-24.html",
-      "sha256": "9fb78713d559981d36a5a2af1b5f972883f2257ec3df308618df06965e31970a"
+      "sha256": "897886d538005b781ff7851bf1800ed771251106739b75174c06462b21893c2c"
     },
     {
       "path": "snapshots/2026-08-25.html",
-      "sha256": "bfd0889cad15a44f509ec92fb9ccc0fe696a1fda4a7ca012e3419fb0737b510a"
+      "sha256": "a62299dfcc381f8971ba20374fbee1c5c466498eea89d92447f73a2aaa079a34"
     },
     {
       "path": "snapshots/2026-08-26.html",
-      "sha256": "429700cbaf05ec13ba0f1761617864d198be294d8cafece79d926a550a15464d"
+      "sha256": "81a21e4dcc70be9f62d72beadca549f646e1b8ad2a3885d38f0d38bee9fc167a"
     },
     {
       "path": "snapshots/2026-08-27.html",
-      "sha256": "2cb4f3057b50347be57bf315a0938b41293deedf165e66c7909ea3c53bc44208"
+      "sha256": "4d796e22b88d132b4f4c97c2fb95087a9d877b1eebba96c3ca5851130958cd6b"
     },
     {
       "path": "snapshots/2026-08-28.html",
-      "sha256": "d0430b6614c1bd745a0d09e4446fe833d72e7bbacffa4b1e5f2fa2e6affd342f"
+      "sha256": "0b64076dcb102779b008c5ebe143f9da1d3f6ba7a6993db6c6e9273e23ed02b4"
     },
     {
       "path": "snapshots/2026-08-31.html",
-      "sha256": "993de0d835721d0a818a7f6b54ffa30c80b0acacaf8d923f90ceffb13935e27e"
+      "sha256": "a0c6baf1cf29cfb613b96e6ac2fb0fdc74df12ba4a913eae669f2955c852c1f8"
     },
     {
       "path": "snapshots/2026-09-01.html",
-      "sha256": "752a208ce3ca9943029ccafc725e742d7ebb36177ac857db7e3b990d976c64b7"
+      "sha256": "7ea7274852b9ccef3ce22995b48d313c68026e73d5482feb5babaa778975210d"
     },
     {
       "path": "snapshots/2026-09-02.html",
-      "sha256": "0dbc8f04e0d677a5dff73f3d09219dee4351a1f3a943074767c99d461418d53c"
+      "sha256": "c9bca0bedd930d83d713051ecb9bb66c8a246ab260753b469f61c92e4b0fec4b"
     },
     {
       "path": "snapshots/2026-09-03.html",
-      "sha256": "566c1eaa46fb80a62bff665d0f06783e6a7de5323563ddb00ced12d5202a9891"
+      "sha256": "9cdd9230963af93121d12df1e3797e3ebee86095c982c7767d6985cf1f7ef5e8"
     },
     {
       "path": "snapshots/2026-09-04.html",
-      "sha256": "90f96616fa8bdb89d5fc96b68aacb8fce1ca0c4b5b25a8b3f400af574ac3c2be"
+      "sha256": "af3523938e7fc7dfd70d97e79f20cf728bcbeae7c3965b3be854b27d737e8f4b"
     },
     {
       "path": "snapshots/2026-09-08.html",
-      "sha256": "1ad30fd5f9d1e79dece3b424162121461add7e4d9c550d8d4467c53cd88b7c2a"
+      "sha256": "d0ec09171513a05703ef1aaeffa4b0e63d0bccc8c6ac82303205f30c221c8d66"
     },
     {
       "path": "snapshots/2026-09-09.html",
-      "sha256": "bb46e12a3738e3f33d4e001bbbdf3a0797f081a5fb6fd2e56d83259f8688a1be"
+      "sha256": "89276ccdb6f41a6af01a614d24c9e004461a7f1262d2cf275185af402bf6393c"
     },
     {
       "path": "snapshots/2026-09-10.html",
-      "sha256": "5e675a4731365e8f64d05c6106ef0e53db12e0e5a78751aa4118cac63378c21b"
+      "sha256": "477874870aa327c142b5cf765c8ea9a4197c0479d0853028ffd01427a592d5e5"
     },
     {
       "path": "snapshots/2026-09-11.html",
-      "sha256": "bacaea6f0f6e041d30b09f21d17250dd846641277989ae8b9607c6bf62b1f483"
+      "sha256": "0d820325d5d4e1d3cbc4ea790a69f3c4ac4ac71d233895d06c5424c8f7b6eef5"
+    },
+    {
+      "path": "snapshots/2026-09-14.html",
+      "sha256": "286dbd577fdb0acc0394377486e15793d67f41b631d4dd99ea3bd81743cce7ce"
     },
     {
       "path": "snapshots/index.html",
-      "sha256": "dc4ab0e9e5523ee394abb67971a32d7b28ce42e907b89b812b3c36dbba737301"
+      "sha256": "9f8fab501dd40e721b8b9a1abe8c46d22b0bca0e4bea5369abc9c27d00dd8323"
     }
   ],
   "profile": "market-desk",
