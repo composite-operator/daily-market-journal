@@ -2636,5 +2636,19 @@
       "Preserve policy timing. A decision announced overnight belongs to the follow-through, not to the prior cash-session close.",
       "Require falsifiable conditions for dramatic paths. A seasonal selloff case needs failed relief, broad lower lows, dollar pressure, and persistent volatility ."
     ]
+  },
+  {
+    "date": "2026-09-18",
+    "display_date": "Dated 2026-09-18",
+    "title": "Semiconductor Shelter Faces the Duration Test",
+    "href": "posts/2026-09-18.html",
+    "rules": [
+      "Distinguish index strength from capital breadth. A semiconductor -led index advance can coexist with deteriorating transmission underneath.",
+      "Treat 5% as a regime test, not a magic number. Measure the response in credit, housing, REITs, small caps , and growth multiples over subsequent sessions.",
+      "Group exposures by economic driver. Several tickers can represent the same duration thesis and should not be counted as independent evidence.",
+      "Use official data to anchor narrative claims. Treasury yields , central-bank decisions, and industrial production are facts; projected crashes and manipulation stories remain hypotheses.",
+      "Use confirmation bands when inputs conflict. A narrow numeric disagreement should become a range that requires closing confirmation, not an invitation to overfit.",
+      "Demand a second move. The response after the first yield reversal or first semiconductor breakout carries more information than the initial reaction."
+    ]
   }
 ]
