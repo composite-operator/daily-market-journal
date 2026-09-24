@@ -2681,5 +2681,19 @@
       "Do not infer hidden intent from price alone. Failed breakdowns are observable. Claims about coordinated targeting or advance policy knowledge require independent evidence.",
       "Keep data revisions separate from performance. Corporate actions, adjusted prices, and retrospective chart corrections must not silently erase recorded losses."
     ]
+  },
+  {
+    "date": "2026-09-23",
+    "display_date": "Dated 2026-09-23",
+    "title": "Strong Growth Raises the Price of Risk",
+    "href": "posts/2026-09-23.html",
+    "rules": [
+      "Record the cause of a yield move. Distinguish growth repricing, inflation repricing, term-premium changes, and funding stress where data permit. Label the attribution uncertain when they cannot be separated.",
+      "Use an evidence stack, not a visual analogy. Pair rate-sensitive equity support with actual yields , credit spreads , and breadth. A chart zone is a test location, not proof of the macro mechanism.",
+      "Test whether better growth raises or lowers risk appetite. Condition the result on real yields , costs, and earnings revisions; do not assign a fixed bullish sign to a strong activity release.",
+      "Separate rate relief from credit relief. Compare bond rallies with credit and earnings changes before classifying them as constructive easing.",
+      "Freeze conditional forecasts before scoring them. Store the final thesis, trigger, horizon, alternative, and invalidation. A later relabeling is a revision, not evidence that the original forecast succeeded.",
+      "Account for path and correlated losses. Test reclaim strategies with a fixed attempt cap, total risk budget, costs, and an untouched comparison period. Aggregate positions that share the same liquidity factor."
+    ]
   }
 ]
