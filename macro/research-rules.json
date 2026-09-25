@@ -2695,5 +2695,19 @@
       "Freeze conditional forecasts before scoring them. Store the final thesis, trigger, horizon, alternative, and invalidation. A later relabeling is a revision, not evidence that the original forecast succeeded.",
       "Account for path and correlated losses. Test reclaim strategies with a fixed attempt cap, total risk budget, costs, and an untouched comparison period. Aggregate positions that share the same liquidity factor."
     ]
+  },
+  {
+    "date": "2026-09-24",
+    "display_date": "Dated 2026-09-24",
+    "title": "AI Ambition Meets the Cost of Delivery",
+    "href": "posts/2026-09-24.html",
+    "rules": [
+      "Split AI into demand, delivery, and financing. Build separate event tags for adoption news, power or construction milestones, and funding changes. Compare platform, supplier, developer, and financier returns rather than averaging away dispersion.",
+      "Measure the cost of delay. Record expected revenue timing, debt service, completion risk, and contract protections. Treat a notice, payment deferral, covenant breach, and default as distinct events.",
+      "Classify falling yields by their companions. An easing candidate requires stable credit and improving breadth. Falling yields with weak cyclicals and wider spreads belong to a growth-stress candidate instead.",
+      "Do not let a flat index substitute for breadth. Test equal-weight participation and sector dispersion over one- and five-session horizons, with definitions fixed before outcomes are known.",
+      "Require independent evidence for crisis claims. A transport or volatility chart should trigger investigation, not a systemic verdict. Pair price evidence with activity, funding, and operating data.",
+      "Timestamp revisions and test out of sample. Keep the morning hypothesis, closing update, trigger, and invalidation separately. Retain failed forecasts and compare conditional models with simple trend and rate baselines."
+    ]
   }
 ]
