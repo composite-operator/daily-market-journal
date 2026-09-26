@@ -2709,5 +2709,19 @@
       "Require independent evidence for crisis claims. A transport or volatility chart should trigger investigation, not a systemic verdict. Pair price evidence with activity, funding, and operating data.",
       "Timestamp revisions and test out of sample. Keep the morning hypothesis, closing update, trigger, and invalidation separately. Retain failed forecasts and compare conditional models with simple trend and rate baselines."
     ]
+  },
+  {
+    "date": "2026-09-25",
+    "display_date": "Dated 2026-09-25",
+    "title": "Leadership Survives the Confidence Squeeze",
+    "href": "posts/2026-09-25.html",
+    "rules": [
+      "Freeze the forecast before testing it. Record the instrument, direction, horizon, and failure condition at this close. Assess the next one, five, and twenty sessions separately; a later long-term gain cannot rescue a failed near-term call.",
+      "Measure breadth beyond leadership. Test IWM / SPY , XHB / SPY , and KRE / SPY alongside SMH / SPY . Call the outcome concentrated extension when only leadership improves, rather than awarding it a broad-repair label.",
+      "Distinguish two forms of cheaper oil . Compare oil declines with copper , transport performance, and credit spreads . Improving risk conditions favor a supply-relief interpretation; deteriorating cyclicals and wider spreads favor demand stress. Mixed results remain unclassified.",
+      "Test the financing channel directly. Over the next five sessions, compare changes in 10-year yields and the dollar with the performance of housing, small caps , and utilities. Correlation supports a possible channel; it does not establish causation.",
+      "Count invalidations as invalidations. When a new high defeats a bearish technical branch, close that forecast record. Do not silently relabel the structure and claim an uninterrupted winning prediction.",
+      "Compare with simple baselines. Test these conditional rules against buy-and-hold and a fixed trend rule, using identical horizons and realistic costs. Reserve later observations for out-of-sample evaluation and report unresolved cases."
+    ]
   }
 ]
