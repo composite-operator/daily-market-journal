@@ -2723,5 +2723,19 @@
       "Count invalidations as invalidations. When a new high defeats a bearish technical branch, close that forecast record. Do not silently relabel the structure and claim an uninterrupted winning prediction.",
       "Compare with simple baselines. Test these conditional rules against buy-and-hold and a fixed trend rule, using identical horizons and realistic costs. Reserve later observations for out-of-sample evaluation and report unresolved cases."
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "display_date": "Dated 2026-09-28",
+    "title": "The Discount Rate Takes the Lead",
+    "href": "posts/2026-09-28.html",
+    "rules": [
+      "Define the rate-relief test before the outcome. Use September 28 as the baseline. Over the next five sessions, record the direction of the 10-year yield , TLT , IWM , XHB , and KRE . Classify broad relief only if the yield declines and the equity basket improves; retain mixed outcomes rather than forcing a binary label.",
+      "Separate relative from absolute strength. Over five and ten sessions, compare cybersecurity and the predefined retail basket with SPY and with their own starting prices. Outperforming a falling benchmark is not the same as producing a positive return.",
+      "Preserve each thesis version. An invalidated bearish semiconductor count remains invalidated. A later correction is a new hypothesis with a new timestamp, not retroactive proof of the old forecast.",
+      "Distinguish observation from mechanism. A dollar or yen reversal is an observation. A carry unwind, liquidity injection, or policy intervention requires separate evidence. Do not label an inferred mechanism as measured fact.",
+      "Measure diversification by shared exposure. Group candidates by rate sensitivity, sector, funding dependence, and market beta. Compare that grouping with subsequent joint losses instead of counting names alone.",
+      "Evaluate screens prospectively. Freeze the candidate universe before future data arrive, retain rejected and failed candidates, and test fixed entry and invalidation rules with costs. A persuasive pattern match is not evidence of predictive accuracy."
+    ]
   }
 ]
