@@ -2782,5 +2782,34 @@
       "RR-06: Keep screen alerts below validated hypotheses. Instrument verification, coherent structure, and explicit risk boundaries must precede promotion. Record rejected candidates as well as winners to limit selection bias.",
       "RR-07: Freeze the pre-event record. Keep this October 1 thesis separate from the October 2 payroll result. Evaluate the original branches with predeclared windows and transaction costs; do not relabel the preferred branch after the fact."
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "display_date": "Dated 2026-10-02",
+    "title": "Narrow AI Expansion Tests the Long-Rate Ceiling",
+    "href": "posts/2026-10-02.html",
+    "rules": [
+      "RR-01: Measure breadth after the rate move. Track one-, three-, and five-session responses in IWM , housing, utilities, equal-weight indices, and credit.",
+      "RR-02: Separate AI leadership from liquidity breadth. Test whether gains remain concentrated in profitable infrastructure leaders or migrate into financing-sensitive groups.",
+      "RR-03: Condition lower yields on credit. Reject the broad-relief interpretation when Treasury strength arrives with widening spreads and weaker cyclicals.",
+      "RR-04: Freeze the data vintage. Preserve the October 2 payroll release and September 30 PCE release as the evidence available to this decision. Evaluate later revisions separately.",
+      "RR-05: Group exposures by economic driver. Count a set of rate-sensitive positions as a shared macro risk even when the tickers belong to different sectors.",
+      "RR-06: Require observable breakout or failure levels. A preferred wave path is a hypothesis. Price, breadth, and volatility must confirm it.",
+      "RR-07: Record missing evidence explicitly. Do not invent credit improvement, execution status, or a completed yield peak because the narrative would benefit from it."
+    ]
+  },
+  {
+    "date": "2026-10-06",
+    "display_date": "Dated 2026-10-06",
+    "title": "Nasdaq Records Meet the Long-Rate Fault Line",
+    "href": "posts/2026-10-06.html",
+    "rules": [
+      "RR-01: Use the long end as a breadth gate. Confirm rate relief through IWM , housing, utilities, credit, and volatility .",
+      "RR-02: Separate nominal growth from easy liquidity. Strong services demand can support revenue and still raise discount rates .",
+      "RR-03: Measure concentration. A record Nasdaq close does not prove that financing conditions improved for the median company.",
+      "RR-04: Define the 6% branch before adding duration risk. Set position size and hedging rules before the threshold is tested.",
+      "RR-05: Preserve evidence vintages. Keep the October 5 yield curve and September ISM report as the data available to this decision.",
+      "RR-06: Treat policy intervention as a hypothesis. Do not pay in advance for a response that has not occurred."
+    ]
   }
 ]
