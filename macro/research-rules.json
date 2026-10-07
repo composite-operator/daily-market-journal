@@ -2801,15 +2801,14 @@
   {
     "date": "2026-10-06",
     "display_date": "Dated 2026-10-06",
-    "title": "Nasdaq Records Meet the Long-Rate Fault Line",
+    "title": "AI Power Demand Meets a High-Rate Grid",
     "href": "posts/2026-10-06.html",
     "rules": [
-      "RR-01: Use the long end as a breadth gate. Confirm rate relief through IWM , housing, utilities, credit, and volatility .",
-      "RR-02: Separate nominal growth from easy liquidity. Strong services demand can support revenue and still raise discount rates .",
-      "RR-03: Measure concentration. A record Nasdaq close does not prove that financing conditions improved for the median company.",
-      "RR-04: Define the 6% branch before adding duration risk. Set position size and hedging rules before the threshold is tested.",
-      "RR-05: Preserve evidence vintages. Keep the October 5 yield curve and September ISM report as the data available to this decision.",
-      "RR-06: Treat policy intervention as a hypothesis. Do not pay in advance for a response that has not occurred."
+      "RR-01: Follow contracts, not slogans. Separate announced megawatts, agreement duration, and capital commitments from general AI-power enthusiasm.",
+      "RR-02: Confirm rate relief through breadth. Lower yields matter only when credit and small caps improve with them.",
+      "RR-03: Treat chips and power as one capital cycle. Compute deployment depends on generation, transmission, cooling, and interconnection.",
+      "RR-04: Distinguish strategic truth from tactical entry. A valid multi-year theme can still produce an overextended security.",
+      "RR-05: Preserve contradictory evidence. Crypto stops and small-cap lag are valid warnings even while large-cap indices make records."
     ]
   }
 ]
