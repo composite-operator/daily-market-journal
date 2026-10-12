@@ -2823,5 +2823,18 @@
       "RR-04: Confirm large-cap strength through breadth and credit.",
       "RR-05: Count correlated positions as one risk."
     ]
+  },
+  {
+    "date": "2026-10-09",
+    "display_date": "Dated 2026-10-09",
+    "title": "Rates, Oil, and Breadth Set the CPI Test",
+    "href": "posts/2026-10-09.html",
+    "rules": [
+      "RR-01: Use the long end of the curve as the primary valuation gate.",
+      "RR-02: Treat oil as an inflation multiplier.",
+      "RR-03: Demand breadth before upgrading the regime.",
+      "RR-04: Separate an index extension from a durable economic reacceleration.",
+      "RR-05: Reduce correlated exposure before scheduled inflation releases."
+    ]
   }
 ]
