@@ -2836,5 +2836,19 @@
       "RR-04: Separate an index extension from a durable economic reacceleration.",
       "RR-05: Reduce correlated exposure before scheduled inflation releases."
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "display_date": "Dated 2026-10-12",
+    "title": "Oil, Rates, and Breadth Define the CPI Setup",
+    "href": "posts/2026-10-12.html",
+    "rules": [
+      "RR-01: Do not infer an October 12 Treasury close when the bond market was closed.",
+      "RR-02: Treat CPI and PPI as one event-risk sequence.",
+      "RR-03: Use oil as an inflation multiplier, not a standalone risk signal.",
+      "RR-04: Require small-cap and semiconductor breadth before upgrading the regime.",
+      "RR-05: Separate a short-term metals bounce from the stronger ratio warning.",
+      "RR-06: Require the post-holiday curve to confirm any rate-relief thesis."
+    ]
   }
 ]
