@@ -2850,5 +2850,20 @@
       "RR-05: Separate a short-term metals bounce from the stronger ratio warning.",
       "RR-06: Require the post-holiday curve to confirm any rate-relief thesis."
     ]
+  },
+  {
+    "date": "2026-11-03",
+    "display_date": "Dated 2026-11-03",
+    "title": "AI Demand Holds Up as Rotation Awaits Confirmation",
+    "href": "posts/2026-11-03-ai-demand-liquidity-rotation.html",
+    "rules": [
+      "RR-01 / Demand versus valuation: log earnings growth separately from the next one-, three-, and five-session stock returns. Strong reported demand does not count as a successful price forecast.",
+      "RR-02 / Independent confirmation: over the next five sessions, compare SMH and IGV with IWM , the Dow , DXY , US10Y, and VIX . Correlated chip instruments count as one factor, not multiple independent votes.",
+      "RR-03 / Rotation versus inflow: call the move rotation unless independent flow or balance-sheet evidence supports an expansion in risk capacity. Price co-movement alone is insufficient.",
+      "RR-04 / Timeframe separation: score a daily rebound separately from a weekly trend reversal. Preserve the original horizon and invalidation when reviewing the result.",
+      "RR-05 / Ratio discipline: rising gold / silver means gold outperforms silver . Inspect both absolute prices before assigning inflation, deflation, or liquidation labels.",
+      "RR-06 / No hindsight dates: freeze the November 3 thesis before scoring later sessions. Keep the November 17 earnings catalyst distinct from immediate follow-through.",
+      "RR-07 / Missing evidence stays missing: an unavailable curve, spread, breadth, or flow observation receives an unscored field, not an assumed bullish or bearish reading."
+    ]
   }
 ]
