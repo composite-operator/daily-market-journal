@@ -2865,5 +2865,21 @@
       "RR-06 / No hindsight dates: freeze the November 3 thesis before scoring later sessions. Keep the November 17 earnings catalyst distinct from immediate follow-through.",
       "RR-07 / Missing evidence stays missing: an unavailable curve, spread, breadth, or flow observation receives an unscored field, not an assumed bullish or bearish reading."
     ]
+  },
+  {
+    "date": "2026-11-04",
+    "display_date": "Dated 2026-11-04",
+    "title": "Broader Relief Meets a Split AI Profit Pool",
+    "href": "posts/2026-11-04-broader-relief-split-ai-profit-pool.html",
+    "rules": [
+      "RR-01 / Freeze the observation: use November 4 closes as the baseline, then measure one-, three-, and five-session returns. Do not move the start date to improve the apparent result.",
+      "RR-02 / Dispersion basket: compare equal-weight platform/software and buildout groups defined before observing subsequent returns. Preserve the constituent list and separate sector effects from individual earnings gaps.",
+      "RR-03 / Mechanism test: price outperformance supports the rotation observation. Cost relief requires margin, utilization, or spending evidence; it is not proven by the same price move twice.",
+      "RR-04 / Breadth durability: require retained improvement across the Dow , IWM , XLY , and IGV over five sessions. A single-day broad rally earns provisional, not final, confirmation.",
+      "RR-05 / Independent channels: keep dollar , rates , credit, volatility , and breadth as distinct fields. Multiple chip funds or crypto tokens do not supply independent votes.",
+      "RR-06 / Horizon discipline: score a tactical rebound separately from a weekly trend change. An unbounded forecast of a future crash or melt-up has no usable timing test and stays outside the hit-rate calculation.",
+      "RR-07 / Alternatives: register growth-scare and renewed-tightening branches before evaluating the next move. Record which evidence would reject the constructive thesis.",
+      "RR-08 / Missing stays missing: do not fill an unavailable spread, flow, or funding observation with a favorable assumption. No calibrated probability or demonstrated forecasting edge is claimed."
+    ]
   }
 ]
