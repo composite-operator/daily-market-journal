@@ -2881,5 +2881,20 @@
       "RR-07 / Alternatives: register growth-scare and renewed-tightening branches before evaluating the next move. Record which evidence would reject the constructive thesis.",
       "RR-08 / Missing stays missing: do not fill an unavailable spread, flow, or funding observation with a favorable assumption. No calibrated probability or demonstrated forecasting edge is claimed."
     ]
+  },
+  {
+    "date": "2026-11-10",
+    "display_date": "Dated 2026-11-10",
+    "title": "Growth Meets Its Financing Bill",
+    "href": "posts/2026-11-10-growth-meets-its-financing-bill.html",
+    "rules": [
+      "ML-01 / Rebound durability: freeze November 10 closing references for SPY , QQQ , SMH , IGV , IWM , and KRE . Evaluate returns and retained highs after one, three, and five sessions. Broad, persistent gains support repair; a narrow bounce followed by new lows weakens it.",
+      "ML-02 / Funding versus growth: pair Treasury yields with credit spreads and equity breadth. Do not score a yield decline as easing until the latter two confirm. Missing observations remain unscored.",
+      "ML-03 / AI cash conversion: compare supplier revenue growth with operating cash flow, receivables, utilization, capital expenditure, and disclosed customer-financing exposure. A financing announcement alone does not pass the demand test.",
+      "ML-04 / Oil branch selection: rising oil with rising yields supports an inflationary squeeze; falling oil with weaker copper and banks supports a demand concern. Require joint observations and retain the rejected branch in the research record.",
+      "ML-05 / Defensive rotation: compare XLU with IWM and SMH . Utilities outperforming while cyclicals break lower is not the same as a broad bull market.",
+      "ML-06 / No retrospective rescue: record the trigger, invalidation, horizon, and outcome before changing a thesis. A later rebound does not erase a failed earlier trade, and a revised wave count does not count as a successful original forecast.",
+      "ML-07 / Credit lag: test financing stress against subsequent interest coverage, non-accruals, cash collections, and refinancing terms. Distinguish early market warnings from realized private-credit impairment."
+    ]
   }
 ]
