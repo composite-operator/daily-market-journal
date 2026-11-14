@@ -2896,5 +2896,21 @@
       "ML-06 / No retrospective rescue: record the trigger, invalidation, horizon, and outcome before changing a thesis. A later rebound does not erase a failed earlier trade, and a revised wave count does not count as a successful original forecast.",
       "ML-07 / Credit lag: test financing stress against subsequent interest coverage, non-accruals, cash collections, and refinancing terms. Distinguish early market warnings from realized private-credit impairment."
     ]
+  },
+  {
+    "date": "2026-11-13",
+    "display_date": "Dated 2026-11-13",
+    "title": "Rotation Or Retreat: Follow The Financing",
+    "href": "posts/2026-11-13-rotation-or-retreat.html",
+    "rules": [
+      "ML-20261114-01 / Rotation versus retreat: freeze verified November 13 closing references for SMH , IGV , IWM , KRE , RSP , and SPY when the price dataset is loaded. Compare one-, three-, and five-session returns and reclaim retention. Broad participation with stable credit supports rotation; simultaneous weakness across leadership and funding-sensitive groups supports retreat. Baselines are not populated in this packet, so the rule is unscored.",
+      "ML-20261114-02 / Yield -decline classification: pair the 10-year Treasury yield change with high- yield option-adjusted spreads and equity breadth. Lower yields plus stable or narrower spreads and improving breadth support relief. Lower yields plus widening spreads and weakening breadth support defensive demand.",
+      "ML-20261114-03 / Dollar transmission: test whether dollar strength coincides with weaker EEM, copper , and Bitcoin -linked risk over the same observations. Record exceptions. Do not assume stable correlations or infer causation from a single session.",
+      "ML-20261114-04 / Final-low falsification: predefine the price low, momentum measure, timeframe, reclaim level, and expiry before testing a bullish-divergence hypothesis. Acceleration through the low or a failed reclaim is contrary evidence, not a reason to move the original invalidation afterward.",
+      "ML-20261114-05 / AI cash conversion: compare revenue growth with operating cash collections, receivables, utilization, capital expenditure, and disclosed customer-financing exposure at the next reporting observation. Financing headlines alone do not pass this test.",
+      "ML-20261114-06 / Oil branch: falling oil with improving margins, stable credit, and better breadth is different from falling oil with weaker banks and industrial cyclicals. Select the branch only after joint observations; otherwise retain an unresolved verdict.",
+      "ML-20261114-07 / Credit lag: preserve this warning date and compare subsequent interest coverage, non-accruals, payment-in-kind income, amendments, and refinancing terms. Separate reported quarter-end dates from publication dates to avoid look-ahead bias.",
+      "ML-20261114-08 / Version discipline: keep the original thesis, trigger, horizon, and outcome immutable. A changed technical pattern or later recovery does not retroactively rescue an expired or invalidated forecast."
+    ]
   }
 ]
