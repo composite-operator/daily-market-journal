@@ -2912,5 +2912,21 @@
       "ML-20261114-07 / Credit lag: preserve this warning date and compare subsequent interest coverage, non-accruals, payment-in-kind income, amendments, and refinancing terms. Separate reported quarter-end dates from publication dates to avoid look-ahead bias.",
       "ML-20261114-08 / Version discipline: keep the original thesis, trigger, horizon, and outcome immutable. A changed technical pattern or later recovery does not retroactively rescue an expired or invalidated forecast."
     ]
+  },
+  {
+    "date": "2026-11-24",
+    "display_date": "Dated 2026-11-24",
+    "title": "A Bond Rally Without Risk Relief",
+    "href": "posts/2026-11-24-bond-rally-without-risk-relief.html",
+    "rules": [
+      "ML-20261124-01 / Bond -rally classification: establish verified November 24 closing references for the 10-year Treasury yield , high- yield option-adjusted spread, IWM , and RSP . Observe the next one, three, and five trading sessions. Lower yields with stable or narrower spreads and stronger participation support relief; lower yields with wider spreads and weaker participation support defensive demand. Mixed readings remain unresolved.",
+      "ML-20261124-02 / Shelter versus rotation: compare DJI and defensive-sector returns with SMH , IWM , and equal-weight breadth over five sessions. Broader participation falsifies the narrow-shelter interpretation. A Dow -only recovery does not establish broad repair.",
+      "ML-20261124-03 / Reclaim retention: fix the relevant index low and reclaim level before the next observation. Score a five-session recovery only if the reclaim survives subsequent closes and breadth improves. A failed reclaim is a failure, not permission to redraw the original test.",
+      "ML-20261124-04 / Volatility normalization: use matched closing observations of VIX and VIX3M . Test whether the ratio returns below 1 while leadership and breadth improve within five sessions. A brief ratio decline without equity confirmation is insufficient. Do not substitute a VIX futures ETF for either index.",
+      "ML-20261124-05 / Dollar transmission: compare DXY with copper , EEM, and Bitcoin over the same five-session window. Record both agreement and exceptions. If risk improves despite dollar strength, reduce confidence in this session's dollar -led explanation.",
+      "ML-20261124-06 / AI cash conversion: at the next available reporting observation, compare supplier revenue with cash collections, receivables, customer financing, utilization, and capacity spending. Strong cash conversion and sustainable utilization are counterevidence to a funding-fragility thesis. Preserve release dates to prevent look-ahead bias.",
+      "ML-20261124-07 / Private-credit transmission: distinguish benchmark resets from long- bond yield changes. At the next quarterly disclosure, compare coverage, cash interest, payment-in-kind income, amendments, and non-accruals against the last available quarter. Improved cash coverage without worsening concessions weakens the stress hypothesis.",
+      "ML-20261124-08 / Forecast discipline: freeze each rule's baseline, horizon, threshold, and original text before evaluating outcomes. Expired predictions remain expired. Report missing observations rather than assigning a favorable result from a later unrelated event."
+    ]
   }
 ]
